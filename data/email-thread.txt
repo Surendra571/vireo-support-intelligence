@@ -1,0 +1,68 @@
+EMAIL THREAD — Vireo Audio — support tickets (Set A)
+Messages exchanged before this pack was sent. Provided as-is.
+========================================================================
+
+From: Priya Raman, Head of Customer Experience, Vireo Audio
+To: Kabir Nanda, Account Lead (our side)
+Cc: Arjun Mehta; Neha Kulkarni; Sameer Qureshi
+Date: Mon 7 Sep 2026, 10:14
+Subject: Re: the tickets thing
+
+Kabir - as discussed on the call. Eighteen months of tickets, nobody reads them. Weekly
+digest + a leaderboard by tickets closed. Sameer is sending the export today. Keep it
+simple, I don't need a platform.
+
+------------------------------------------------------------------------
+
+From: Sameer Qureshi, Helpdesk Administrator (IT), Vireo Audio
+To: Kabir Nanda, Account Lead (our side)
+Cc: Priya Raman; Arjun Mehta; Neha Kulkarni
+Date: Mon 7 Sep 2026, 15:02
+Subject: Export
+
+Export attached (tickets, agents, orders, customers, products, the ops policy doc).
+Heads up: everything before 14 Sep 2025 came over from Freshdesk during the migration
+and the new helpdesk re-imported a chunk of it, so some ticket IDs will look odd.
+Timestamps are as displayed in the helpdesk. Resolution times were rebuilt from the
+event log for the old tickets - I did not touch them. Shout if anything looks broken.
+
+------------------------------------------------------------------------
+
+From: Arjun Mehta, Finance Controller, Vireo Audio
+To: Priya Raman, Head of Customer Experience, Vireo Audio
+Cc: Neha Kulkarni; Sameer Qureshi; Kabir Nanda
+Date: Tue 8 Sep 2026, 09:40
+Subject: Re: the tickets thing
+
+Before we spend on this - what does it save? Our cost per contact is roughly Rs 180 by
+my last calc. If this is a reading tool for you it's a nice-to-have. If it takes
+contacts out of the queue I'm interested. Also I do not want a per-ticket model bill
+that shows up as a surprise in November.
+
+------------------------------------------------------------------------
+
+From: Neha Kulkarni, Support Operations Manager, Vireo Audio
+To: Priya Raman, Head of Customer Experience, Vireo Audio
+Cc: Arjun Mehta; Sameer Qureshi; Kabir Nanda
+Date: Tue 8 Sep 2026, 13:21
+Subject: Re: the tickets thing
+
+One thing while you're at it. The chat frontline have been grumbling that they keep
+getting customers who open with 'I already told your colleague this'. Might just be the
+usual noise, I haven't checked. Separately - please don't rank my warranty team on
+ticket counts, their cases take days by design and they'll come out looking like they're
+asleep.
+
+------------------------------------------------------------------------
+
+From: Priya Raman, Head of Customer Experience, Vireo Audio
+To: Kabir Nanda, Account Lead (our side)
+Cc: Arjun Mehta; Neha Kulkarni; Sameer Qureshi
+Date: Wed 9 Sep 2026, 08:05
+Subject: Re: the tickets thing
+
+Cost per contact is Rs 290 blended per the policy doc Sameer circulated last quarter,
+Arjun, not 180 - but fine, agreed it needs to earn its keep. Kabir: digest and
+leaderboard please. The leaderboard stays, I want to see it. Neha, noted.
+
+------------------------------------------------------------------------

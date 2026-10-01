@@ -1,0 +1,653 @@
+{
+  "timestamp": "2026-10-01T19:33:03.505272+05:30",
+  "profiles": {
+    "tickets": {
+      "dataset_name": "tickets",
+      "row_count": 12528,
+      "column_count": 21,
+      "column_names": [
+        "ticket_id",
+        "created_at",
+        "first_response_at",
+        "resolved_at",
+        "status",
+        "channel",
+        "customer_id",
+        "order_id",
+        "product_sku",
+        "category",
+        "priority",
+        "assigned_team",
+        "agent_id",
+        "transfers",
+        "csat_score",
+        "refund_amount_inr",
+        "refund_reason_code",
+        "replacement_issued",
+        "customer_message",
+        "agent_notes",
+        "source_system"
+      ],
+      "columns": {
+        "ticket_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 11875
+        },
+        "created_at": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 11750
+        },
+        "first_response_at": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 11758
+        },
+        "resolved_at": {
+          "dtype": "object",
+          "missing_count": 644,
+          "missing_percentage": 5.14,
+          "unique_count": 11771
+        },
+        "status": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 4
+        },
+        "channel": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 4
+        },
+        "customer_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 5009
+        },
+        "order_id": {
+          "dtype": "object",
+          "missing_count": 4218,
+          "missing_percentage": 33.67,
+          "unique_count": 5063
+        },
+        "product_sku": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 14
+        },
+        "category": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 11
+        },
+        "priority": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 3
+        },
+        "assigned_team": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 7
+        },
+        "agent_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 44
+        },
+        "transfers": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 3
+        },
+        "csat_score": {
+          "dtype": "float64",
+          "missing_count": 4856,
+          "missing_percentage": 38.76,
+          "unique_count": 6
+        },
+        "refund_amount_inr": {
+          "dtype": "float64",
+          "missing_count": 10303,
+          "missing_percentage": 82.24,
+          "unique_count": 215
+        },
+        "refund_reason_code": {
+          "dtype": "object",
+          "missing_count": 10303,
+          "missing_percentage": 82.24,
+          "unique_count": 8
+        },
+        "replacement_issued": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        },
+        "customer_message": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 11611
+        },
+        "agent_notes": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 9917
+        },
+        "source_system": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        }
+      },
+      "duplicate_rows": 0,
+      "unique_id_counts": {
+        "ticket_id": 11875,
+        "customer_id": 5009,
+        "order_id": 5063,
+        "product_sku": 14,
+        "agent_id": 44
+      }
+    },
+    "agents": {
+      "dataset_name": "agents",
+      "row_count": 44,
+      "column_count": 8,
+      "column_names": [
+        "agent_id",
+        "name",
+        "site",
+        "team",
+        "shift",
+        "tier",
+        "from_date",
+        "to_date"
+      ],
+      "columns": {
+        "agent_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 44
+        },
+        "name": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 44
+        },
+        "site": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        },
+        "team": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 7
+        },
+        "shift": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 3
+        },
+        "tier": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        },
+        "from_date": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 44
+        },
+        "to_date": {
+          "dtype": "float64",
+          "missing_count": 44,
+          "missing_percentage": 100.0,
+          "unique_count": 0
+        }
+      },
+      "duplicate_rows": 0,
+      "unique_id_counts": {
+        "agent_id": 44
+      }
+    },
+    "customers": {
+      "dataset_name": "customers",
+      "row_count": 9500,
+      "column_count": 6,
+      "column_names": [
+        "customer_id",
+        "name",
+        "city",
+        "state",
+        "signup_date",
+        "care_plus"
+      ],
+      "columns": {
+        "customer_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 9500
+        },
+        "name": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 4559
+        },
+        "city": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 30
+        },
+        "state": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 20
+        },
+        "signup_date": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 901
+        },
+        "care_plus": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        }
+      },
+      "duplicate_rows": 0,
+      "unique_id_counts": {
+        "customer_id": 9500
+      }
+    },
+    "orders": {
+      "dataset_name": "orders",
+      "row_count": 15000,
+      "column_count": 8,
+      "column_names": [
+        "order_id",
+        "customer_id",
+        "sku",
+        "order_date",
+        "channel",
+        "qty",
+        "order_value_inr",
+        "lot_code"
+      ],
+      "columns": {
+        "order_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 15000
+        },
+        "customer_id": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 7598
+        },
+        "sku": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 14
+        },
+        "order_date": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 746
+        },
+        "channel": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 3
+        },
+        "qty": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        },
+        "order_value_inr": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 106
+        },
+        "lot_code": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 1270
+        }
+      },
+      "duplicate_rows": 0,
+      "unique_id_counts": {
+        "order_id": 15000,
+        "customer_id": 7598,
+        "sku": 14
+      }
+    },
+    "products": {
+      "dataset_name": "products",
+      "row_count": 14,
+      "column_count": 7,
+      "column_names": [
+        "sku",
+        "product_name",
+        "family",
+        "launch_date",
+        "unit_cost_inr",
+        "retail_price_inr",
+        "warranty_months"
+      ],
+      "columns": {
+        "sku": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 14
+        },
+        "product_name": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 14
+        },
+        "family": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 5
+        },
+        "launch_date": {
+          "dtype": "object",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 13
+        },
+        "unit_cost_inr": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 14
+        },
+        "retail_price_inr": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 11
+        },
+        "warranty_months": {
+          "dtype": "int64",
+          "missing_count": 0,
+          "missing_percentage": 0.0,
+          "unique_count": 2
+        }
+      },
+      "duplicate_rows": 0,
+      "unique_id_counts": {
+        "sku": 14
+      }
+    }
+  },
+  "date_validation": {
+    "expected_range": "2025-01-01 to 2026-06-30",
+    "min_created_at": "2025-01-01 09:48:00",
+    "max_created_at": "2026-06-30 23:29:00",
+    "min_resolved_at": "2025-01-01 06:19:00",
+    "max_resolved_at": "2026-07-13 20:58:00",
+    "tickets_outside_expected_created_range": 0,
+    "range_valid": true
+  },
+  "referential_integrity": {
+    "tickets_to_customers": {
+      "foreign_key": "tickets.customer_id -> customers.customer_id",
+      "orphan_count": 0,
+      "valid": true
+    },
+    "tickets_to_orders": {
+      "foreign_key": "tickets.order_id -> orders.order_id (non-null)",
+      "non_null_order_id_count": 8310,
+      "orphan_count": 0,
+      "valid": true
+    },
+    "tickets_to_products": {
+      "foreign_key": "tickets.product_sku -> products.sku",
+      "orphan_count": 0,
+      "valid": true
+    },
+    "tickets_to_agents": {
+      "foreign_key": "tickets.agent_id -> agents.agent_id",
+      "orphan_count": 0,
+      "valid": true
+    },
+    "orders_to_customers": {
+      "foreign_key": "orders.customer_id -> customers.customer_id",
+      "orphan_count": 0,
+      "valid": true
+    },
+    "orders_to_products": {
+      "foreign_key": "orders.sku -> products.sku",
+      "orphan_count": 0,
+      "valid": true
+    }
+  },
+  "integrity_rules": {
+    "primary_key_checks": {
+      "duplicate_ticket_id_rows": 1306,
+      "duplicate_unique_ticket_ids": 653,
+      "duplicate_order_ids": 0,
+      "duplicate_customer_ids": 0,
+      "duplicate_product_skus": 0
+    },
+    "date_integrity": {
+      "invalid_created_dates": 0,
+      "invalid_first_response_dates": 0,
+      "unparseable_resolved_dates": 0,
+      "first_response_before_created": 0,
+      "resolved_before_created_total": 2263,
+      "resolved_before_created_legacy_fd": 2263,
+      "resolved_before_created_helpdesk": 0,
+      "resolved_before_first_response": 2472
+    },
+    "status_consistency": {
+      "resolved_or_closed_without_resolved_at": 0,
+      "open_or_pending_with_resolved_at": 0,
+      "valid": true
+    },
+    "categorical_validity": {
+      "invalid_statuses": [],
+      "invalid_channels": [],
+      "invalid_priorities": [],
+      "invalid_replacements": []
+    },
+    "csat_metrics": {
+      "csat_out_of_range": 0,
+      "csat_zeros_total": 2083,
+      "csat_zeros_legacy_fd": 2083,
+      "csat_zeros_helpdesk": 0
+    },
+    "refund_metrics": {
+      "negative_refunds": 0,
+      "zero_refunds": 0,
+      "min_refund_inr": 57.0,
+      "max_refund_inr": 13998.0
+    },
+    "policy_compliance_anomalies": {
+      "tickets_with_both_refund_and_replacement": 4,
+      "orders_with_both_refund_and_replacement_across_tickets": 103,
+      "goodwill_refunds_exceeding_500_cap": 38,
+      "tier1_agents_issuing_warranty_replacements": 8
+    }
+  },
+  "legacy_reimports": {
+    "duplicated_ticket_ids_count": 653,
+    "total_duplicated_rows": 1306,
+    "source_system_distribution": {
+      "helpdesk": 653,
+      "legacy_fd": 653
+    },
+    "creation_date_range": {
+      "min": "2025-01-01 09:48:00",
+      "max": "2025-09-14 04:23:00"
+    },
+    "column_discrepancies_between_systems": {
+      "resolved_at": 618,
+      "csat_score": 333
+    },
+    "resolved_at_utc_to_ist_offset_verified_count": 618,
+    "csat_representation_difference": {
+      "helpdesk_uses": "NaN (blank)",
+      "legacy_fd_uses": "0.0",
+      "differing_tickets_count": 333
+    }
+  },
+  "fallback_order_join": {
+    "missing_order_id_count": 4218,
+    "missing_order_id_percentage": 33.67,
+    "fallback_match_distribution": {
+      "1": 3467,
+      "2": 651,
+      "3": 84,
+      "4": 16
+    },
+    "exactly_one_match_count": 3467,
+    "exactly_one_match_percentage": 82.2,
+    "multiple_matches_count": 751,
+    "zero_matches_count": 0,
+    "tickets_with_order_id_verification": {
+      "verified_count": 8310,
+      "customer_mismatches": 0,
+      "sku_mismatches": 0
+    }
+  },
+  "agents_roster_analysis": {
+    "total_roster_rows": 44,
+    "unique_agent_ids": 44,
+    "unique_agent_names": 44,
+    "active_assignments_count": 44,
+    "is_agent_id_unique_in_current_snapshot": true,
+    "schema_semantics_warning": "agents.csv is structured as a SCD/assignment roster with (agent_id, team, shift, tier, from_date, to_date). Although the current export has 44 active rows for 44 agents (to_date is all null), agent_id CANNOT be assumed globally unique over time. Joins must incorporate assignment date ranges or deduplicate to avoid cartesian explosions."
+  },
+  "categorized_findings": {
+    "confirmed_data_problems": [
+      {
+        "id": "PROB-001",
+        "title": "Duplicate / Re-imported Legacy Tickets in Helpdesk Export",
+        "severity": "HIGH",
+        "description": "There are 653 ticket IDs appearing twice in tickets.csv (total 1306 rows) across source_system values 'helpdesk' and 'legacy_fd'. These tickets were originally created in Freshdesk (Jan 2025 \u2013 Sep 2025) and re-imported into the new helpdesk during system migration reconciliation. Downstream aggregations will double-count volume, SLA breaches, and financial metrics if not deduplicated.",
+        "affected_count": 1306
+      },
+      {
+        "id": "PROB-002",
+        "title": "Timezone Inconsistency in Legacy Resolution Timestamps (UTC vs IST)",
+        "severity": "HIGH",
+        "description": "2263 tickets in 'legacy_fd' have resolved_at timestamps earlier than created_at (and 2,472 earlier than first_response_at). As confirmed by Support Policy \u00a79 and IT email communications, legacy resolution timestamps were reconstructed from raw event logs recorded in UTC, while created_at and first_response_at are in IST (UTC+05:30). Adding +05:30 to legacy resolved_at eliminates 100% of negative resolution durations.",
+        "affected_count": 2263
+      },
+      {
+        "id": "PROB-003",
+        "title": "Policy Violation: Simultaneous Refund and Replacement Issued",
+        "severity": "MEDIUM",
+        "description": "4 tickets have both a monetary refund (>0) and replacement_issued='Y' on the same ticket. Furthermore, 103 orders have both a refund and a replacement issued across distinct tickets. Support Policy \u00a75 explicitly states: 'In no case is a customer to receive both a refund and a replacement for the same order'.",
+        "affected_count": 4
+      },
+      {
+        "id": "PROB-004",
+        "title": "Policy Violation: Goodwill Refunds Exceeding Rs 500 Cap",
+        "severity": "MEDIUM",
+        "description": "38 out of 44 goodwill refunds (code 'GW-OTHER') exceed the Rs 500 cap mandated by Support Policy \u00a75. The average goodwill refund for these breached tickets is Rs 2,972 (maximum Rs 10,798).",
+        "affected_count": 38
+      },
+      {
+        "id": "PROB-005",
+        "title": "Policy Violation: Tier 1 Agents Approving Warranty & Repair Replacements",
+        "severity": "LOW",
+        "description": "8 warranty replacements were resolved and approved by Tier 1 agents. Support Policy \u00a76 states that Tier 2 work is certified and only Tier 2 agents (Escalations & Warranty) may approve warranty replacements.",
+        "affected_count": 8
+      }
+    ],
+    "expected_behaviors": [
+      {
+        "id": "EXP-001",
+        "title": "Missing resolved_at on Open and Pending Tickets",
+        "description": "Exactly 644 tickets have null resolved_at. Every single one corresponds to an open (399) or pending (245) ticket. Zero resolved/closed tickets are missing resolved_at."
+      },
+      {
+        "id": "EXP-002",
+        "title": "Missing order_id on 33.7% of Support Tickets",
+        "description": "4218 tickets (33.67%) have null order_id. Per README and operational reality, customers frequently contact support without providing their order number."
+      },
+      {
+        "id": "EXP-003",
+        "title": "Missing and Zero CSAT Survey Scores",
+        "description": "4,856 tickets have null CSAT scores (helpdesk format) and 2,083 tickets have CSAT=0.0 (legacy format). Support Policy \u00a78 states survey response rate is ~45% and unrated surveys must be excluded from averages, not treated as 0."
+      },
+      {
+        "id": "EXP-004",
+        "title": "Missing Refund Fields on Non-Refund Tickets",
+        "description": "10,303 tickets (82.2%) have null refund_amount_inr and refund_reason_code. This is expected as refunds are only issued on eligible return/warranty/cancellation claims."
+      },
+      {
+        "id": "EXP-005",
+        "title": "Null to_date in Agents Roster",
+        "description": "All 44 agents have to_date as null, reflecting active current assignments."
+      }
+    ],
+    "requires_investigation": [
+      {
+        "id": "INV-001",
+        "title": "Fallback Join Disambiguation for Missing order_id (customer_id + product_sku)",
+        "description": "Of 4218 tickets missing order_id, 3,467 (82.2%) match exactly 1 order in orders.csv. However, 751 tickets (17.8%) match multiple historical orders for that customer and SKU (651 match 2 orders, 84 match 3, 16 match 4). A deterministic disambiguation rule (e.g. nearest prior order_date) is required."
+      },
+      {
+        "id": "INV-002",
+        "title": "Deduplication Strategy for Downstream Analysis",
+        "description": "For the 653 duplicated tickets, downstream models must decide whether to retain the 'helpdesk' or 'legacy_fd' record. The helpdesk record provides IST resolved_at and null CSAT, whereas legacy_fd provides reconstructed UTC resolved_at and 0.0 CSAT. The recommended policy is retaining the 'helpdesk' record (or migrating/correcting legacy timestamps)."
+      },
+      {
+        "id": "INV-003",
+        "title": "High Refund Volume Processed Outside Returns Desk",
+        "description": "Support Policy \u00a76 states Returns Desk processes the large majority of refunds by design. In practice, Billing processed 695 refunds (Rs 1,821,356) and Frontline/Logistics teams processed 727 refunds (Rs 2,141,222), while Returns Desk processed 669 refunds (Rs 1,982,247). Operational routing should be reviewed."
+      },
+      {
+        "id": "INV-004",
+        "title": "Agent Assignment Roster Multi-Row Safety",
+        "description": "While agents.csv currently has 44 unique agent_ids, future roster updates with shift or site changes will introduce duplicate agent_id rows with historical to_date. Pipelines must join on (agent_id, ticket_created_at BETWEEN from_date AND to_date)."
+      }
+    ]
+  }
+}

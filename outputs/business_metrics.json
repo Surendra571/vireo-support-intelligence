@@ -1,0 +1,861 @@
+{
+  "timestamp": "2026-10-01T19:44:20.576964+05:30",
+  "total_analyzed_tickets": 11875,
+  "volume_trends": {
+    "monthly_volume": {
+      "2025-01": 289,
+      "2025-02": 311,
+      "2025-03": 408,
+      "2025-04": 398,
+      "2025-05": 460,
+      "2025-06": 409,
+      "2025-07": 478,
+      "2025-08": 672,
+      "2025-09": 737,
+      "2025-10": 906,
+      "2025-11": 983,
+      "2025-12": 905,
+      "2026-01": 861,
+      "2026-02": 750,
+      "2026-03": 841,
+      "2026-04": 824,
+      "2026-05": 857,
+      "2026-06": 786
+    },
+    "weekly_volume": {
+      "2024-12-30/2025-01-05": 47,
+      "2025-01-06/2025-01-12": 54,
+      "2025-01-13/2025-01-19": 59,
+      "2025-01-20/2025-01-26": 82,
+      "2025-01-27/2025-02-02": 67,
+      "2025-02-03/2025-02-09": 78,
+      "2025-02-10/2025-02-16": 68,
+      "2025-02-17/2025-02-23": 83,
+      "2025-02-24/2025-03-02": 80,
+      "2025-03-03/2025-03-09": 96,
+      "2025-03-10/2025-03-16": 88,
+      "2025-03-17/2025-03-23": 99,
+      "2025-03-24/2025-03-30": 98,
+      "2025-03-31/2025-04-06": 86,
+      "2025-04-07/2025-04-13": 80,
+      "2025-04-14/2025-04-20": 91,
+      "2025-04-21/2025-04-27": 108,
+      "2025-04-28/2025-05-04": 98,
+      "2025-05-05/2025-05-11": 108,
+      "2025-05-12/2025-05-18": 89,
+      "2025-05-19/2025-05-25": 110,
+      "2025-05-26/2025-06-01": 107,
+      "2025-06-02/2025-06-08": 93,
+      "2025-06-09/2025-06-15": 100,
+      "2025-06-16/2025-06-22": 108,
+      "2025-06-23/2025-06-29": 87,
+      "2025-06-30/2025-07-06": 102,
+      "2025-07-07/2025-07-13": 94,
+      "2025-07-14/2025-07-20": 101,
+      "2025-07-21/2025-07-27": 114,
+      "2025-07-28/2025-08-03": 130,
+      "2025-08-04/2025-08-10": 124,
+      "2025-08-11/2025-08-17": 172,
+      "2025-08-18/2025-08-24": 153,
+      "2025-08-25/2025-08-31": 171,
+      "2025-09-01/2025-09-07": 182,
+      "2025-09-08/2025-09-14": 184,
+      "2025-09-15/2025-09-21": 153,
+      "2025-09-22/2025-09-28": 167,
+      "2025-09-29/2025-10-05": 169,
+      "2025-10-06/2025-10-12": 203,
+      "2025-10-13/2025-10-19": 216,
+      "2025-10-20/2025-10-26": 215,
+      "2025-10-27/2025-11-02": 224,
+      "2025-11-03/2025-11-09": 228,
+      "2025-11-10/2025-11-16": 213,
+      "2025-11-17/2025-11-23": 240,
+      "2025-11-24/2025-11-30": 232,
+      "2025-12-01/2025-12-07": 230,
+      "2025-12-08/2025-12-14": 197,
+      "2025-12-15/2025-12-21": 206,
+      "2025-12-22/2025-12-28": 196,
+      "2025-12-29/2026-01-04": 177,
+      "2026-01-05/2026-01-11": 200,
+      "2026-01-12/2026-01-18": 198,
+      "2026-01-19/2026-01-25": 196,
+      "2026-01-26/2026-02-01": 188,
+      "2026-02-02/2026-02-08": 180,
+      "2026-02-09/2026-02-15": 178,
+      "2026-02-16/2026-02-22": 190,
+      "2026-02-23/2026-03-01": 204,
+      "2026-03-02/2026-03-08": 184,
+      "2026-03-09/2026-03-15": 201,
+      "2026-03-16/2026-03-22": 184,
+      "2026-03-23/2026-03-29": 194,
+      "2026-03-30/2026-04-05": 190,
+      "2026-04-06/2026-04-12": 203,
+      "2026-04-13/2026-04-19": 201,
+      "2026-04-20/2026-04-26": 189,
+      "2026-04-27/2026-05-03": 174,
+      "2026-05-04/2026-05-10": 157,
+      "2026-05-11/2026-05-17": 231,
+      "2026-05-18/2026-05-24": 204,
+      "2026-05-25/2026-05-31": 186,
+      "2026-06-01/2026-06-07": 171,
+      "2026-06-08/2026-06-14": 203,
+      "2026-06-15/2026-06-21": 167,
+      "2026-06-22/2026-06-28": 199,
+      "2026-06-29/2026-07-05": 46
+    },
+    "weekly_stats": {
+      "mean": 150.32,
+      "std": 55.33,
+      "median": 171.0,
+      "min": 46,
+      "max": 240,
+      "total_weeks": 79
+    },
+    "monthly_stats": {
+      "mean": 659.72,
+      "median": 743.5,
+      "min": 289,
+      "max": 983,
+      "total_months": 18
+    }
+  },
+  "category_trends": {
+    "overall_categories": {
+      "Delivery & Shipping": {
+        "count": 2134,
+        "percentage": 17.97
+      },
+      "Other": {
+        "count": 1691,
+        "percentage": 14.24
+      },
+      "Billing & Payments": {
+        "count": 1624,
+        "percentage": 13.68
+      },
+      "Returns & Refunds": {
+        "count": 1197,
+        "percentage": 10.08
+      },
+      "Connectivity": {
+        "count": 1131,
+        "percentage": 9.52
+      },
+      "Charging & Battery": {
+        "count": 955,
+        "percentage": 8.04
+      },
+      "App & Firmware": {
+        "count": 822,
+        "percentage": 6.92
+      },
+      "Audio Quality": {
+        "count": 792,
+        "percentage": 6.67
+      },
+      "Warranty & Repair": {
+        "count": 620,
+        "percentage": 5.22
+      },
+      "Product Enquiry": {
+        "count": 593,
+        "percentage": 4.99
+      },
+      "Account & Login": {
+        "count": 316,
+        "percentage": 2.66
+      }
+    },
+    "h1_comparison": {
+      "h1_2025_total_tickets": 2275,
+      "h1_2026_total_tickets": 4919,
+      "baseline_ticket_growth_pct": 116.22,
+      "category_growth": {
+        "Account & Login": {
+          "h1_2025_count": 52,
+          "h1_2026_count": 140,
+          "absolute_growth": 88,
+          "growth_percentage": 169.23,
+          "share_h1_2025_pct": 2.29,
+          "share_h1_2026_pct": 2.85,
+          "trend": "Growing Faster than Baseline"
+        },
+        "App & Firmware": {
+          "h1_2025_count": 146,
+          "h1_2026_count": 384,
+          "absolute_growth": 238,
+          "growth_percentage": 163.01,
+          "share_h1_2025_pct": 6.42,
+          "share_h1_2026_pct": 7.81,
+          "trend": "Growing Faster than Baseline"
+        },
+        "Audio Quality": {
+          "h1_2025_count": 140,
+          "h1_2026_count": 371,
+          "absolute_growth": 231,
+          "growth_percentage": 165.0,
+          "share_h1_2025_pct": 6.15,
+          "share_h1_2026_pct": 7.54,
+          "trend": "Growing Faster than Baseline"
+        },
+        "Billing & Payments": {
+          "h1_2025_count": 324,
+          "h1_2026_count": 601,
+          "absolute_growth": 277,
+          "growth_percentage": 85.49,
+          "share_h1_2025_pct": 14.24,
+          "share_h1_2026_pct": 12.22,
+          "trend": "Declining in Relative Share"
+        },
+        "Charging & Battery": {
+          "h1_2025_count": 165,
+          "h1_2026_count": 448,
+          "absolute_growth": 283,
+          "growth_percentage": 171.52,
+          "share_h1_2025_pct": 7.25,
+          "share_h1_2026_pct": 9.11,
+          "trend": "Growing Faster than Baseline"
+        },
+        "Connectivity": {
+          "h1_2025_count": 198,
+          "h1_2026_count": 501,
+          "absolute_growth": 303,
+          "growth_percentage": 153.03,
+          "share_h1_2025_pct": 8.7,
+          "share_h1_2026_pct": 10.18,
+          "trend": "Growing Faster than Baseline"
+        },
+        "Delivery & Shipping": {
+          "h1_2025_count": 458,
+          "h1_2026_count": 854,
+          "absolute_growth": 396,
+          "growth_percentage": 86.46,
+          "share_h1_2025_pct": 20.13,
+          "share_h1_2026_pct": 17.36,
+          "trend": "Declining in Relative Share"
+        },
+        "Other": {
+          "h1_2025_count": 341,
+          "h1_2026_count": 670,
+          "absolute_growth": 329,
+          "growth_percentage": 96.48,
+          "share_h1_2025_pct": 14.99,
+          "share_h1_2026_pct": 13.62,
+          "trend": "Declining in Relative Share"
+        },
+        "Product Enquiry": {
+          "h1_2025_count": 109,
+          "h1_2026_count": 227,
+          "absolute_growth": 118,
+          "growth_percentage": 108.26,
+          "share_h1_2025_pct": 4.79,
+          "share_h1_2026_pct": 4.61,
+          "trend": "Declining in Relative Share"
+        },
+        "Returns & Refunds": {
+          "h1_2025_count": 226,
+          "h1_2026_count": 464,
+          "absolute_growth": 238,
+          "growth_percentage": 105.31,
+          "share_h1_2025_pct": 9.93,
+          "share_h1_2026_pct": 9.43,
+          "trend": "Declining in Relative Share"
+        },
+        "Warranty & Repair": {
+          "h1_2025_count": 116,
+          "h1_2026_count": 259,
+          "absolute_growth": 143,
+          "growth_percentage": 123.28,
+          "share_h1_2025_pct": 5.1,
+          "share_h1_2026_pct": 5.27,
+          "trend": "Growing Faster than Baseline"
+        }
+      }
+    }
+  },
+  "product_complaint_metrics": {
+    "VA-EB-PL2": {
+      "product_name": "Pulse 2 True Wireless Earbuds",
+      "family": "earbuds",
+      "tickets": 3401,
+      "orders": 3948,
+      "units_sold": 4210,
+      "ticket_share_pct": 28.64,
+      "tickets_per_100_orders": 86.14,
+      "tickets_per_100_units": 80.78
+    },
+    "VA-EB-PL1": {
+      "product_name": "Pulse True Wireless Earbuds",
+      "family": "earbuds",
+      "tickets": 1518,
+      "orders": 2102,
+      "units_sold": 2258,
+      "ticket_share_pct": 12.78,
+      "tickets_per_100_orders": 72.22,
+      "tickets_per_100_units": 67.23
+    },
+    "VA-SW-NX2": {
+      "product_name": "Nexa 2 Smartwatch",
+      "family": "watch",
+      "tickets": 1253,
+      "orders": 1329,
+      "units_sold": 1443,
+      "ticket_share_pct": 10.55,
+      "tickets_per_100_orders": 94.28,
+      "tickets_per_100_units": 86.83
+    },
+    "VA-EB-AIR": {
+      "product_name": "AirLite Earbuds",
+      "family": "earbuds",
+      "tickets": 1030,
+      "orders": 1423,
+      "units_sold": 1529,
+      "ticket_share_pct": 8.67,
+      "tickets_per_100_orders": 72.38,
+      "tickets_per_100_units": 67.36
+    },
+    "VA-HP-ST3": {
+      "product_name": "Strata 3 Over-Ear Headphones",
+      "family": "headphones",
+      "tickets": 915,
+      "orders": 1064,
+      "units_sold": 1145,
+      "ticket_share_pct": 7.71,
+      "tickets_per_100_orders": 86.0,
+      "tickets_per_100_units": 79.91
+    },
+    "VA-SP-MINI": {
+      "product_name": "Orbit Mini Speaker",
+      "family": "speaker",
+      "tickets": 845,
+      "orders": 951,
+      "units_sold": 1027,
+      "ticket_share_pct": 7.12,
+      "tickets_per_100_orders": 88.85,
+      "tickets_per_100_units": 82.28
+    },
+    "VA-SW-FIT": {
+      "product_name": "Nexa Fit Band",
+      "family": "watch",
+      "tickets": 660,
+      "orders": 877,
+      "units_sold": 930,
+      "ticket_share_pct": 5.56,
+      "tickets_per_100_orders": 75.26,
+      "tickets_per_100_units": 70.97
+    },
+    "VA-SP-ORB": {
+      "product_name": "Orbit Smart Speaker",
+      "family": "speaker",
+      "tickets": 503,
+      "orders": 752,
+      "units_sold": 796,
+      "ticket_share_pct": 4.24,
+      "tickets_per_100_orders": 66.89,
+      "tickets_per_100_units": 63.19
+    },
+    "VA-HP-ST2": {
+      "product_name": "Strata 2 Over-Ear Headphones",
+      "family": "headphones",
+      "tickets": 423,
+      "orders": 622,
+      "units_sold": 665,
+      "ticket_share_pct": 3.56,
+      "tickets_per_100_orders": 68.01,
+      "tickets_per_100_units": 63.61
+    },
+    "VA-NB-ARC": {
+      "product_name": "Arc Neckband",
+      "family": "earbuds",
+      "tickets": 394,
+      "orders": 573,
+      "units_sold": 604,
+      "ticket_share_pct": 3.32,
+      "tickets_per_100_orders": 68.76,
+      "tickets_per_100_units": 65.23
+    },
+    "VA-SW-NX1": {
+      "product_name": "Nexa Smartwatch",
+      "family": "watch",
+      "tickets": 384,
+      "orders": 602,
+      "units_sold": 640,
+      "ticket_share_pct": 3.23,
+      "tickets_per_100_orders": 63.79,
+      "tickets_per_100_units": 60.0
+    },
+    "VA-AC-CASE": {
+      "product_name": "Pulse Charging Case (spare)",
+      "family": "accessory",
+      "tickets": 248,
+      "orders": 305,
+      "units_sold": 317,
+      "ticket_share_pct": 2.09,
+      "tickets_per_100_orders": 81.31,
+      "tickets_per_100_units": 78.23
+    },
+    "VA-AC-CH65": {
+      "product_name": "65W GaN Charger",
+      "family": "accessory",
+      "tickets": 211,
+      "orders": 309,
+      "units_sold": 331,
+      "ticket_share_pct": 1.78,
+      "tickets_per_100_orders": 68.28,
+      "tickets_per_100_units": 63.75
+    },
+    "VA-AC-CBL": {
+      "product_name": "USB-C Braided Cable",
+      "family": "accessory",
+      "tickets": 90,
+      "orders": 143,
+      "units_sold": 151,
+      "ticket_share_pct": 0.76,
+      "tickets_per_100_orders": 62.94,
+      "tickets_per_100_units": 59.6
+    }
+  },
+  "outcomes_and_sla_metrics": {
+    "overall_rates": {
+      "total_tickets": 11875,
+      "refund_tickets": 2105,
+      "refund_percentage": 17.73,
+      "replacement_tickets": 1202,
+      "replacement_percentage": 10.12,
+      "tickets_with_transfers": 1040,
+      "tickets_with_transfers_percentage": 8.76,
+      "total_transfers_count": 1169,
+      "transfer_handling_cost_inr": 356545,
+      "sla_breach_tickets": 1051,
+      "sla_breach_percentage": 8.85,
+      "total_sla_breach_cost_inr": 367850,
+      "total_refund_amount_inr": 5992919.0
+    },
+    "channel_sla_performance": {
+      "chat": {
+        "channel": "chat",
+        "target_minutes": 15,
+        "total_tickets": 5161,
+        "breaches": 424,
+        "breach_percentage": 8.22,
+        "store_credit_cost_inr": 148400,
+        "avg_response_minutes": 6.42,
+        "median_response_minutes": 4.0
+      },
+      "voice": {
+        "channel": "voice",
+        "target_minutes": 120,
+        "total_tickets": 1704,
+        "breaches": 96,
+        "breach_percentage": 5.63,
+        "store_credit_cost_inr": 33600,
+        "avg_response_minutes": 46.96,
+        "median_response_minutes": 32.0
+      },
+      "social": {
+        "channel": "social",
+        "target_minutes": 240,
+        "total_tickets": 1203,
+        "breaches": 91,
+        "breach_percentage": 7.56,
+        "store_credit_cost_inr": 31850,
+        "avg_response_minutes": 98.8,
+        "median_response_minutes": 68.0
+      },
+      "email": {
+        "channel": "email",
+        "target_minutes": 480,
+        "total_tickets": 3807,
+        "breaches": 440,
+        "breach_percentage": 11.56,
+        "store_credit_cost_inr": 154000,
+        "avg_response_minutes": 246.59,
+        "median_response_minutes": 165.0
+      }
+    }
+  },
+  "repeat_contact_metrics": {
+    "repeat_definitions_comparison": {
+      "method_a": {
+        "name": "Method A: Same Customer + Same Product SKU",
+        "description": "Customer contacts again regarding the same physical product within 30 days of resolution. Most appropriate operational proxy for hardware support.",
+        "repeat_tickets_count": 3270,
+        "repeat_tickets_percentage": 27.54,
+        "additional_contact_cost_inr": 878120
+      },
+      "method_b": {
+        "name": "Method B: Same Customer + Same Product SKU + Same Category",
+        "description": "Customer contacts again with the exact same category tag on the same product within 30 days. Strictest conservative lower bound.",
+        "repeat_tickets_count": 1412,
+        "repeat_tickets_percentage": 11.89,
+        "additional_contact_cost_inr": 367030
+      },
+      "method_d": {
+        "name": "Method D: Same Customer Any Contact",
+        "description": "Customer contacts again across any product or category within 30 days of resolution. Upper bound of customer re-contact volume.",
+        "repeat_tickets_count": 3822,
+        "repeat_tickets_percentage": 32.19,
+        "additional_contact_cost_inr": 1030450
+      }
+    },
+    "concentrations_method_a": {
+      "by_channel": {
+        "chat": {
+          "total_tickets": 5161,
+          "repeat_tickets": 1446,
+          "repeat_rate_pct": 28.02,
+          "repeat_cost_inr": 303660
+        },
+        "email": {
+          "total_tickets": 3807,
+          "repeat_tickets": 1067,
+          "repeat_rate_pct": 28.03,
+          "repeat_cost_inr": 277420
+        },
+        "social": {
+          "total_tickets": 1203,
+          "repeat_tickets": 345,
+          "repeat_rate_pct": 28.68,
+          "repeat_cost_inr": 82800
+        },
+        "voice": {
+          "total_tickets": 1704,
+          "repeat_tickets": 412,
+          "repeat_rate_pct": 24.18,
+          "repeat_cost_inr": 214240
+        }
+      },
+      "by_initial_assigned_team": {
+        "Billing": {
+          "total_tickets": 1624,
+          "repeat_tickets": 416,
+          "repeat_rate_pct": 25.62,
+          "repeat_cost_inr": 112760
+        },
+        "Chat Frontline": {
+          "total_tickets": 3399,
+          "repeat_tickets": 921,
+          "repeat_rate_pct": 27.1,
+          "repeat_cost_inr": 198450
+        },
+        "Email Frontline": {
+          "total_tickets": 1987,
+          "repeat_tickets": 519,
+          "repeat_rate_pct": 26.12,
+          "repeat_cost_inr": 134940
+        },
+        "Escalations & Warranty": {
+          "total_tickets": 620,
+          "repeat_tickets": 173,
+          "repeat_rate_pct": 27.9,
+          "repeat_cost_inr": 44430
+        },
+        "Logistics": {
+          "total_tickets": 2134,
+          "repeat_tickets": 609,
+          "repeat_rate_pct": 28.54,
+          "repeat_cost_inr": 165220
+        },
+        "Returns Desk": {
+          "total_tickets": 1197,
+          "repeat_tickets": 425,
+          "repeat_rate_pct": 35.51,
+          "repeat_cost_inr": 114680
+        },
+        "Voice Frontline": {
+          "total_tickets": 914,
+          "repeat_tickets": 207,
+          "repeat_rate_pct": 22.65,
+          "repeat_cost_inr": 107640
+        }
+      },
+      "by_resolving_team": {
+        "Billing": {
+          "total_tickets": 1662,
+          "repeat_tickets": 417,
+          "repeat_rate_pct": 25.09,
+          "repeat_cost_inr": 113850
+        },
+        "Chat Frontline": {
+          "total_tickets": 3341,
+          "repeat_tickets": 871,
+          "repeat_rate_pct": 26.07,
+          "repeat_cost_inr": 196180
+        },
+        "Email Frontline": {
+          "total_tickets": 1887,
+          "repeat_tickets": 528,
+          "repeat_rate_pct": 27.98,
+          "repeat_cost_inr": 133650
+        },
+        "Escalations & Warranty": {
+          "total_tickets": 752,
+          "repeat_tickets": 205,
+          "repeat_rate_pct": 27.26,
+          "repeat_cost_inr": 53080
+        },
+        "Logistics": {
+          "total_tickets": 2155,
+          "repeat_tickets": 619,
+          "repeat_rate_pct": 28.72,
+          "repeat_cost_inr": 167790
+        },
+        "Returns Desk": {
+          "total_tickets": 1273,
+          "repeat_tickets": 442,
+          "repeat_rate_pct": 34.72,
+          "repeat_cost_inr": 119280
+        },
+        "Voice Frontline": {
+          "total_tickets": 805,
+          "repeat_tickets": 188,
+          "repeat_rate_pct": 23.35,
+          "repeat_cost_inr": 94290
+        }
+      },
+      "by_category": {
+        "Account & Login": {
+          "total_tickets": 316,
+          "repeat_tickets": 55,
+          "repeat_rate_pct": 17.41,
+          "repeat_cost_inr": 14770
+        },
+        "App & Firmware": {
+          "total_tickets": 822,
+          "repeat_tickets": 249,
+          "repeat_rate_pct": 30.29,
+          "repeat_cost_inr": 64810
+        },
+        "Audio Quality": {
+          "total_tickets": 792,
+          "repeat_tickets": 228,
+          "repeat_rate_pct": 28.79,
+          "repeat_cost_inr": 60270
+        },
+        "Billing & Payments": {
+          "total_tickets": 1624,
+          "repeat_tickets": 416,
+          "repeat_rate_pct": 25.62,
+          "repeat_cost_inr": 112760
+        },
+        "Charging & Battery": {
+          "total_tickets": 955,
+          "repeat_tickets": 311,
+          "repeat_rate_pct": 32.57,
+          "repeat_cost_inr": 86790
+        },
+        "Connectivity": {
+          "total_tickets": 1131,
+          "repeat_tickets": 333,
+          "repeat_rate_pct": 29.44,
+          "repeat_cost_inr": 87520
+        },
+        "Delivery & Shipping": {
+          "total_tickets": 2134,
+          "repeat_tickets": 609,
+          "repeat_rate_pct": 28.54,
+          "repeat_cost_inr": 165220
+        },
+        "Other": {
+          "total_tickets": 1691,
+          "repeat_tickets": 383,
+          "repeat_rate_pct": 22.65,
+          "repeat_cost_inr": 102800
+        },
+        "Product Enquiry": {
+          "total_tickets": 593,
+          "repeat_tickets": 88,
+          "repeat_rate_pct": 14.84,
+          "repeat_cost_inr": 24070
+        },
+        "Returns & Refunds": {
+          "total_tickets": 1197,
+          "repeat_tickets": 425,
+          "repeat_rate_pct": 35.51,
+          "repeat_cost_inr": 114680
+        },
+        "Warranty & Repair": {
+          "total_tickets": 620,
+          "repeat_tickets": 173,
+          "repeat_rate_pct": 27.9,
+          "repeat_cost_inr": 44430
+        }
+      },
+      "by_transfers": {
+        "0": {
+          "total_tickets": 10835,
+          "repeat_tickets": 2970,
+          "repeat_rate_pct": 27.41,
+          "repeat_cost_inr": 798790
+        },
+        "1": {
+          "total_tickets": 911,
+          "repeat_tickets": 265,
+          "repeat_rate_pct": 29.09,
+          "repeat_cost_inr": 70840
+        },
+        "2": {
+          "total_tickets": 129,
+          "repeat_tickets": 35,
+          "repeat_rate_pct": 27.13,
+          "repeat_cost_inr": 8490
+        }
+      },
+      "by_product_sku": {
+        "VA-AC-CASE": {
+          "total_tickets": 248,
+          "repeat_tickets": 82,
+          "repeat_rate_pct": 33.06,
+          "repeat_cost_inr": 21280
+        },
+        "VA-AC-CBL": {
+          "total_tickets": 90,
+          "repeat_tickets": 33,
+          "repeat_rate_pct": 36.67,
+          "repeat_cost_inr": 8830
+        },
+        "VA-AC-CH65": {
+          "total_tickets": 211,
+          "repeat_tickets": 83,
+          "repeat_rate_pct": 39.34,
+          "repeat_cost_inr": 23150
+        },
+        "VA-EB-AIR": {
+          "total_tickets": 1030,
+          "repeat_tickets": 258,
+          "repeat_rate_pct": 25.05,
+          "repeat_cost_inr": 66920
+        },
+        "VA-EB-PL1": {
+          "total_tickets": 1518,
+          "repeat_tickets": 416,
+          "repeat_rate_pct": 27.4,
+          "repeat_cost_inr": 113240
+        },
+        "VA-EB-PL2": {
+          "total_tickets": 3401,
+          "repeat_tickets": 966,
+          "repeat_rate_pct": 28.4,
+          "repeat_cost_inr": 258570
+        },
+        "VA-HP-ST2": {
+          "total_tickets": 423,
+          "repeat_tickets": 110,
+          "repeat_rate_pct": 26.0,
+          "repeat_cost_inr": 29780
+        },
+        "VA-HP-ST3": {
+          "total_tickets": 915,
+          "repeat_tickets": 236,
+          "repeat_rate_pct": 25.79,
+          "repeat_cost_inr": 63660
+        },
+        "VA-NB-ARC": {
+          "total_tickets": 394,
+          "repeat_tickets": 92,
+          "repeat_rate_pct": 23.35,
+          "repeat_cost_inr": 24380
+        },
+        "VA-SP-MINI": {
+          "total_tickets": 845,
+          "repeat_tickets": 236,
+          "repeat_rate_pct": 27.93,
+          "repeat_cost_inr": 65100
+        },
+        "VA-SP-ORB": {
+          "total_tickets": 503,
+          "repeat_tickets": 129,
+          "repeat_rate_pct": 25.65,
+          "repeat_cost_inr": 34980
+        },
+        "VA-SW-FIT": {
+          "total_tickets": 660,
+          "repeat_tickets": 160,
+          "repeat_rate_pct": 24.24,
+          "repeat_cost_inr": 41690
+        },
+        "VA-SW-NX1": {
+          "total_tickets": 384,
+          "repeat_tickets": 90,
+          "repeat_rate_pct": 23.44,
+          "repeat_cost_inr": 24080
+        },
+        "VA-SW-NX2": {
+          "total_tickets": 1253,
+          "repeat_tickets": 379,
+          "repeat_rate_pct": 30.25,
+          "repeat_cost_inr": 102460
+        }
+      }
+    },
+    "colleague_hypothesis_evaluation": {
+      "hypothesis_text": "Chat frontline reports customers repeatedly complaining 'I already told your colleague this'.",
+      "literal_phrase_matches_in_corpus": 0,
+      "actual_phrasing_in_customer_messages": "Customers repeatedly state 'raised this X ago and was told it was resolved' (88 tickets match 'raised this' / 'told it was resolved').",
+      "tickets_with_explicit_premature_resolution_complaint": 88,
+      "percentage_of_these_confirmed_as_method_a_repeats": 82.95,
+      "root_cause_finding": "The hypothesis is validated in substance: customers are returning because issues were marked resolved prematurely. Frontline agents perceive this as 'already told your colleague' because the customer is being forced to re-explain an unresolved defect to a new agent."
+    }
+  },
+  "ranked_candidate_problems": [
+    {
+      "rank": 1,
+      "title": "Repeat Contacts / High First-Contact Resolution (FCR) Failure",
+      "size": "3,270 tickets (27.54% of all tickets)",
+      "financial_impact": "Rs 878,120 in avoidable re-contact handling costs",
+      "confidence": "HIGH (measured directly on customer_id + product_sku within 30-day window per policy \u00a710)",
+      "actionability": "HIGH (targeted improvements in Returns Desk RMA flow, battery troubleshooting SOPs, and re-opening unresolved tickets)",
+      "evidence": "27.54% of tickets are repeat contacts within 30 days of resolution. Concentration is highest in Returns & Refunds (35.51% repeat rate, Rs 123K), Charging & Battery (32.57%, Rs 83K), and App & Firmware (30.29%, Rs 65K). Pulse 2 earbuds alone caused 966 repeat contacts (Rs 259K). 88 customer messages explicitly state 'raised this X ago and was told it was resolved'."
+    },
+    {
+      "rank": 2,
+      "title": "Product Quality & Complaint Concentration in Flagship Devices (Pulse 2 & Nexa 2)",
+      "size": "Pulse 2: 3,401 tickets (86.14 per 100 orders, 28.6% of all support tickets). Nexa 2: 1,253 tickets (94.28 per 100 orders, highest complaint rate in company).",
+      "financial_impact": "Combined Refunds: Rs 3,247,200 (Pulse 2: Rs 2.06M, Nexa 2: Rs 1.19M; represents 54.2% of all company refunds). Combined Replacements: Rs 1,200,400 (Pulse 2: Rs 788K, Nexa 2: Rs 413K; represents 55.1% of all company replacement costs). Total Direct Defect Financial Impact: Rs 4,447,600.",
+      "confidence": "HIGH (exact 1-to-1 order and SKU linkages from orders.csv and tickets.csv)",
+      "actionability": "HIGH (hardware vendor lot remediation, battery component redesign, firmware pairing update)",
+      "evidence": "Pulse 2 True Wireless Earbuds generated 3,401 tickets on 3,948 orders (86.14% complaint rate). Nexa 2 Smartwatch generated 1,253 tickets on 1,329 orders (94.28% complaint rate). Hardware defects (Charging & Battery, Audio Quality, Connectivity) grew +153% to +172% between H1 2025 and H1 2026."
+    },
+    {
+      "rank": 3,
+      "title": "First-Response SLA Breaches & Store Credit Penalties",
+      "size": "1,051 tickets breached (8.85% of all tickets)",
+      "financial_impact": "Rs 367,850 in direct store credit payouts",
+      "confidence": "HIGH (exact timestamp difference between created_at and first_response_at vs policy SLA targets)",
+      "actionability": "HIGH (workforce re-scheduling and queue automation)",
+      "evidence": "Email Frontline had the highest breach rate at 11.56% (440 tickets, Rs 154,000 store credits). Chat Frontline had 424 breaches (8.22%, Rs 148,400). Voice callback had 96 breaches (5.63%, Rs 33,600). Social had 91 breaches (7.56%, Rs 31,850)."
+    },
+    {
+      "rank": 4,
+      "title": "Internal Team Transfer Inefficiencies & Routing Friction",
+      "size": "1,169 total transfers across 1,040 tickets (8.76% transfer rate)",
+      "financial_impact": "Rs 356,545 (@ Rs 305 re-handling cost per policy \u00a74)",
+      "confidence": "HIGH (tracked directly via helpdesk transfers field)",
+      "actionability": "MEDIUM (improving intake bot tag accuracy to ensure direct routing)",
+      "evidence": "1,040 tickets required internal hand-offs between teams, generating 1,169 transfers. Logistics and Returns Desk received the highest transfer volume from frontline agents."
+    },
+    {
+      "rank": 5,
+      "title": "Policy Leakage: Duplicate Fulfillment & Goodwill Cap Breaches",
+      "size": "103 orders with both refund & replacement; 38 goodwill refunds over Rs 500 cap",
+      "financial_impact": "~Rs 450,000 estimated duplicate payout and excess goodwill credits",
+      "confidence": "HIGH (direct cross-tabulation of refund amounts, reason codes, and replacement flags against orders)",
+      "actionability": "HIGH (hard software controls in helpdesk to disallow dual refund/replacement and enforce Rs 500 cap)",
+      "evidence": "Support Policy \u00a75 strictly prohibits both refund and replacement for the same order, yet 103 orders experienced dual fulfillment. Goodwill refunds averaged Rs 2,972 against a Rs 500 policy maximum."
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": 1,
+      "focus": "Repeat Contact Reduction & First-Contact Resolution (FCR) Improvement",
+      "measured_financial_impact": "Rs 878,120 contact handling cost",
+      "measured_volume": "3,270 repeat tickets (27.54% of all contacts)"
+    },
+    {
+      "priority": 2,
+      "focus": "Pulse 2 & Nexa 2 Quality Control & Defect Remediation",
+      "measured_financial_impact": "Rs 4,447,600 in refunds & replacements",
+      "measured_volume": "4,654 tickets across Pulse 2 and Nexa 2 (39.2% of all tickets)"
+    }
+  ]
+}

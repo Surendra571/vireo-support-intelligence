@@ -1,0 +1,309 @@
+sample_id,ticket_id,channel,product_sku,category,assigned_team,customer_message,agent_notes,stratum,gold_primary_issue,gold_secondary_issue,gold_customer_intent,gold_resolution_type,gold_repeat_contact_signal,gold_root_cause_signal,gold_rationale
+1,TK-242564,chat,VA-SP-ORB,Delivery & Shipping,Logistics,I haven't received my order,cx reached out - shipment not rcvd. conf address with cx. xfer to chat frontline. rplc unit dispatched. (sop 5.4),ambiguous,delivery_delayed_not_received,,request_delivery_status,replacement_approved,unclear,carrier_logistics_failure,Derived from category 'Delivery & Shipping' due to minimal message text.
+2,TK-246804,chat,VA-EB-PL2,Returns & Refunds,Returns Desk,REFUND NOT RECEIVED YET,"1. Refund pending
+2. chk refund status on PG
+3. Full refund processed (3499)",ambiguous,refund_not_credited,,request_refund,refund_processed,unclear,unknown,Customer complaining that refund has not been credited.
+3,TK-240883,chat,VA-SW-NX2,Billing & Payments,Billing,double payment deducted,issue: duplicate payment | confirmed utrs -> duplicate refunded to source,ambiguous,payment_failed_debited,,request_invoice_billing,refund_processed,unclear,payment_gateway_sync_failure,Payment gateway debit mismatch or duplicate payment.
+4,TK-253203,chat,VA-SP-MINI,Account & Login,Chat Frontline,"Hi there, I bought Orbit Mini on 15-04-2026. Not receiving OTP to login. I tried 5 times. Nothing changed. What do I do now? Please revert,",-,ambiguous,account_login_issue,,request_account_help,unknown,unclear,unknown,Account authentication or OTP issue.
+5,TK-251082,email,VA-EB-PL2,Connectivity,Email Frontline,pairing is not working,rslvd on call ~Kabir,ambiguous,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+6,TK-251360,social,VA-NB-ARC,Account & Login,Chat Frontline,"I am losing patience. I bought Arc neckband on 03-02-2026. the login code never arrives, tried 6 times. I already tried 5 times. This is the last time I buy from you.",done,ambiguous,account_login_issue,,request_account_help,no_action_closed,unclear,unknown,Account authentication or OTP issue.
+7,TK-241485,email,VA-SP-ORB,Delivery & Shipping,Logistics,wrong product delivered,"1. Incorrect product shipped
+2. Raised w/ warehouse
+3. New unit shipepd under DOA",ambiguous,delivery_delayed_not_received,,general_inquiry,replacement_approved,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+8,TK-250721,email,VA-EB-AIR,App & Firmware,Email Frontline,firmware update stuck for 2 hours,re: update hang | checked fw 1.9.8 rollout -> update completed after retry (sop 3.1) ~Kavya,ambiguous,delivery_delayed_not_received,,general_inquiry,inquiry_answered_info_shared,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+9,TK-241750,chat,VA-SP-MINI,Delivery & Shipping,Logistics,"Product: the mini speaker
+Order: VR886368
+Purchased: 27-11-2025
+Issue: product arrived damaged
+Tried: refused nothing as I didn't notice till later
+Expected: resolution",see prev,ambiguous,damaged_in_transit,,general_inquiry,no_action_closed,yes,carrier_logistics_failure,Customer reports physical damage/crushing in transit.
+10,TK-253573,email,VA-EB-PL1,Other,Email Frontline,need to change delvery address,"cx reported address change request. checked dispatch status. already dispatched, advised to redirect with courier.",ambiguous,unknown,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Insufficient text to determine specific issue.
+11,TK-250527,chat,VA-EB-PL2,Returns & Refunds,Returns Desk,"very poor quality. this is regarding my pulse 2. opened the parcel & it is a completeely different thing. i already checked the invoice. i want a replacement or refund, nothing else",see prev,ambiguous,refund_not_credited,,request_replacement,no_action_closed,yes,unknown,Customer complaining that refund has not been credited.
+12,TK-242058,email,VA-HP-ST3,Billing & Payments,Billing,"hey
+paid via upi, amount deducted, no order confirmation
+kindly do the needful",done,ambiguous,payment_failed_debited,,general_inquiry,no_action_closed,unclear,payment_gateway_sync_failure,Derived from category 'Billing & Payments' due to minimal message text.
+13,TK-254623,chat,VA-EB-PL1,Account & Login,Chat Frontline,not receiving otp to login,Contact re OTP not received. Checked OTP logs. Transferred to Returns Desk. Account unlocked.,ambiguous,account_login_issue,,request_account_help,transferred_internal,unclear,unknown,Account authentication or OTP issue.
+14,TK-241893,voice,VA-SW-NX2,Billing & Payments,Billing,[IVR transcript] my bank says Rs 6499 went to you but your site says I have no orders. how do i get this fixed?,closed,ambiguous,payment_failed_debited,,request_technical_support,no_action_closed,unclear,payment_gateway_sync_failure,Derived from category 'Billing & Payments' due to minimal message text.
+15,TK-244208,voice,VA-SW-FIT,Product Enquiry,Voice Frontline,coupon code not working,"1. Discount not applied
+2. chk coupon validity
+3. Refunedd Rs 1000",ambiguous,general_product_inquiry,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Derived from category 'Product Enquiry' due to minimal message text.
+16,TK-248779,chat,VA-SW-NX2,Other,Chat Frontline,"Product: Nexa 2
+Order: VR886940
+Purchased: 28 Oct
+Issue: no update on my repair
+Tried: called service centre
+Expected: resolution",closed,ambiguous,bluetooth_pairing_failed,,request_technical_support,no_action_closed,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+17,TK-244963,chat,VA-EB-PL1,Charging & Battery,Chat Frontline,"Hello,
+Bought Pulse earbuds around June 22 from Amazon. Charging case dead, tried 3 cables.
+I charged for 6 hours nothing.
+Need ths sorted this week.
+Thanks,",see prev,ambiguous,battery_drain_fast,,request_technical_support,no_action_closed,yes,hardware_component_fault,Derived from category 'Charging & Battery' due to minimal message text.
+18,TK-245521,social,VA-SP-MINI,Other,Chat Frontline,"please cancel, ordered by mistake, VR881936, waiting for your reply",closed,ambiguous,cancellation_request,,request_cancellation,no_action_closed,unclear,unknown,Cancellation request before delivery.
+19,TK-254850,email,VA-EB-PL2,Connectivity,Email Frontline,"Hi there, Got the Pulse 2 earbuds from vireo.in a month ago. Cannot pair the Pulse 2 earbuds with my laptop. Need this sorted this week. Regards,",done,ambiguous,bluetooth_pairing_failed,,request_technical_support,no_action_closed,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+20,TK-251885,email,VA-SW-NX1,Other,Email Frontline,warranty claim pending for 11 days,"customer states rma status query. checked rma status. repair completed, shipped back. cx informed. -YM",ambiguous,unknown,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Insufficient text to determine specific issue.
+21,TK-250281,social,VA-SW-NX1,App & Firmware,Chat Frontline,"Hi, I bought my Nexa on 26-01-2026. Update failed and now it won't turn on. I restarted the app. Nothing changed. Kindly look into it. RGDS, KUNAL",Cx says fw update failed. chk FW 3.7.3 rollout. rplc raised (bricked).,multi_issue,app_crash_bug,,general_inquiry,troubleshooting_guided,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+22,TK-251595,voice,VA-SP-ORB,Returns & Refunds,Returns Desk,I have been a loyal customer and this is how you treat me. Bought my Orbit around 28-02-2026 from Amazon. you picked up teh item 7 days ago and my money hasn't come back. I already checked bank. Fix this or I am posting on twitter.,"1. rfnd not credited
+2. Checked rfnd status on PG
+3. rfnd confirmed credited",multi_issue,refund_not_credited,,request_technical_support,inquiry_answered_info_shared,unclear,unknown,Derived from category 'Returns & Refunds' due to minimal message text.
+23,TK-246907,voice,VA-EB-AIR,Connectivity,Voice Frontline,This is very disappointing. I bought airlite earbuds on 14/10. bluetooth pairing fails every time. I already forgot the device and tried again. Escalate this to someone senior.,"cx says unable to pair with phone. walked through forget + re-pair. advised fw update via app, resolved. will monitor. //RIY",multi_issue,bluetooth_pairing_failed,app_crash_bug,request_technical_support,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+24,TK-242623,voice,VA-SW-NX2,App & Firmware,Voice Frontline,"[IVR transcript] Honestly regretting this purchase. This is regarding Nexa 2. not pairnig with my phone. I already forgot the device and tried again. I want a replacement or refund, nothing else.","issue: pairing failure | asked cx to reset the device -> adv fw update via app, rslvd",multi_issue,refund_not_credited,,request_replacement,troubleshooting_guided,unclear,customer_education_gap,Customer complaining that refund has not been credited.
+25,TK-247390,email,VA-AC-CASE,Delivery & Shipping,Logistics,"Very poor quality. Yet again. Ordered replacement case 10 days ago. the parcel looked like it was kicked here from the warehouse, and the unit has a crack. I already took photos. I want a replacement or refund, nothing else",cx states prior ticket for same issue. cx states transit damage. checked w/ crr for damage claim. rplc dispatched. cx satisfied on chat. [closed],multi_issue,refund_not_credited,,request_replacement,replacement_approved,unclear,unknown,Customer complaining that refund has not been credited.
+26,TK-253752,email,VA-EB-PL2,Connectivity,Email Frontline,not what i expected from vireo.  raised this in may and was told it was resolved. i bought the pulse 2 earbuds on 24/03. it goes silent for a seconnd every few minutes and comes back. i already kept phone in hand. refund. now.,"ticket raised for intermittent disconnects. checked interference sources. advised, cx will monitor.",multi_issue,refund_not_credited,,request_refund,inquiry_answered_info_shared,yes,premature_ticket_closure,Customer complaining that refund has not been credited.
+27,TK-251680,social,VA-AC-CH65,Billing & Payments,Billing,"product: the gan charger
+order: vr902092
+purchased: 23-03-2026
+issue: money debited but order not showing
+tried: tried logging out and in
+expected: replacement","cx: payment debited, no order | checked pg dashboard for txn -> refund approved, rs 1499, 5-7 working days",multi_issue,payment_failed_debited,,request_replacement,refund_processed,unclear,payment_gateway_sync_failure,Derived from category 'Billing & Payments' due to minimal message text.
+28,TK-243827,chat,VA-SW-NX2,Connectivity,Chat Frontline,"Ordered Nexa 2 last week. Pairing is not working.
+I forgot the device and tried again.
+Waiting for your reply.
+Thank you,",done,multi_issue,bluetooth_pairing_failed,,request_technical_support,no_action_closed,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+29,TK-245855,email,VA-EB-PL2,Delivery & Shipping,Logistics,"dear sir/madam,
+
+i am writing with reference to my order of pulse 2 (vr883713) placed on october 18. it has been 11 days and i have nothing in hand. i have checked with neighbours. i request you to process a refund to my original payment method.
+
+regards,
+joseph naidu","cx says shipment not rcvd. raised ticket w/ courier partner. courier conf delivery for 24 oct, cx informed. cx satisfied on chat. [closed]",multi_issue,refund_not_credited,,request_refund,inquiry_answered_info_shared,no,unknown,Customer complaining that refund has not been credited.
+30,TK-247325,voice,VA-EB-AIR,Charging & Battery,Voice Frontline,[IVR transcript] helo left earbud shows 0% and never charges airlite earbuds help,cx says was told fixed last time. escalated to warranty for inspection. issue: left bud not charging. chk case led behaviour w/ cx. ~Vihaan,multi_issue,battery_drain_fast,,request_technical_support,escalated_to_tier2,unclear,hardware_component_fault,Derived from category 'Charging & Battery' due to minimal message text.
+31,TK-251197,chat,VA-EB-PL2,App & Firmware,Chat Frontline,"Product: Pulse2
+Order: VR883630
+Purchased: 15-02-2026
+Issue: update failed and now it won't turn on
+Tried: kept it in the case
+Expected: refund",replacement raised (bricked). issue: fw update stuck. checked fw 2.3.3 rollout.,multi_issue,app_crash_bug,,request_refund,replacement_approved,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+32,TK-243761,chat,VA-SW-NX2,Other,Chat Frontline,it connects for a second and then vanishes from the device list,"Reported: pairing failure. Asked cx to reset the device. adv FW update via app, rslvd.",multi_issue,bluetooth_pairing_failed,,request_technical_support,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+33,TK-240415,chat,VA-SW-FIT,Charging & Battery,Chat Frontline,"Hi team,
+My earlier ticket got closed without a fix.  This is regarding my Nexa Fit band. The promised 45 hours is nowhere close, I get maybe 2.
+I fully charged and discharged twice.
+Need this sorted ths week.
+Rgds",closed ~Kabir,multi_issue,battery_drain_fast,,request_technical_support,inquiry_answered_info_shared,unclear,hardware_component_fault,Derived from category 'Charging & Battery' due to minimal message text.
+34,TK-245554,email,VA-EB-PL2,Billing & Payments,Billing,"to the vireo customer care team,
+
+i am writing with reference to my order of my pulse 2 placed on october 06. money debited but order not showing. i have tried logging out and in. i request you to provide a resolution within 3 working days.
+
+regards,
+megha menon","falied order after payment | checked pg dashboard for txn -> refund approved, rs 1750, 5-7 working days",multi_issue,payment_failed_debited,,request_invoice_billing,refund_processed,no,payment_gateway_sync_failure,Derived from category 'Billing & Payments' due to minimal message text.
+35,TK-240346,chat,VA-HP-ST3,Returns & Refunds,Returns Desk,"Dear team, I already raised this onec and the ticket was closed. This is regarding my Strata 3 headphones. Return pickup has not happened. I called courier. Can someone fix this? Regards, Tanvi","repeat contact - previous fix did not hold. 1. Reverse pickup pending
+2. Checked pickup AWB
+3. Pickup rescheduled for 04 Feb",multi_issue,mic_not_working,,request_technical_support,inquiry_answered_info_shared,yes,unknown,Microphone failure during calls.
+36,TK-253664,voice,VA-EB-PL2,Connectivity,Voice Frontline,"i have been a loyal customer and this is how you treat me. bouught pulse 2 around 28 mar from amazon. app not opening after update. i already updated phone. i want a replacement or refund, nothing else.","cust contacted re app crashing. asked for phone model + os. adv beta build, resolved. ~Vihaan",multi_issue,refund_not_credited,,request_replacement,inquiry_answered_info_shared,unclear,unknown,Customer complaining that refund has not been credited.
+37,TK-248565,email,VA-EB-PL2,Charging & Battery,Email Frontline,left earbud shows 0% and never charges - what do i do now?,"advised pin cleaning, cx confirmed ok. issue: l bud no charge in case. asked for photo of the bud contacts.",multi_issue,battery_drain_fast,,general_inquiry,pending_investigation,unclear,hardware_component_fault,Derived from category 'Charging & Battery' due to minimal message text.
+38,TK-253030,voice,VA-SW-NX2,Connectivity,Voice Frontline,"hi there, nxea 2 purchased around diwali, order vr883442.  it connects for a second and thhen vanishes from the device list. i tried on another phone. nothing changed. i want my money back. please revert, shreya khan","adv FW update via app, rslvd. Issue: pairing failure. Walked through forget + re-pair. ~Farah",multi_issue,bluetooth_pairing_failed,,request_refund,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+39,TK-245910,voice,VA-SW-NX2,Connectivity,Voice Frontline,"This is very disappointing. my Nexa 2 watch purchased around Diwali, order VR881623. my phone just doesn't see it in the list anymore. I already forgot the device and tried again. Fix thsi or I am poting on twitter.","re-pair successful, resolved on chat. issue: pairing failure. asked cx to reset the device. via escalations & warranty.",multi_issue,app_crash_bug,,request_technical_support,troubleshooting_guided,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+40,TK-242529,chat,VA-NB-ARC,Charging & Battery,Chat Frontline,"product: arc neckband
+order: vr895310
+purchased: 14 may
+issue: battery draining even when not in use
+tried: fully charged and discharged twice
+expected: fix",Customer reached out - rapid battery drain. Checked usage pattern with cx. Transferred to Escalations & Warranty. Replacement raised after test.,multi_issue,battery_drain_fast,,request_technical_support,replacement_approved,unclear,hardware_component_fault,Battery draining rapidly or poor backup.
+41,TK-252493,email,VA-HP-ST2,App & Firmware,Email Frontline,"hleo
+firmware update stuck for 2 housr
+pls reply",re: fw update stuck | asked cx to keep in case 30 min -> replacement raised (bricked) (sop 4.2) ~Kavya,short_message,delivery_delayed_not_received,,general_inquiry,replacement_approved,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+42,TK-254442,chat,VA-SW-FIT,Delivery & Shipping,Logistics,"product arrived damaged, VR892846","contact re transit damage. photos rcvd, damage conf. refund of rs 1799 initiated to source. cx satisfied on chat.",short_message,damaged_in_transit,,general_inquiry,refund_processed,unclear,carrier_logistics_failure,Customer reports physical damage/crushing in transit.
+43,TK-253564,chat,VA-SP-MINI,Connectivity,Chat Frontline,connection drops constantly,closed ~Diya,short_message,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+44,TK-253368,email,VA-SP-MINI,Account & Login,Email Frontline,"hello
+cannot loin to my account
+pls reply",otp not received | checked otp logs -> account unlocked,short_message,account_login_issue,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Account authentication or OTP issue.
+45,TK-248034,chat,VA-SP-ORB,Connectivity,Chat Frontline,pairing is not working - vr897132,"1. Pairing failure
+2. Walked through forget + re-pair
+3. Advised FW update via app, resolved -TS",short_message,bluetooth_pairing_failed,,request_technical_support,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+46,TK-251987,chat,VA-EB-PL1,Delivery & Shipping,Logistics,my order has not been delivered yet,cx says ord not delivered. confirmed address w/ cx. re-shipped from warehouse. will monitor. [closed],short_message,delivery_delayed_not_received,,general_inquiry,reshipped_carrier_claim,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+47,TK-253802,chat,VA-EB-PL2,Charging & Battery,Chat Frontline,"hii
+battery life has dropped to almost nothing",see prev [closed],short_message,battery_drain_fast,,request_technical_support,inquiry_answered_info_shared,yes,hardware_component_fault,Battery draining rapidly or poor backup.
+48,TK-248642,email,VA-AC-CASE,Returns & Refunds,Returns Desk,refund not received yet.  VR902742,Refund reprocessed. Issue: refund not credited. Checked reverse pickup QC status.,short_message,refund_not_credited,,request_refund,refund_processed,unclear,unknown,Customer complaining that refund has not been credited.
+49,TK-250626,chat,VA-SP-MINI,Other,Chat Frontline,a hiss that wasn't there when I bought it,-,short_message,unknown,,general_inquiry,unknown,unclear,unknown,Insufficient text to determine specific issue.
+50,TK-240467,chat,VA-EB-PL1,Billing & Payments,Billing,"hi
+refund not recieved yet",closed,short_message,refund_not_credited,,request_refund,no_action_closed,unclear,unknown,Customer complaining that refund has not been credited.
+51,TK-250214,chat,VA-EB-PL2,Billing & Payments,Billing,"hi
+payment was deducted but no order was created",done ~Diya,short_message,payment_failed_debited,,request_invoice_billing,unknown,unclear,payment_gateway_sync_failure,Derived from category 'Billing & Payments' due to minimal message text.
+52,TK-246613,email,VA-SW-FIT,Delivery & Shipping,Logistics,received the wrong itm,"Cust contacted re incorrect product shipped. Verified order vs delivered item photos. Replacement approved, reverse pickup arranged.",short_message,delivery_delayed_not_received,,general_inquiry,replacement_approved,unclear,carrier_logistics_failure,Derived from category 'Delivery & Shipping' due to minimal message text.
+53,TK-251663,chat,VA-HP-ST3,Other,Chat Frontline,want to cancel my order,"cancelled, refund initiated. issue: cancellation request. cancelled before dispatch.",short_message,cancellation_request,,request_cancellation,refund_processed,unclear,unknown,Cancellation request before delivery.
+54,TK-241235,email,VA-AC-CH65,Product Enquiry,Email Frontline,"hii
+will this survive a shower
+your charger",cx reported product enquiry. shared spec sheet. cx satisfied.,short_message,general_product_inquiry,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Derived from category 'Product Enquiry' due to minimal message text.
+55,TK-244861,email,VA-EB-PL1,Charging & Battery,Email Frontline,"hey
+battery backup is terrible now
+pls reply","Reported: poor battery backup. chk usage pattern w/ cx. adv settings change, cx satisfied. Follow-up not required.",short_message,battery_drain_fast,,request_technical_support,inquiry_answered_info_shared,unclear,hardware_component_fault,Battery draining rapidly or poor backup.
+56,TK-254413,email,VA-HP-ST2,Audio Quality,Email Frontline,no sound from the right earbud. VR880030,cx: no audio one siide | wlked through reset -> escalated to warranty -SK,short_message,audio_distortion_buzzing,,request_technical_support,escalated_to_tier2,unclear,unknown,Derived from category 'Audio Quality' due to minimal message text.
+57,TK-242340,chat,VA-AC-CH65,Billing & Payments,Billing,"need GST invoice for my order
+VR903822",re: gst invoice request | regenerated invoice -> invoice emailed,short_message,mic_not_working,,request_invoice_billing,inquiry_answered_info_shared,unclear,unknown,Microphone failure during calls.
+58,TK-252425,email,VA-EB-AIR,Billing & Payments,Billing,"hii
+please share invoice with gst number",Invoice emailed. Issue: invoice not downloading. Updated GSTIN on order.,short_message,mic_not_working,,request_invoice_billing,inquiry_answered_info_shared,unclear,unknown,Microphone failure during calls.
+59,TK-251602,chat,VA-SP-ORB,Account & Login,Chat Frontline,CANNOT LOGIN TO MY ACCOUNT. please resolve asap,"re: login issue | chk number on account -> otp resent, cx logged in ~Ayaan",short_message,account_login_issue,,request_account_help,inquiry_answered_info_shared,unclear,unknown,Account authentication or OTP issue.
+60,TK-250427,email,VA-EB-PL2,Connectivity,Email Frontline,"hi
+bluetooth keeps cutting out
+pls reply","cx reported intermittent disconnects. advised to test in different location. advised, cx will monitor.",short_message,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+61,TK-245410,chat,VA-EB-PL2,Connectivity,Chat Frontline,i have been a loyal customer and this is how you treat me. bought pulse 2 around 17 sep from amazon. the pairing light blinks but nothing ever shows up on my oneplus. i already tried on another phone. escalate this to someone senior.,closed,long_message,bluetooth_pairing_failed,,request_technical_support,no_action_closed,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+62,TK-250198,social,VA-EB-PL2,Charging & Battery,Chat Frontline,"Pathetic experience honestly. Bought the Pulse 2 earbuds around 19-01-2026 from Amazon. left earbud not charging, right one is fine. I already removed & reinserted it 10 times. Fix this or I am posting on twitter.",contact re left earbud not taking charge. tested w/ cx on call. replacement raised for full set.,long_message,earbud_not_charging,,request_technical_support,replacement_approved,unclear,hardware_component_fault,Earbud or case hardware charging failure.
+63,TK-241870,email,VA-SW-NX2,Delivery & Shipping,Logistics,"To the Vireo Customer Care Team,
+
+I am writing with reference to my order of the Nexa 2 placed on 04-04-2025. The box says the Nexa 2 but what's inside is not what I paid for. I HAVE CHECKED THE INVOICE. I request you to provide a resolution within 3 working days.
+
+Sincerely,
+Varun Bhatt",recontact. re: wrong item delivered | raised w/ warehouse -> rplc unit dispatched [closed],long_message,mic_not_working,,request_invoice_billing,replacement_approved,no,unknown,Microphone failure during calls.
+64,TK-251782,chat,VA-EB-PL2,Charging & Battery,Chat Frontline,"Hello Vireo, Got my Pulse 2 from Amazon 3 weeks back. I HAVE TO CHARGE IT TWICE A DAY NOW, IT USED TO LAST DAYS. I updated the app. Not what I expected from Vireo. Can someone fix this? Thank you",recontact. cust contacted re battery draining fast. chk fw 3.8.0. escalated to warranty. will monitor.,long_message,app_crash_bug,,request_technical_support,escalated_to_tier2,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+65,TK-254788,email,VA-EB-PL2,Charging & Battery,Email Frontline,"dear sir/madam,
+
+this is the third time. i am writing with reference to my order of pulse2 placed on 12 apr. plugging in does nothing on the case, cable works on my phone. i have tried wireless charging pad. i request you to provide a resolution within 3 working days.
+
+yours faithfully,
+dev mishra",escalated to wty. issue: case not charging. chk for lint in port.,long_message,battery_drain_fast,,request_technical_support,inquiry_answered_info_shared,no,hardware_component_fault,Derived from category 'Charging & Battery' due to minimal message text.
+66,TK-240747,voice,VA-NB-ARC,Other,Voice Frontline,"hey,
+ths is regrading my arc. ordered the wrong colour, don't ship it.
+i tried cancel button, greyed out. nothinng changed.
+honestly regretting this purchase.
+please call me on my registered number.
+thanks in advance, rohit mathew","cx says cancellation request. chk shipment status. already shipped, advissed rto/return. follow-up not required. //RIY",long_message,cancellation_request,,request_cancellation,inquiry_answered_info_shared,unclear,unknown,Cancellation request before delivery.
+67,TK-250595,social,VA-EB-PL2,App & Firmware,Chat Frontline,"Very poor quality.  Same issue as before, it came back after 2 weeks. Bought pulse 2 buds around September 23 from Amazon. the Vireo app keeps crashing. I already reinstalled the app. This is the last time I buy from you.","issue: app crash on device page | checked app version -> bug logged, workaround shared ~Ayaan",long_message,app_crash_bug,,general_inquiry,inquiry_answered_info_shared,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+68,TK-252556,voice,VA-HP-ST3,Delivery & Shipping,Logistics,[IVR transcript] Honestly regretting this purchase. I bought my Strata 3 headphones on 06/04. the box says my Strata 3 headphones but what's inside is not what I paid for. I already rechecked my order. Escalate this to someone senior.,"1. Incorrect product shipped
+2. Verified ord vs delivered item photos
+3. Reverse pkp + correct item shipped",long_message,delivery_delayed_not_received,,general_inquiry,pending_investigation,unclear,carrier_logistics_failure,Derived from category 'Delivery & Shipping' due to minimal message text.
+69,TK-246781,chat,VA-EB-PL2,Returns & Refunds,Returns Desk,"to the vireo customer care team,
+
+i am writing with rfeerence to my order of my pulse 2 placed on october 25. pickup scheduled but no one showed up. i have called courier. i request you to kindly arrnge a replacement.
+
+yours faithfully,
+rahul shekh
+chennai",Ticket raised for reverse pickup pending. Re-raised pickup with courier. Refund processed without pickup as goodwill. Will monitor.,long_message,mic_not_working,,request_replacement,refund_processed,no,unknown,Microphone failure during calls.
+70,TK-250779,voice,VA-EB-PL2,Delivery & Shipping,Logistics,[IVR transcript] This is very disappointing. Bought Pulse 2 around 16/02 from vireo.in. order status stuck on shipped since 16/02. I already checked the tracking page daily. This is the last time I buy from you.,"cx says delivery delayed. checked awb with crr. rto conf, reshipped. cx satisfied on chat.",long_message,delivery_delayed_not_received,,request_delivery_status,reshipped_carrier_claim,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+71,TK-251875,chat,VA-SW-NX2,Charging & Battery,Chat Frontline,"Dear Sir/Madam,
+
+I am writing with reference to my order of the Nexa 2 (VR905592) placed on 06 Dec.  The promisd 24 hours is nowhere close, I get maybe 2. I have turned off always-on display. I request you to process a refund to my original payment method.
+
+Sincerely,
+Bhavna Khan","1. poor battery backup
+2. checked usage pattern with cx
+3. rplc raised after test",long_message,battery_drain_fast,,request_refund,inquiry_answered_info_shared,no,hardware_component_fault,Derived from category 'Charging & Battery' due to minimal message text.
+72,TK-248636,email,VA-EB-AIR,Delivery & Shipping,Logistics,"I am losing patience.  Same issue as before, it came back after 2 weeks. Ordered the AirLite buds 3 weeks back. my order has not been delivered yet. I already checked with neighbours. I want a replacement or refund, nothing else.","repeat contact - previous fix did not hold. 1. ord not delivered
+2. chk AWB with courier
+3. Refund initiated as lost in transit",long_message,refund_not_credited,,request_replacement,refund_processed,yes,unknown,Customer complaining that refund has not been credited.
+73,TK-241757,email,VA-SW-FIT,Other,Email Frontline,"hello vireo, i already raised this once and the ticket was closed.  got the fit band from amazon around diwali. bluetooth piring fails every time. i forgot the device and tried again. nothing changed. need this sorted this week.",sorted [closed],long_message,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,yes,firmware_software_bug,Bluetooth connection or pairing failure.
+74,TK-248549,chat,VA-SW-FIT,App & Firmware,Chat Frontline,"Not what I expected from Vireo. I bought my Nexa Fit band on 03-07-2025. app crashes whn I oppen device settings. I already cleraed cache. I want a replacement or refund, nothing else.","adv beta build, rslvd. issue: app not opening. asked for phone model + os.",long_message,refund_not_credited,,request_replacement,inquiry_answered_info_shared,unclear,unknown,Customer complaining that refund has not been credited.
+75,TK-250640,email,VA-EB-PL2,Connectivity,Email Frontline,"Hi team, Ordered my Pulse 2 recently. The pairing light blinks but nothing ever shows up on my Realme. I forgot the device and tried again. Kindly look into it. Please revert, Manish","issue: pairing failure | checked phone os version -> re-pair successful, resolved on chat ~Kavya",long_message,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+76,TK-246732,voice,VA-NB-ARC,Other,Voice Frontline,"[IVR transcript] HONESTLY REGRETTING THSI PURCHASE. This is regarding my Arc. my son ordered this without asking, please reverse. I already tried cancel button, greyed out. Refund. Now.","cx reached out - cancel order. checked shipment status. cancelled, refund initiated. ~Vihaan",long_message,cancellation_request,,request_refund,refund_processed,unclear,unknown,Cancellation request before delivery.
+77,TK-248871,chat,VA-EB-PL1,Charging & Battery,Chat Frontline,"dear sir/madam,
+
+this was supposedly sorted by your team last time. i am writing w/ reference to my order of my pulse placed on 27-10-2025. the left earbud is not charging at all. i have cleaned the contacts w/ a cloth. i request you to look into this matter at the earliest.
+
+regards,
+krishna kapoor",Cx says left bud not charging. Asked for photo of the bud contacts. xfer to Logistics. New unit shpiped under DOA.,long_message,earbud_not_charging,,request_technical_support,replacement_approved,no,hardware_component_fault,Earbud or case hardware charging failure.
+78,TK-240633,email,VA-EB-PL1,Delivery & Shipping,Logistics,"Following up on my earlier complaint - nothing has changed.
+Product: the Pulse buds
+Purchased: January 18
+Issue: I haven't received my order
+Tried: checked the tracking page daily
+Expected: callback","cx unhappy, contacted earlier re same. cx reached out - dlvry delayed. checked awb with courier. new unit shipped under doa. follow-up not required.",long_message,delivery_delayed_not_received,,request_delivery_status,replacement_approved,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+79,TK-254873,voice,VA-EB-PL2,Delivery & Shipping,Logistics,[IVR transcript] Really frustrating. This is regarding my Pulse 2. tracking has said out for delivery for a week now. I ALREADY CHECKED WITH NEIGHBOURS. This is the last time I buy from you.,"1. Shipment not received
+2. chk AWB with crr
+3. RTO conf, reshipped",long_message,delivery_delayed_not_received,,request_delivery_status,reshipped_carrier_claim,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+80,TK-241362,chat,VA-HP-ST2,Other,Chat Frontline,Pathetic experience honestly. I bought Strata 2 on 25-03-2025. my bank says Rs 3499 went to you but your site says I have no orders. I already tried logging out and in. Escalate this to someone senior.,cust contacted re amount deducted without ord. chk pg dashboard for txn. ord manually created. case closed w/ cx consent.,long_message,unknown,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Insufficient text to determine specific issue.
+81,TK-254592,chat,VA-EB-PL2,Account & Login,Chat Frontline,"Hi team, I bought pulse 2 buds on March 29. Not receiving OTP to login. I tried on another browser. Nothing changed. Please advise.","1. unable to log in
+2. chk otp logs
+3. number updated, rslvd",standard,account_login_issue,,request_account_help,inquiry_answered_info_shared,unclear,unknown,Account authentication or OTP issue.
+82,TK-246575,email,VA-EB-PL2,Account & Login,Email Frontline,"hello vireo, order vr885233 (the pulse 2 earbuds). otp not comig on my number. i tried on anoother browser. please help. rgds",unable to log in | checked otp logs -> account unlocked (sop 5.4) ~Kavya,standard,account_login_issue,,request_account_help,inquiry_answered_info_shared,unclear,unknown,Account authentication or OTP issue.
+83,TK-240075,chat,VA-EB-AIR,Account & Login,Chat Frontline,cannot login to my account. VR881825. please resolve asap,"OTP resent, cx logged in. Issue: OTP not received. Checked OTP logs. -TS",standard,account_login_issue,,request_account_help,inquiry_answered_info_shared,unclear,unknown,Account authentication or OTP issue.
+84,TK-243865,voice,VA-HP-ST3,Audio Quality,Voice Frontline,"[IVR transcript] Very poor quality. the strrata 3 purchased 2 weeks ago, oredr VR883670. only one side plays sound. I ALREDY REET THE BUDS. I want a replacemment or refund, nothing else.",cx: right side silent | chk balance settings with cx -> esc to wty,standard,refund_not_credited,,request_replacement,inquiry_answered_info_shared,yes,unknown,Customer complaining that refund has not been credited.
+85,TK-243027,chat,VA-NB-ARC,Audio Quality,Chat Frontline,"DEAR SIR/MADAM,
+
+I AM WRITING WITH REFERENCE TO MY ORDER OF THE NECKBAND (VR906468) PLACED ON 04 APR. People cannot hear me on calls. I have checked mic permissions. I request u to kindly arrange a replacement.
+
+Sincerely,
+Manish Shah","Reported: low mic pickup. Checked mic permissions on phone. Transferred to Escalations & Warranty. Permissions fixed, resolved. ~Vivaan",standard,mic_not_working,,request_replacement,transferred_internal,no,unknown,Microphone failure during calls.
+86,TK-247455,social,VA-EB-AIR,Audio Quality,Chat Frontline,"hi
+sounds like a badly tuned radio now
+the airlite buds
+hello??","Contact re audio distortion. Asked for a recording. FW update, cx to monitor. (SOP 4.2)",standard,audio_distortion_buzzing,,request_technical_support,troubleshooting_guided,unclear,customer_education_gap,Derived from category 'Audio Quality' due to minimal message text.
+87,TK-242673,chat,VA-SW-FIT,Billing & Payments,Billing,"To the Vireo Customer Care Team,
+
+I am wrtiing with reference to my order of my Nexa Fit band (VR901219) placed on 13-05-2025. Card chrged two times. I have checekd wiht bank. I request u to kinldy arrange a replacement.
+
+Regards,
+Rohan Gaikwad",see prev,standard,payment_failed_debited,,request_replacement,no_action_closed,yes,payment_gateway_sync_failure,Derived from category 'Billing & Payments' due to minimal message text.
+88,TK-241814,chat,VA-HP-ST3,Billing & Payments,Billing,"product: the strata 3
+order: vr907833
+purchased: may 02
+issue: please share invoice with gst number
+tried: tried different browser
+expected: replacement",see prev ~Diya,standard,mic_not_working,,request_replacement,inquiry_answered_info_shared,yes,unknown,Microphone failure during calls.
+89,TK-244958,chat,VA-EB-PL2,Billing & Payments,Billing,Honestly regretting this purchase. Got pulse 2 buds from Flipkart recently. my company accounts team is asking for the tax bill. I already checked orders page. Escalate this to someone senior.,- ~Diya,standard,account_login_issue,,request_invoice_billing,unknown,unclear,unknown,Account authentication or OTP issue.
+90,TK-254182,chat,VA-EB-AIR,Delivery & Shipping,Logistics,"Hi, Order VR881065 (airlite earbuds). Typo in the flat number, courier will never find it. I tried editing in app. I want my money back. Thank you, Karan","cx reached out - address change request. checked dispatch status. already dispatched, advised to redirect with crr. cx satisfied on chat.",standard,app_crash_bug,,request_refund,inquiry_answered_info_shared,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+91,TK-249286,email,VA-AC-CASE,Delivery & Shipping,Logistics,"sir ji
+tracking has said out for delivery for a week now
+kal se
+replacement case VR895640","prev ticket closed, issue recurred. ticket raised for shipment not received. chk awb w/ crr. rto conf, reshipped. follow-up not required. [closed]",standard,delivery_delayed_not_received,,request_replacement,reshipped_carrier_claim,unclear,carrier_logistics_failure,Order delayed or tracking stuck.
+92,TK-242953,email,VA-SW-NX1,Delivery & Shipping,Logistics,"I have been a loyal customer and this is how you treat me.  I bought Nexa watch on 26/06. cancel order. I already tried cancel button, greyed out. Refund. Now.","customer reached out - cancel order. chk shipment status. refund approved, rs 4999, 5-7 working days. closing.",standard,cancellation_request,,request_refund,refund_processed,unclear,unknown,Cancellation request before delivery.
+93,TK-247627,chat,VA-SW-NX1,Returns & Refunds,Returns Desk,"Hello Vireo,
+Got Nexa watch from vireo.in around Diwali. Nobody came for the pickup.
+I called courier. Nothing changed.
+Not what I expected from Vireo.
+Need this sorted this week.
+Rgds, Deepak Kaur",Customer states pickup not done. Checked pickup AWB. Refund processed without pickup as goodwill.,standard,mic_not_working,,general_inquiry,refund_processed,unclear,unknown,Microphone failure during calls.
+94,TK-249104,chat,VA-EB-AIR,Returns & Refunds,Returns Desk,"Namaste, I bought airlite earbuds on Decemebr 26. Still waiitng for my refund. I checked bank. Nothing changed. Please call me on my registered number. Please revert,",Cx reported refund delay. chk reverse pickup QC status. Full refund processed (3598).,standard,refund_not_credited,,request_refund,refund_processed,unclear,unknown,Customer complaining that refund has not been credited.
+95,TK-240312,email,VA-EB-PL1,Returns & Refunds,Returns Desk,"hi team,
+this is regarding my pulse. still waiting for my refund.
+i emailed twice.
+what do i do now?
+thanks, diya bhatt",Customer reached out - refund delay. Checked refund status on PG. Refund reprocessed.,standard,refund_not_credited,,request_refund,refund_processed,yes,unknown,Derived from category 'Returns & Refunds' due to minimal message text.
+96,TK-250808,email,VA-EB-PL1,Returns & Refunds,Returns Desk,"Hi there, Bought pulse 1 around 04/02 from Amazon.  Where is the money for the return. Please resolve asap. Regards, Neha","1. Refund pending
+2. Checked refund status on PG
+3. Refund approved, Rs 2499, 5-7 working days",standard,refund_not_credited,,request_delivery_status,refund_processed,unclear,unknown,Derived from category 'Returns & Refunds' due to minimal message text.
+97,TK-243122,email,VA-SW-NX2,Charging & Battery,Email Frontline,"product: the nexa 2
+order: vr892770
+purchased: may 21
+issue: i have to charge it twice a day now, it used to lat days
+tried: updated the app
+expected: replacement",customer states rapid battery drain. checked fw 3.3.9. escalated to warranty.,standard,app_crash_bug,,request_replacement,escalated_to_tier2,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+98,TK-251260,chat,VA-NB-ARC,Charging & Battery,Chat Frontline,"Really frustrating.  Bought Arc neckband around 01-10-2025 from Amazon. battery drains very fast, barely lasts 2 hours. I already fully charged & discharged twice. Escalate this to someone senior",closed,standard,battery_drain_fast,,request_technical_support,no_action_closed,unclear,hardware_component_fault,Battery draining rapidly or poor backup.
+99,TK-243030,social,VA-SW-NX2,Charging & Battery,Chat Frontline,"hello
+battery drainiing even when not in use
+my nexa 2 watch VR892447
+hello??",as discusesd [closed],standard,battery_drain_fast,,request_technical_support,inquiry_answered_info_shared,unclear,hardware_component_fault,Battery draining rapidly or poor backup.
+100,TK-248120,voice,VA-EB-PL2,Charging & Battery,Voice Frontline,[IVR transcript] This is very disappointing. This is regarding pulse 2 buds. only one side plays sound. I already reset the buds. Escalate this to someone senior.,"cx unhappy, contacted earlier re same. reset resolved. issue: right side silent. walked through reset. ~Vihaan",standard,audio_silent_one_side,,request_technical_support,troubleshooting_guided,unclear,hardware_component_fault,Audio absent on one earbud.
+101,TK-252114,email,VA-EB-PL2,Connectivity,Email Frontline,"Hi there,
+This is regarding Pulse2. The pairing light blinks but nothing ever shows up on my Pixel.
+Please call me on my registered number.
+Please revert Yash","device not discoverable | asked cx to reset the device -> adv fw update via app, rslvd (SOP 5.4)",standard,bluetooth_pairing_failed,,request_technical_support,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+102,TK-246702,chat,VA-EB-PL2,Connectivity,Chat Frontline,the pairing light blinks but nothing ever shows up on my iphone. vr907470,"cx states pairing failure. asked cx to reset the device. xfer to escalations & wty. re-pair successful, rslvd on chat. will monitor.",standard,bluetooth_pairing_failed,,request_technical_support,transferred_internal,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+103,TK-250209,email,VA-EB-PL2,Connectivity,Email Frontline,"hi there,
+bought pulse 2 around 21-01-2026 from vireo.in. bluetooth pairing fails every time.
+i restarted the phone.
+kindly look into it.
+thank you,","cx reached out - pairing failure. chk phone OS version. Advised FW update via app, rslvd. ~Sukhwinder",standard,bluetooth_pairing_failed,,request_technical_support,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+104,TK-254571,voice,VA-SW-NX2,Connectivity,Voice Frontline,"Dear team,
+Bouught teh Nexa 2 arond 06-06-2026 from Amazon. It connects for a second and then vanishes frm the device list.
+I waant my money back.","adv FW update via app, resolved. Issue: device not discoverable. Checked phone OS version. (SOP 3.1)",standard,bluetooth_pairing_failed,,request_refund,troubleshooting_guided,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+105,TK-253458,email,VA-EB-PL2,Other,Email Frontline,"Hello,
+Ordered the Pulse 2 earbuds recently. I have to charge it twice a day now, it used to last days.
+I turned off always-on display. Nothing changed.
+Please help.
+Thank u Ankit",escalated to warranty. issue: battery draining fast. checked fw 2.7.5. (sop 4.2) ~Kavya,standard,unknown,,request_technical_support,escalated_to_tier2,unclear,unknown,Insufficient text to determine specific issue.
+106,TK-243138,chat,VA-SW-NX2,Other,Chat Frontline,"hey, same issue, third ticket. ordered nexa 2 a month ago. not pairing with my phone. i tried on another phone. nothing changed. please help. please revert saanvi","Reported: device not discoverable. Walked through forget + re-pair. xfer to Logistics. Reset done, paired ok.",standard,bluetooth_pairing_failed,,request_technical_support,transferred_internal,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+107,TK-244023,email,VA-NB-ARC,Other,Email Frontline,really frustrating. this is regarding arc neckband. i haven't received my order. i already called the courier. fix this or i am posting on twitter.,contact re shipment not received. checked awb with courier. refund initiated as lost in transit.,standard,mic_not_working,,request_delivery_status,refund_processed,unclear,unknown,Microphone failure during calls.
+108,TK-242765,chat,VA-SW-NX2,Other,Chat Frontline,"pathetic experience honestly. got nexa 2 from amazon 3 weeks back. i haven't received my order. i already checked the tracking page daily. i want a replacement or refund, nothing else.",resolved on call,standard,refund_not_credited,,request_replacement,inquiry_answered_info_shared,unclear,unknown,Customer complaining that refund has not been credited.
+109,TK-247490,chat,VA-SW-NX2,Product Enquiry,Chat Frontline,not what i expected from vireo. i bought my nexa 2 watch on 25/11. before i buy - will this talk to a 2019 samsung. escalate this to someone senior.,done [closed],standard,general_product_inquiry,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Derived from category 'Product Enquiry' due to minimal message text.
+110,TK-250678,voice,VA-EB-PL2,Product Enquiry,Voice Frontline,[IVR transcript] hi does my pulse 2 work w/ iphone urgent,cx reached out - product enquiry. shared spec sheet. query answered. ~Vihaan,standard,general_product_inquiry,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Derived from category 'Product Enquiry' due to minimal message text.
+111,TK-247782,chat,VA-EB-AIR,Product Enquiry,Chat Frontline,"Dear Sir/Madam,
+I bought the AirLite buds on 28 Nov.  Can I connect two the AirLite buds together.
+Please help.
+Rgds",re: pre-sales query | shared compatibility info -> query answered,standard,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+112,TK-241476,voice,VA-SP-MINI,Product Enquiry,Voice Frontline,Very poor quality. This is regarding the mini speaker. can I connect two the mini speaker together. Escalate ths to someone senior.,cx: product enquiry | shared compatibility info -> cx satisfied,standard,bluetooth_pairing_failed,,general_inquiry,inquiry_answered_info_shared,unclear,firmware_software_bug,Bluetooth connection or pairing failure.
+113,TK-253524,social,VA-EB-PL2,App & Firmware,Chat Frontline,"hello
+the progress bar has not moved since morning
+pulse 2
+pls reply",cx: fw update failed | asked cx to keep in case 30 min -> recovery successful (sop 2.7),standard,app_crash_bug,,general_inquiry,troubleshooting_guided,unclear,firmware_software_bug,Derived from category 'App & Firmware' due to minimal message text.
+114,TK-241195,chat,VA-NB-ARC,App & Firmware,Chat Frontline,"i have to charge it twice a day now, it used to last days
+how do i get this fixed?",closed -MI,standard,app_crash_bug,,request_technical_support,unknown,unclear,firmware_software_bug,Derived from category 'App & Firmware' due to minimal message text.
+115,TK-244197,social,VA-EB-PL2,App & Firmware,Chat Frontline,locked out of my own account since around diwali,see prev ~Kabir,standard,account_login_issue,,general_inquiry,inquiry_answered_info_shared,yes,unknown,Account authentication or OTP issue.
+116,TK-247372,email,VA-EB-PL2,App & Firmware,Email Frontline,"Hi, Ordered Pulse2 around Diwali. App crashes when I open devce settings. I updated phone. Need this sorted this week. Please revert,","Ticket raised for app crash on device page. Asked for phone model + OS. Bug logged, workaround shared. (SOP 5.4) ~Sukhwinder",standard,app_crash_bug,,general_inquiry,inquiry_answered_info_shared,unclear,firmware_software_bug,Companion app crash or firmware update bug.
+117,TK-254046,voice,VA-SW-NX1,Warranty & Repair,Escalations & Warranty,"[IVR transcript] Hello Vireo, Got Nexa watch from vireo.in 2 weeks ago. No update on my repair. I called service centre. Can someone fix this? Awaiting response Aishwarya Shinde","issue: warranty claim status | checked qc report -> cx updated, eta shhared",standard,bluetooth_pairing_failed,,request_technical_support,inquiry_answered_info_shared,yes,firmware_software_bug,Bluetooth connection or pairing failure.
+118,TK-252187,chat,VA-EB-PL2,Warranty & Repair,Escalations & Warranty,"Hi team, Order VR898178 (the Pulse 2 earbuds). Claim number RMA66066, anyone alive there?. I emailed twice. Nothing changed. Please help. Awaiting response","1. Warranty claim status
+2. Checked RMA status
+3. Replacement approved, reverse pickup arranged",standard,hardware_physical_defect,,request_technical_support,replacement_approved,yes,hardware_component_fault,Derived from category 'Warranty & Repair' due to minimal message text.
+119,TK-243419,voice,VA-SW-NX2,Warranty & Repair,Escalations & Warranty,"[IVR transcript] Dear Sir/Madam, I bought my Nexa 2 watch on 07/06.  I SENT THE UNIT IN 18 DAYS AGO AND HAVE HEARD NOTHING. I CALLED SERVICE CENTRE. PLEASE CALL ME ON MY REGISTERED NUMBER.","Ticket raised for warranty claim status. Checked RMA status. Cx updated, ETA shared. ~Vivaan",standard,mic_not_working,,general_inquiry,inquiry_answered_info_shared,unclear,unknown,Microphone failure during calls.
+120,TK-251540,email,VA-NB-ARC,Warranty & Repair,Escalations & Warranty,"Product: my Arc
+Order: VR881981
+Purchased: 02 Mar
+Issue: I sent the unit in 11 days ago and have heard nothing
+Tried: called service centre
+Expected: replacement","cx: repair status follow-up | followed up with service centre -> replacement approved, reverse pickup arranged",standard,mic_not_working,,request_replacement,replacement_approved,unclear,unknown,Microphone failure during calls.

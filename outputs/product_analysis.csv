@@ -1,0 +1,15 @@
+sku,product_name,family,orders_count,tickets_count,tickets_per_100_orders,refunds_count,refunds_total_inr,replacements_count,replacements_inventory_cost_inr,replacements_logistics_cost_inr,total_replacements_cost_inr,total_fulfillment_outflow_inr
+VA-SW-NX2,Nexa 2 Smartwatch,watch,1329,1253,94.28,265,1363349.0,119,291550.0,40460,332010.0,1695359.0
+VA-SP-MINI,Orbit Mini Speaker,speaker,951,845,88.85,150,284666.0,79,77420.0,26860,104280.0,388946.0
+VA-EB-PL2,Pulse 2 True Wireless Earbuds,earbuds,3948,3401,86.14,613,1557701.0,338,500240.0,114920,615160.0,2172861.0
+VA-HP-ST3,Strata 3 Over-Ear Headphones,headphones,1064,915,86.0,145,769063.0,85,225250.0,28900,254150.0,1023213.0
+VA-AC-CASE,Pulse Charging Case (spare),accessory,305,248,81.31,59,57048.0,12,7440.0,4080,11520.0,68568.0
+VA-SW-FIT,Nexa Fit Band,watch,877,660,75.26,117,198196.0,77,65450.0,26180,91630.0,289826.0
+VA-EB-AIR,AirLite Earbuds,earbuds,1423,1030,72.38,141,215795.0,111,84360.0,37740,122100.0,337895.0
+VA-EB-PL1,Pulse True Wireless Earbuds,earbuds,2102,1518,72.22,249,479018.0,174,194880.0,59160,254040.0,733058.0
+VA-NB-ARC,Arc Neckband,earbuds,573,394,68.76,55,54890.0,46,24840.0,15640,40480.0,95370.0
+VA-AC-CH65,65W GaN Charger,accessory,309,211,68.28,55,57592.0,16,9760.0,5440,15200.0,72792.0
+VA-HP-ST2,Strata 2 Over-Ear Headphones,headphones,622,423,68.01,76,284639.0,40,84000.0,13600,97600.0,382239.0
+VA-SP-ORB,Orbit Smart Speaker,speaker,752,503,66.89,84,389397.0,49,112700.0,16660,129360.0,518757.0
+VA-SW-NX1,Nexa Smartwatch,watch,602,384,63.79,72,273645.0,47,89300.0,15980,105280.0,378925.0
+VA-AC-CBL,USB-C Braided Cable,accessory,143,90,62.94,24,7920.0,9,810.0,3060,3870.0,11790.0

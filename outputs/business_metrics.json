@@ -1,7 +1,8 @@
 {
-  "timestamp": "2026-10-01T19:44:20.576964+05:30",
+  "analysis_timestamp": "2026-10-01T22:13:08.873291+05:30",
   "total_analyzed_tickets": 11875,
   "volume_trends": {
+    "total_tickets": 11875,
     "monthly_volume": {
       "2025-01": 289,
       "2025-02": 311,
@@ -22,104 +23,240 @@
       "2026-05": 857,
       "2026-06": 786
     },
-    "weekly_volume": {
-      "2024-12-30/2025-01-05": 47,
-      "2025-01-06/2025-01-12": 54,
-      "2025-01-13/2025-01-19": 59,
-      "2025-01-20/2025-01-26": 82,
-      "2025-01-27/2025-02-02": 67,
-      "2025-02-03/2025-02-09": 78,
-      "2025-02-10/2025-02-16": 68,
-      "2025-02-17/2025-02-23": 83,
-      "2025-02-24/2025-03-02": 80,
-      "2025-03-03/2025-03-09": 96,
-      "2025-03-10/2025-03-16": 88,
-      "2025-03-17/2025-03-23": 99,
-      "2025-03-24/2025-03-30": 98,
-      "2025-03-31/2025-04-06": 86,
-      "2025-04-07/2025-04-13": 80,
-      "2025-04-14/2025-04-20": 91,
-      "2025-04-21/2025-04-27": 108,
-      "2025-04-28/2025-05-04": 98,
-      "2025-05-05/2025-05-11": 108,
-      "2025-05-12/2025-05-18": 89,
-      "2025-05-19/2025-05-25": 110,
-      "2025-05-26/2025-06-01": 107,
-      "2025-06-02/2025-06-08": 93,
-      "2025-06-09/2025-06-15": 100,
-      "2025-06-16/2025-06-22": 108,
-      "2025-06-23/2025-06-29": 87,
-      "2025-06-30/2025-07-06": 102,
-      "2025-07-07/2025-07-13": 94,
-      "2025-07-14/2025-07-20": 101,
-      "2025-07-21/2025-07-27": 114,
-      "2025-07-28/2025-08-03": 130,
-      "2025-08-04/2025-08-10": 124,
-      "2025-08-11/2025-08-17": 172,
-      "2025-08-18/2025-08-24": 153,
-      "2025-08-25/2025-08-31": 171,
-      "2025-09-01/2025-09-07": 182,
-      "2025-09-08/2025-09-14": 184,
-      "2025-09-15/2025-09-21": 153,
-      "2025-09-22/2025-09-28": 167,
-      "2025-09-29/2025-10-05": 169,
-      "2025-10-06/2025-10-12": 203,
-      "2025-10-13/2025-10-19": 216,
-      "2025-10-20/2025-10-26": 215,
-      "2025-10-27/2025-11-02": 224,
-      "2025-11-03/2025-11-09": 228,
-      "2025-11-10/2025-11-16": 213,
-      "2025-11-17/2025-11-23": 240,
-      "2025-11-24/2025-11-30": 232,
-      "2025-12-01/2025-12-07": 230,
-      "2025-12-08/2025-12-14": 197,
-      "2025-12-15/2025-12-21": 206,
-      "2025-12-22/2025-12-28": 196,
-      "2025-12-29/2026-01-04": 177,
-      "2026-01-05/2026-01-11": 200,
-      "2026-01-12/2026-01-18": 198,
-      "2026-01-19/2026-01-25": 196,
-      "2026-01-26/2026-02-01": 188,
-      "2026-02-02/2026-02-08": 180,
-      "2026-02-09/2026-02-15": 178,
-      "2026-02-16/2026-02-22": 190,
-      "2026-02-23/2026-03-01": 204,
-      "2026-03-02/2026-03-08": 184,
-      "2026-03-09/2026-03-15": 201,
-      "2026-03-16/2026-03-22": 184,
-      "2026-03-23/2026-03-29": 194,
-      "2026-03-30/2026-04-05": 190,
-      "2026-04-06/2026-04-12": 203,
-      "2026-04-13/2026-04-19": 201,
-      "2026-04-20/2026-04-26": 189,
-      "2026-04-27/2026-05-03": 174,
-      "2026-05-04/2026-05-10": 157,
-      "2026-05-11/2026-05-17": 231,
-      "2026-05-18/2026-05-24": 204,
-      "2026-05-25/2026-05-31": 186,
-      "2026-06-01/2026-06-07": 171,
-      "2026-06-08/2026-06-14": 203,
-      "2026-06-15/2026-06-21": 167,
-      "2026-06-22/2026-06-28": 199,
-      "2026-06-29/2026-07-05": 46
-    },
-    "weekly_stats": {
-      "mean": 150.32,
-      "std": 55.33,
-      "median": 171.0,
-      "min": 46,
-      "max": 240,
-      "total_weeks": 79
-    },
     "monthly_stats": {
+      "total_months": 18,
       "mean": 659.72,
       "median": 743.5,
       "min": 289,
       "max": 983,
-      "total_months": 18
+      "std": 226.26
+    },
+    "weekly_volume": {
+      "2025-W01": 47,
+      "2025-W02": 54,
+      "2025-W03": 59,
+      "2025-W04": 82,
+      "2025-W05": 67,
+      "2025-W06": 78,
+      "2025-W07": 68,
+      "2025-W08": 83,
+      "2025-W09": 80,
+      "2025-W10": 96,
+      "2025-W11": 88,
+      "2025-W12": 99,
+      "2025-W13": 98,
+      "2025-W14": 86,
+      "2025-W15": 80,
+      "2025-W16": 91,
+      "2025-W17": 108,
+      "2025-W18": 98,
+      "2025-W19": 108,
+      "2025-W20": 89,
+      "2025-W21": 110,
+      "2025-W22": 107,
+      "2025-W23": 93,
+      "2025-W24": 100,
+      "2025-W25": 108,
+      "2025-W26": 87,
+      "2025-W27": 102,
+      "2025-W28": 94,
+      "2025-W29": 101,
+      "2025-W30": 114,
+      "2025-W31": 130,
+      "2025-W32": 124,
+      "2025-W33": 172,
+      "2025-W34": 153,
+      "2025-W35": 171,
+      "2025-W36": 182,
+      "2025-W37": 184,
+      "2025-W38": 153,
+      "2025-W39": 167,
+      "2025-W40": 169,
+      "2025-W41": 203,
+      "2025-W42": 216,
+      "2025-W43": 215,
+      "2025-W44": 224,
+      "2025-W45": 228,
+      "2025-W46": 213,
+      "2025-W47": 240,
+      "2025-W48": 232,
+      "2025-W49": 230,
+      "2025-W50": 197,
+      "2025-W51": 206,
+      "2025-W52": 196,
+      "2026-W01": 177,
+      "2026-W02": 200,
+      "2026-W03": 198,
+      "2026-W04": 196,
+      "2026-W05": 188,
+      "2026-W06": 180,
+      "2026-W07": 178,
+      "2026-W08": 190,
+      "2026-W09": 204,
+      "2026-W10": 184,
+      "2026-W11": 201,
+      "2026-W12": 184,
+      "2026-W13": 194,
+      "2026-W14": 190,
+      "2026-W15": 203,
+      "2026-W16": 201,
+      "2026-W17": 189,
+      "2026-W18": 174,
+      "2026-W19": 157,
+      "2026-W20": 231,
+      "2026-W21": 204,
+      "2026-W22": 186,
+      "2026-W23": 171,
+      "2026-W24": 203,
+      "2026-W25": 167,
+      "2026-W26": 199,
+      "2026-W27": 46
+    },
+    "weekly_stats": {
+      "mean": 150.32,
+      "median": 171.0,
+      "min": 46,
+      "max": 240,
+      "std": 54.97
+    },
+    "by_channel": {
+      "chat": {
+        "count": 5161,
+        "percentage": 43.46
+      },
+      "email": {
+        "count": 3807,
+        "percentage": 32.06
+      },
+      "voice": {
+        "count": 1704,
+        "percentage": 14.35
+      },
+      "social": {
+        "count": 1203,
+        "percentage": 10.13
+      }
+    },
+    "by_status": {
+      "resolved": {
+        "count": 10159,
+        "percentage": 85.55
+      },
+      "closed": {
+        "count": 1107,
+        "percentage": 9.32
+      },
+      "open": {
+        "count": 376,
+        "percentage": 3.17
+      },
+      "pending": {
+        "count": 233,
+        "percentage": 1.96
+      }
+    },
+    "by_priority": {
+      "Normal": {
+        "count": 8479,
+        "percentage": 71.4
+      },
+      "High": {
+        "count": 2065,
+        "percentage": 17.39
+      },
+      "Low": {
+        "count": 1331,
+        "percentage": 11.21
+      }
+    },
+    "by_assigned_team": {
+      "Chat Frontline": {
+        "count": 3399,
+        "percentage": 28.62
+      },
+      "Logistics": {
+        "count": 2134,
+        "percentage": 17.97
+      },
+      "Email Frontline": {
+        "count": 1987,
+        "percentage": 16.73
+      },
+      "Billing": {
+        "count": 1624,
+        "percentage": 13.68
+      },
+      "Returns Desk": {
+        "count": 1197,
+        "percentage": 10.08
+      },
+      "Voice Frontline": {
+        "count": 914,
+        "percentage": 7.7
+      },
+      "Escalations & Warranty": {
+        "count": 620,
+        "percentage": 5.22
+      }
+    },
+    "by_source_system": {
+      "helpdesk": {
+        "count": 8766,
+        "percentage": 73.82
+      },
+      "legacy_fd": {
+        "count": 3109,
+        "percentage": 26.18
+      }
     }
   },
   "category_trends": {
+    "category_distribution": {
+      "Delivery & Shipping": {
+        "count": 2134,
+        "percentage": 17.97
+      },
+      "Other": {
+        "count": 1691,
+        "percentage": 14.24
+      },
+      "Billing & Payments": {
+        "count": 1624,
+        "percentage": 13.68
+      },
+      "Returns & Refunds": {
+        "count": 1197,
+        "percentage": 10.08
+      },
+      "Connectivity": {
+        "count": 1131,
+        "percentage": 9.52
+      },
+      "Charging & Battery": {
+        "count": 955,
+        "percentage": 8.04
+      },
+      "App & Firmware": {
+        "count": 822,
+        "percentage": 6.92
+      },
+      "Audio Quality": {
+        "count": 792,
+        "percentage": 6.67
+      },
+      "Warranty & Repair": {
+        "count": 620,
+        "percentage": 5.22
+      },
+      "Product Enquiry": {
+        "count": 593,
+        "percentage": 4.99
+      },
+      "Account & Login": {
+        "count": 316,
+        "percentage": 2.66
+      }
+    },
     "overall_categories": {
       "Delivery & Shipping": {
         "count": 2134,
@@ -166,253 +303,302 @@
         "percentage": 2.66
       }
     },
-    "h1_comparison": {
-      "h1_2025_total_tickets": 2275,
-      "h1_2026_total_tickets": 4919,
-      "baseline_ticket_growth_pct": 116.22,
-      "category_growth": {
-        "Account & Login": {
-          "h1_2025_count": 52,
-          "h1_2026_count": 140,
-          "absolute_growth": 88,
-          "growth_percentage": 169.23,
-          "share_h1_2025_pct": 2.29,
-          "share_h1_2026_pct": 2.85,
-          "trend": "Growing Faster than Baseline"
-        },
-        "App & Firmware": {
-          "h1_2025_count": 146,
-          "h1_2026_count": 384,
-          "absolute_growth": 238,
-          "growth_percentage": 163.01,
-          "share_h1_2025_pct": 6.42,
-          "share_h1_2026_pct": 7.81,
-          "trend": "Growing Faster than Baseline"
-        },
-        "Audio Quality": {
-          "h1_2025_count": 140,
-          "h1_2026_count": 371,
-          "absolute_growth": 231,
-          "growth_percentage": 165.0,
-          "share_h1_2025_pct": 6.15,
-          "share_h1_2026_pct": 7.54,
-          "trend": "Growing Faster than Baseline"
-        },
-        "Billing & Payments": {
-          "h1_2025_count": 324,
-          "h1_2026_count": 601,
-          "absolute_growth": 277,
-          "growth_percentage": 85.49,
-          "share_h1_2025_pct": 14.24,
-          "share_h1_2026_pct": 12.22,
-          "trend": "Declining in Relative Share"
-        },
-        "Charging & Battery": {
-          "h1_2025_count": 165,
-          "h1_2026_count": 448,
-          "absolute_growth": 283,
-          "growth_percentage": 171.52,
-          "share_h1_2025_pct": 7.25,
-          "share_h1_2026_pct": 9.11,
-          "trend": "Growing Faster than Baseline"
-        },
-        "Connectivity": {
-          "h1_2025_count": 198,
-          "h1_2026_count": 501,
-          "absolute_growth": 303,
-          "growth_percentage": 153.03,
-          "share_h1_2025_pct": 8.7,
-          "share_h1_2026_pct": 10.18,
-          "trend": "Growing Faster than Baseline"
-        },
-        "Delivery & Shipping": {
-          "h1_2025_count": 458,
-          "h1_2026_count": 854,
-          "absolute_growth": 396,
-          "growth_percentage": 86.46,
-          "share_h1_2025_pct": 20.13,
-          "share_h1_2026_pct": 17.36,
-          "trend": "Declining in Relative Share"
-        },
-        "Other": {
-          "h1_2025_count": 341,
-          "h1_2026_count": 670,
-          "absolute_growth": 329,
-          "growth_percentage": 96.48,
-          "share_h1_2025_pct": 14.99,
-          "share_h1_2026_pct": 13.62,
-          "trend": "Declining in Relative Share"
-        },
-        "Product Enquiry": {
-          "h1_2025_count": 109,
-          "h1_2026_count": 227,
-          "absolute_growth": 118,
-          "growth_percentage": 108.26,
-          "share_h1_2025_pct": 4.79,
-          "share_h1_2026_pct": 4.61,
-          "trend": "Declining in Relative Share"
-        },
-        "Returns & Refunds": {
-          "h1_2025_count": 226,
-          "h1_2026_count": 464,
-          "absolute_growth": 238,
-          "growth_percentage": 105.31,
-          "share_h1_2025_pct": 9.93,
-          "share_h1_2026_pct": 9.43,
-          "trend": "Declining in Relative Share"
-        },
-        "Warranty & Repair": {
-          "h1_2025_count": 116,
-          "h1_2026_count": 259,
-          "absolute_growth": 143,
-          "growth_percentage": 123.28,
-          "share_h1_2025_pct": 5.1,
-          "share_h1_2026_pct": 5.27,
-          "trend": "Growing Faster than Baseline"
-        }
+    "category_growth_h1_2025_vs_h1_2026": {
+      "Delivery & Shipping": {
+        "h1_2025_count": 458,
+        "h1_2026_count": 854,
+        "growth_percentage": 86.46
+      },
+      "Other": {
+        "h1_2025_count": 341,
+        "h1_2026_count": 670,
+        "growth_percentage": 96.48
+      },
+      "Billing & Payments": {
+        "h1_2025_count": 324,
+        "h1_2026_count": 601,
+        "growth_percentage": 85.49
+      },
+      "Returns & Refunds": {
+        "h1_2025_count": 226,
+        "h1_2026_count": 464,
+        "growth_percentage": 105.31
+      },
+      "Connectivity": {
+        "h1_2025_count": 198,
+        "h1_2026_count": 501,
+        "growth_percentage": 153.03
+      },
+      "Charging & Battery": {
+        "h1_2025_count": 165,
+        "h1_2026_count": 448,
+        "growth_percentage": 171.52
+      },
+      "App & Firmware": {
+        "h1_2025_count": 146,
+        "h1_2026_count": 384,
+        "growth_percentage": 163.01
+      },
+      "Audio Quality": {
+        "h1_2025_count": 140,
+        "h1_2026_count": 371,
+        "growth_percentage": 165.0
+      },
+      "Warranty & Repair": {
+        "h1_2025_count": 116,
+        "h1_2026_count": 259,
+        "growth_percentage": 123.28
+      },
+      "Product Enquiry": {
+        "h1_2025_count": 109,
+        "h1_2026_count": 227,
+        "growth_percentage": 108.26
+      },
+      "Account & Login": {
+        "h1_2025_count": 52,
+        "h1_2026_count": 140,
+        "growth_percentage": 169.23
       }
     }
   },
-  "product_complaint_metrics": {
+  "product_metrics": {
     "VA-EB-PL2": {
+      "sku": "VA-EB-PL2",
       "product_name": "Pulse 2 True Wireless Earbuds",
       "family": "earbuds",
-      "tickets": 3401,
+      "unit_cost_inr": 1480.0,
+      "retail_price_inr": 3499.0,
       "orders": 3948,
-      "units_sold": 4210,
-      "ticket_share_pct": 28.64,
+      "tickets": 3401,
       "tickets_per_100_orders": 86.14,
-      "tickets_per_100_units": 80.78
+      "refunds_count": 613,
+      "refunds_total_inr": 1557701.0,
+      "replacements_count": 338,
+      "replacements_inventory_cost_inr": 500240.0,
+      "replacements_logistics_cost_inr": 114920,
+      "total_replacements_cost_inr": 615160.0,
+      "total_fulfillment_outflow_inr": 2172861.0
     },
     "VA-EB-PL1": {
+      "sku": "VA-EB-PL1",
       "product_name": "Pulse True Wireless Earbuds",
       "family": "earbuds",
-      "tickets": 1518,
+      "unit_cost_inr": 1120.0,
+      "retail_price_inr": 2499.0,
       "orders": 2102,
-      "units_sold": 2258,
-      "ticket_share_pct": 12.78,
+      "tickets": 1518,
       "tickets_per_100_orders": 72.22,
-      "tickets_per_100_units": 67.23
-    },
-    "VA-SW-NX2": {
-      "product_name": "Nexa 2 Smartwatch",
-      "family": "watch",
-      "tickets": 1253,
-      "orders": 1329,
-      "units_sold": 1443,
-      "ticket_share_pct": 10.55,
-      "tickets_per_100_orders": 94.28,
-      "tickets_per_100_units": 86.83
+      "refunds_count": 249,
+      "refunds_total_inr": 479018.0,
+      "replacements_count": 174,
+      "replacements_inventory_cost_inr": 194880.0,
+      "replacements_logistics_cost_inr": 59160,
+      "total_replacements_cost_inr": 254040.0,
+      "total_fulfillment_outflow_inr": 733058.0
     },
     "VA-EB-AIR": {
+      "sku": "VA-EB-AIR",
       "product_name": "AirLite Earbuds",
       "family": "earbuds",
-      "tickets": 1030,
+      "unit_cost_inr": 760.0,
+      "retail_price_inr": 1799.0,
       "orders": 1423,
-      "units_sold": 1529,
-      "ticket_share_pct": 8.67,
+      "tickets": 1030,
       "tickets_per_100_orders": 72.38,
-      "tickets_per_100_units": 67.36
+      "refunds_count": 141,
+      "refunds_total_inr": 215795.0,
+      "replacements_count": 111,
+      "replacements_inventory_cost_inr": 84360.0,
+      "replacements_logistics_cost_inr": 37740,
+      "total_replacements_cost_inr": 122100.0,
+      "total_fulfillment_outflow_inr": 337895.0
     },
     "VA-HP-ST3": {
+      "sku": "VA-HP-ST3",
       "product_name": "Strata 3 Over-Ear Headphones",
       "family": "headphones",
-      "tickets": 915,
+      "unit_cost_inr": 2650.0,
+      "retail_price_inr": 6999.0,
       "orders": 1064,
-      "units_sold": 1145,
-      "ticket_share_pct": 7.71,
+      "tickets": 915,
       "tickets_per_100_orders": 86.0,
-      "tickets_per_100_units": 79.91
-    },
-    "VA-SP-MINI": {
-      "product_name": "Orbit Mini Speaker",
-      "family": "speaker",
-      "tickets": 845,
-      "orders": 951,
-      "units_sold": 1027,
-      "ticket_share_pct": 7.12,
-      "tickets_per_100_orders": 88.85,
-      "tickets_per_100_units": 82.28
-    },
-    "VA-SW-FIT": {
-      "product_name": "Nexa Fit Band",
-      "family": "watch",
-      "tickets": 660,
-      "orders": 877,
-      "units_sold": 930,
-      "ticket_share_pct": 5.56,
-      "tickets_per_100_orders": 75.26,
-      "tickets_per_100_units": 70.97
-    },
-    "VA-SP-ORB": {
-      "product_name": "Orbit Smart Speaker",
-      "family": "speaker",
-      "tickets": 503,
-      "orders": 752,
-      "units_sold": 796,
-      "ticket_share_pct": 4.24,
-      "tickets_per_100_orders": 66.89,
-      "tickets_per_100_units": 63.19
+      "refunds_count": 145,
+      "refunds_total_inr": 769063.0,
+      "replacements_count": 85,
+      "replacements_inventory_cost_inr": 225250.0,
+      "replacements_logistics_cost_inr": 28900,
+      "total_replacements_cost_inr": 254150.0,
+      "total_fulfillment_outflow_inr": 1023213.0
     },
     "VA-HP-ST2": {
+      "sku": "VA-HP-ST2",
       "product_name": "Strata 2 Over-Ear Headphones",
       "family": "headphones",
-      "tickets": 423,
+      "unit_cost_inr": 2100.0,
+      "retail_price_inr": 4999.0,
       "orders": 622,
-      "units_sold": 665,
-      "ticket_share_pct": 3.56,
+      "tickets": 423,
       "tickets_per_100_orders": 68.01,
-      "tickets_per_100_units": 63.61
+      "refunds_count": 76,
+      "refunds_total_inr": 284639.0,
+      "replacements_count": 40,
+      "replacements_inventory_cost_inr": 84000.0,
+      "replacements_logistics_cost_inr": 13600,
+      "total_replacements_cost_inr": 97600.0,
+      "total_fulfillment_outflow_inr": 382239.0
     },
-    "VA-NB-ARC": {
-      "product_name": "Arc Neckband",
-      "family": "earbuds",
-      "tickets": 394,
-      "orders": 573,
-      "units_sold": 604,
-      "ticket_share_pct": 3.32,
-      "tickets_per_100_orders": 68.76,
-      "tickets_per_100_units": 65.23
+    "VA-SP-ORB": {
+      "sku": "VA-SP-ORB",
+      "product_name": "Orbit Smart Speaker",
+      "family": "speaker",
+      "unit_cost_inr": 2300.0,
+      "retail_price_inr": 5999.0,
+      "orders": 752,
+      "tickets": 503,
+      "tickets_per_100_orders": 66.89,
+      "refunds_count": 84,
+      "refunds_total_inr": 389397.0,
+      "replacements_count": 49,
+      "replacements_inventory_cost_inr": 112700.0,
+      "replacements_logistics_cost_inr": 16660,
+      "total_replacements_cost_inr": 129360.0,
+      "total_fulfillment_outflow_inr": 518757.0
+    },
+    "VA-SP-MINI": {
+      "sku": "VA-SP-MINI",
+      "product_name": "Orbit Mini Speaker",
+      "family": "speaker",
+      "unit_cost_inr": 980.0,
+      "retail_price_inr": 2499.0,
+      "orders": 951,
+      "tickets": 845,
+      "tickets_per_100_orders": 88.85,
+      "refunds_count": 150,
+      "refunds_total_inr": 284666.0,
+      "replacements_count": 79,
+      "replacements_inventory_cost_inr": 77420.0,
+      "replacements_logistics_cost_inr": 26860,
+      "total_replacements_cost_inr": 104280.0,
+      "total_fulfillment_outflow_inr": 388946.0
+    },
+    "VA-SW-NX2": {
+      "sku": "VA-SW-NX2",
+      "product_name": "Nexa 2 Smartwatch",
+      "family": "watch",
+      "unit_cost_inr": 2450.0,
+      "retail_price_inr": 6499.0,
+      "orders": 1329,
+      "tickets": 1253,
+      "tickets_per_100_orders": 94.28,
+      "refunds_count": 265,
+      "refunds_total_inr": 1363349.0,
+      "replacements_count": 119,
+      "replacements_inventory_cost_inr": 291550.0,
+      "replacements_logistics_cost_inr": 40460,
+      "total_replacements_cost_inr": 332010.0,
+      "total_fulfillment_outflow_inr": 1695359.0
     },
     "VA-SW-NX1": {
+      "sku": "VA-SW-NX1",
       "product_name": "Nexa Smartwatch",
       "family": "watch",
-      "tickets": 384,
+      "unit_cost_inr": 1900.0,
+      "retail_price_inr": 4999.0,
       "orders": 602,
-      "units_sold": 640,
-      "ticket_share_pct": 3.23,
+      "tickets": 384,
       "tickets_per_100_orders": 63.79,
-      "tickets_per_100_units": 60.0
+      "refunds_count": 72,
+      "refunds_total_inr": 273645.0,
+      "replacements_count": 47,
+      "replacements_inventory_cost_inr": 89300.0,
+      "replacements_logistics_cost_inr": 15980,
+      "total_replacements_cost_inr": 105280.0,
+      "total_fulfillment_outflow_inr": 378925.0
     },
-    "VA-AC-CASE": {
-      "product_name": "Pulse Charging Case (spare)",
-      "family": "accessory",
-      "tickets": 248,
-      "orders": 305,
-      "units_sold": 317,
-      "ticket_share_pct": 2.09,
-      "tickets_per_100_orders": 81.31,
-      "tickets_per_100_units": 78.23
+    "VA-SW-FIT": {
+      "sku": "VA-SW-FIT",
+      "product_name": "Nexa Fit Band",
+      "family": "watch",
+      "unit_cost_inr": 850.0,
+      "retail_price_inr": 1999.0,
+      "orders": 877,
+      "tickets": 660,
+      "tickets_per_100_orders": 75.26,
+      "refunds_count": 117,
+      "refunds_total_inr": 198196.0,
+      "replacements_count": 77,
+      "replacements_inventory_cost_inr": 65450.0,
+      "replacements_logistics_cost_inr": 26180,
+      "total_replacements_cost_inr": 91630.0,
+      "total_fulfillment_outflow_inr": 289826.0
+    },
+    "VA-NB-ARC": {
+      "sku": "VA-NB-ARC",
+      "product_name": "Arc Neckband",
+      "family": "earbuds",
+      "unit_cost_inr": 540.0,
+      "retail_price_inr": 1299.0,
+      "orders": 573,
+      "tickets": 394,
+      "tickets_per_100_orders": 68.76,
+      "refunds_count": 55,
+      "refunds_total_inr": 54890.0,
+      "replacements_count": 46,
+      "replacements_inventory_cost_inr": 24840.0,
+      "replacements_logistics_cost_inr": 15640,
+      "total_replacements_cost_inr": 40480.0,
+      "total_fulfillment_outflow_inr": 95370.0
     },
     "VA-AC-CH65": {
+      "sku": "VA-AC-CH65",
       "product_name": "65W GaN Charger",
       "family": "accessory",
-      "tickets": 211,
+      "unit_cost_inr": 610.0,
+      "retail_price_inr": 1499.0,
       "orders": 309,
-      "units_sold": 331,
-      "ticket_share_pct": 1.78,
+      "tickets": 211,
       "tickets_per_100_orders": 68.28,
-      "tickets_per_100_units": 63.75
+      "refunds_count": 55,
+      "refunds_total_inr": 57592.0,
+      "replacements_count": 16,
+      "replacements_inventory_cost_inr": 9760.0,
+      "replacements_logistics_cost_inr": 5440,
+      "total_replacements_cost_inr": 15200.0,
+      "total_fulfillment_outflow_inr": 72792.0
     },
     "VA-AC-CBL": {
+      "sku": "VA-AC-CBL",
       "product_name": "USB-C Braided Cable",
       "family": "accessory",
-      "tickets": 90,
+      "unit_cost_inr": 90.0,
+      "retail_price_inr": 399.0,
       "orders": 143,
-      "units_sold": 151,
-      "ticket_share_pct": 0.76,
+      "tickets": 90,
       "tickets_per_100_orders": 62.94,
-      "tickets_per_100_units": 59.6
+      "refunds_count": 24,
+      "refunds_total_inr": 7920.0,
+      "replacements_count": 9,
+      "replacements_inventory_cost_inr": 810.0,
+      "replacements_logistics_cost_inr": 3060,
+      "total_replacements_cost_inr": 3870.0,
+      "total_fulfillment_outflow_inr": 11790.0
+    },
+    "VA-AC-CASE": {
+      "sku": "VA-AC-CASE",
+      "product_name": "Pulse Charging Case (spare)",
+      "family": "accessory",
+      "unit_cost_inr": 620.0,
+      "retail_price_inr": 1299.0,
+      "orders": 305,
+      "tickets": 248,
+      "tickets_per_100_orders": 81.31,
+      "refunds_count": 59,
+      "refunds_total_inr": 57048.0,
+      "replacements_count": 12,
+      "replacements_inventory_cost_inr": 7440.0,
+      "replacements_logistics_cost_inr": 4080,
+      "total_replacements_cost_inr": 11520.0,
+      "total_fulfillment_outflow_inr": 68568.0
     }
   },
   "outcomes_and_sla_metrics": {
@@ -420,6 +606,7 @@
       "total_tickets": 11875,
       "refund_tickets": 2105,
       "refund_percentage": 17.73,
+      "total_refund_amount_inr": 5992919.0,
       "replacement_tickets": 1202,
       "replacement_percentage": 10.12,
       "tickets_with_transfers": 1040,
@@ -428,8 +615,7 @@
       "transfer_handling_cost_inr": 356545,
       "sla_breach_tickets": 1051,
       "sla_breach_percentage": 8.85,
-      "total_sla_breach_cost_inr": 367850,
-      "total_refund_amount_inr": 5992919.0
+      "total_sla_breach_cost_inr": 367850
     },
     "channel_sla_performance": {
       "chat": {
@@ -442,8 +628,8 @@
         "avg_response_minutes": 6.42,
         "median_response_minutes": 4.0
       },
-      "voice": {
-        "channel": "voice",
+      "voice callback": {
+        "channel": "voice callback",
         "target_minutes": 120,
         "total_tickets": 1704,
         "breaches": 96,
@@ -471,391 +657,361 @@
         "store_credit_cost_inr": 154000,
         "avg_response_minutes": 246.59,
         "median_response_minutes": 165.0
+      },
+      "voice": {
+        "channel": "voice callback",
+        "target_minutes": 120,
+        "total_tickets": 1704,
+        "breaches": 96,
+        "breach_percentage": 5.63,
+        "store_credit_cost_inr": 33600,
+        "avg_response_minutes": 46.96,
+        "median_response_minutes": 32.0
       }
     }
   },
   "repeat_contact_metrics": {
     "repeat_definitions_comparison": {
       "method_a": {
-        "name": "Method A: Same Customer + Same Product SKU",
-        "description": "Customer contacts again regarding the same physical product within 30 days of resolution. Most appropriate operational proxy for hardware support.",
-        "repeat_tickets_count": 3270,
-        "repeat_tickets_percentage": 27.54,
-        "additional_contact_cost_inr": 878120
-      },
-      "method_b": {
-        "name": "Method B: Same Customer + Same Product SKU + Same Category",
-        "description": "Customer contacts again with the exact same category tag on the same product within 30 days. Strictest conservative lower bound.",
+        "name": "Method A \u2014 Strict Issue Proxy",
+        "method_key": "a",
+        "description": "Same customer, same product/SKU, same category within 30 days of resolution.",
+        "limitations": "Category is an issue proxy, not ground truth, because agents may re-tag tickets upon closure.",
         "repeat_tickets_count": 1412,
         "repeat_tickets_percentage": 11.89,
-        "additional_contact_cost_inr": 367030
+        "channel_breakdown": {
+          "chat": {
+            "count": 639,
+            "observed_cost_inr": 134190
+          },
+          "email": {
+            "count": 490,
+            "observed_cost_inr": 127400
+          },
+          "voice": {
+            "count": 134,
+            "observed_cost_inr": 69680
+          },
+          "social": {
+            "count": 149,
+            "observed_cost_inr": 35760
+          }
+        },
+        "observed_contact_cost_inr": 367030,
+        "additional_contact_cost_inr": 367030,
+        "quarterly_observed_cost_inr": 61171.67,
+        "explicit_complaints_detected": 94,
+        "explicit_complaints_detected_pct": 81.74,
+        "potentially_avoidable_scenarios": {
+          "conservative_20pct_inr": 73406.0,
+          "moderate_35pct_inr": 128460.5,
+          "ambitious_50pct_inr": 183515.0,
+          "note": "Not all repeat contacts are avoidable. Avoidable savings require triage checklists and repeat alerts."
+        }
+      },
+      "method_b": {
+        "name": "Method B \u2014 Product Proxy",
+        "method_key": "b",
+        "description": "Same customer, same SKU within 30 days of resolution.",
+        "limitations": "Product-level repeat proxy, NOT exact same-issue detection. Captures cross-category escalation journeys.",
+        "repeat_tickets_count": 3270,
+        "repeat_tickets_percentage": 27.54,
+        "channel_breakdown": {
+          "chat": {
+            "count": 1446,
+            "observed_cost_inr": 303660
+          },
+          "email": {
+            "count": 1067,
+            "observed_cost_inr": 277420
+          },
+          "voice": {
+            "count": 412,
+            "observed_cost_inr": 214240
+          },
+          "social": {
+            "count": 345,
+            "observed_cost_inr": 82800
+          }
+        },
+        "observed_contact_cost_inr": 878120,
+        "additional_contact_cost_inr": 878120,
+        "quarterly_observed_cost_inr": 146353.33,
+        "explicit_complaints_detected": 98,
+        "explicit_complaints_detected_pct": 85.22,
+        "potentially_avoidable_scenarios": {
+          "conservative_20pct_inr": 175624.0,
+          "moderate_35pct_inr": 307342.0,
+          "ambitious_50pct_inr": 439060.0,
+          "note": "Not all repeat contacts are avoidable. Avoidable savings require triage checklists and repeat alerts."
+        }
+      },
+      "method_c": {
+        "name": "Method C \u2014 Text-Supported Issue Matching",
+        "method_key": "c",
+        "description": "Same customer, within 30 days, same SKU, and token overlap Jaccard >= 0.15.",
+        "limitations": "Deterministic text similarity. Fails when customers write brief procedural follow-ups rather than re-explaining symptoms.",
+        "repeat_tickets_count": 908,
+        "repeat_tickets_percentage": 7.65,
+        "channel_breakdown": {
+          "chat": {
+            "count": 449,
+            "observed_cost_inr": 94290
+          },
+          "email": {
+            "count": 323,
+            "observed_cost_inr": 83980
+          },
+          "voice": {
+            "count": 47,
+            "observed_cost_inr": 24440
+          },
+          "social": {
+            "count": 89,
+            "observed_cost_inr": 21360
+          }
+        },
+        "observed_contact_cost_inr": 224070,
+        "additional_contact_cost_inr": 224070,
+        "quarterly_observed_cost_inr": 37345.0,
+        "explicit_complaints_detected": 37,
+        "explicit_complaints_detected_pct": 32.17,
+        "potentially_avoidable_scenarios": {
+          "conservative_20pct_inr": 44814.0,
+          "moderate_35pct_inr": 78424.5,
+          "ambitious_50pct_inr": 112035.0,
+          "note": "Not all repeat contacts are avoidable. Avoidable savings require triage checklists and repeat alerts."
+        }
       },
       "method_d": {
-        "name": "Method D: Same Customer Any Contact",
-        "description": "Customer contacts again across any product or category within 30 days of resolution. Upper bound of customer re-contact volume.",
+        "name": "Method D \u2014 Customer-Level Baseline",
+        "method_key": "d",
+        "description": "Same customer contacts again within 30 days across any product or category.",
+        "limitations": "Upper bound of customer re-contact volume; includes unrelated subsequent inquiries.",
         "repeat_tickets_count": 3822,
         "repeat_tickets_percentage": 32.19,
-        "additional_contact_cost_inr": 1030450
+        "channel_breakdown": {
+          "chat": {
+            "count": 1681,
+            "observed_cost_inr": 353010
+          },
+          "email": {
+            "count": 1236,
+            "observed_cost_inr": 321360
+          },
+          "voice": {
+            "count": 496,
+            "observed_cost_inr": 257920
+          },
+          "social": {
+            "count": 409,
+            "observed_cost_inr": 98160
+          }
+        },
+        "observed_contact_cost_inr": 1030450,
+        "additional_contact_cost_inr": 1030450,
+        "quarterly_observed_cost_inr": 171741.67,
+        "explicit_complaints_detected": 98,
+        "explicit_complaints_detected_pct": 85.22,
+        "potentially_avoidable_scenarios": {
+          "conservative_20pct_inr": 206090.0,
+          "moderate_35pct_inr": 360657.5,
+          "ambitious_50pct_inr": 515225.0,
+          "note": "Not all repeat contacts are avoidable. Avoidable savings require triage checklists and repeat alerts."
+        }
       }
     },
-    "concentrations_method_a": {
-      "by_channel": {
-        "chat": {
-          "total_tickets": 5161,
-          "repeat_tickets": 1446,
-          "repeat_rate_pct": 28.02,
-          "repeat_cost_inr": 303660
-        },
-        "email": {
-          "total_tickets": 3807,
-          "repeat_tickets": 1067,
-          "repeat_rate_pct": 28.03,
-          "repeat_cost_inr": 277420
-        },
-        "social": {
-          "total_tickets": 1203,
-          "repeat_tickets": 345,
-          "repeat_rate_pct": 28.68,
-          "repeat_cost_inr": 82800
-        },
-        "voice": {
-          "total_tickets": 1704,
-          "repeat_tickets": 412,
-          "repeat_rate_pct": 24.18,
-          "repeat_cost_inr": 214240
-        }
-      },
-      "by_initial_assigned_team": {
-        "Billing": {
-          "total_tickets": 1624,
-          "repeat_tickets": 416,
-          "repeat_rate_pct": 25.62,
-          "repeat_cost_inr": 112760
-        },
-        "Chat Frontline": {
-          "total_tickets": 3399,
-          "repeat_tickets": 921,
-          "repeat_rate_pct": 27.1,
-          "repeat_cost_inr": 198450
-        },
-        "Email Frontline": {
-          "total_tickets": 1987,
-          "repeat_tickets": 519,
-          "repeat_rate_pct": 26.12,
-          "repeat_cost_inr": 134940
-        },
-        "Escalations & Warranty": {
-          "total_tickets": 620,
-          "repeat_tickets": 173,
-          "repeat_rate_pct": 27.9,
-          "repeat_cost_inr": 44430
-        },
-        "Logistics": {
-          "total_tickets": 2134,
-          "repeat_tickets": 609,
-          "repeat_rate_pct": 28.54,
-          "repeat_cost_inr": 165220
-        },
-        "Returns Desk": {
-          "total_tickets": 1197,
-          "repeat_tickets": 425,
-          "repeat_rate_pct": 35.51,
-          "repeat_cost_inr": 114680
-        },
-        "Voice Frontline": {
-          "total_tickets": 914,
-          "repeat_tickets": 207,
-          "repeat_rate_pct": 22.65,
-          "repeat_cost_inr": 107640
-        }
-      },
-      "by_resolving_team": {
-        "Billing": {
-          "total_tickets": 1662,
-          "repeat_tickets": 417,
-          "repeat_rate_pct": 25.09,
-          "repeat_cost_inr": 113850
-        },
-        "Chat Frontline": {
-          "total_tickets": 3341,
-          "repeat_tickets": 871,
-          "repeat_rate_pct": 26.07,
-          "repeat_cost_inr": 196180
-        },
-        "Email Frontline": {
-          "total_tickets": 1887,
-          "repeat_tickets": 528,
-          "repeat_rate_pct": 27.98,
-          "repeat_cost_inr": 133650
-        },
-        "Escalations & Warranty": {
-          "total_tickets": 752,
-          "repeat_tickets": 205,
-          "repeat_rate_pct": 27.26,
-          "repeat_cost_inr": 53080
-        },
-        "Logistics": {
-          "total_tickets": 2155,
-          "repeat_tickets": 619,
-          "repeat_rate_pct": 28.72,
-          "repeat_cost_inr": 167790
-        },
-        "Returns Desk": {
-          "total_tickets": 1273,
-          "repeat_tickets": 442,
-          "repeat_rate_pct": 34.72,
-          "repeat_cost_inr": 119280
-        },
-        "Voice Frontline": {
-          "total_tickets": 805,
-          "repeat_tickets": 188,
-          "repeat_rate_pct": 23.35,
-          "repeat_cost_inr": 94290
-        }
-      },
-      "by_category": {
-        "Account & Login": {
-          "total_tickets": 316,
-          "repeat_tickets": 55,
-          "repeat_rate_pct": 17.41,
-          "repeat_cost_inr": 14770
-        },
-        "App & Firmware": {
-          "total_tickets": 822,
-          "repeat_tickets": 249,
-          "repeat_rate_pct": 30.29,
-          "repeat_cost_inr": 64810
-        },
-        "Audio Quality": {
-          "total_tickets": 792,
-          "repeat_tickets": 228,
-          "repeat_rate_pct": 28.79,
-          "repeat_cost_inr": 60270
-        },
-        "Billing & Payments": {
-          "total_tickets": 1624,
-          "repeat_tickets": 416,
-          "repeat_rate_pct": 25.62,
-          "repeat_cost_inr": 112760
-        },
-        "Charging & Battery": {
-          "total_tickets": 955,
-          "repeat_tickets": 311,
-          "repeat_rate_pct": 32.57,
-          "repeat_cost_inr": 86790
-        },
-        "Connectivity": {
-          "total_tickets": 1131,
-          "repeat_tickets": 333,
-          "repeat_rate_pct": 29.44,
-          "repeat_cost_inr": 87520
-        },
-        "Delivery & Shipping": {
-          "total_tickets": 2134,
-          "repeat_tickets": 609,
-          "repeat_rate_pct": 28.54,
-          "repeat_cost_inr": 165220
-        },
-        "Other": {
-          "total_tickets": 1691,
-          "repeat_tickets": 383,
-          "repeat_rate_pct": 22.65,
-          "repeat_cost_inr": 102800
-        },
-        "Product Enquiry": {
-          "total_tickets": 593,
-          "repeat_tickets": 88,
-          "repeat_rate_pct": 14.84,
-          "repeat_cost_inr": 24070
-        },
-        "Returns & Refunds": {
-          "total_tickets": 1197,
-          "repeat_tickets": 425,
-          "repeat_rate_pct": 35.51,
-          "repeat_cost_inr": 114680
-        },
-        "Warranty & Repair": {
-          "total_tickets": 620,
-          "repeat_tickets": 173,
-          "repeat_rate_pct": 27.9,
-          "repeat_cost_inr": 44430
-        }
-      },
-      "by_transfers": {
-        "0": {
-          "total_tickets": 10835,
-          "repeat_tickets": 2970,
-          "repeat_rate_pct": 27.41,
-          "repeat_cost_inr": 798790
-        },
-        "1": {
-          "total_tickets": 911,
-          "repeat_tickets": 265,
-          "repeat_rate_pct": 29.09,
-          "repeat_cost_inr": 70840
-        },
-        "2": {
-          "total_tickets": 129,
-          "repeat_tickets": 35,
-          "repeat_rate_pct": 27.13,
-          "repeat_cost_inr": 8490
-        }
-      },
-      "by_product_sku": {
-        "VA-AC-CASE": {
-          "total_tickets": 248,
-          "repeat_tickets": 82,
-          "repeat_rate_pct": 33.06,
-          "repeat_cost_inr": 21280
-        },
-        "VA-AC-CBL": {
-          "total_tickets": 90,
-          "repeat_tickets": 33,
-          "repeat_rate_pct": 36.67,
-          "repeat_cost_inr": 8830
-        },
-        "VA-AC-CH65": {
-          "total_tickets": 211,
-          "repeat_tickets": 83,
-          "repeat_rate_pct": 39.34,
-          "repeat_cost_inr": 23150
-        },
-        "VA-EB-AIR": {
-          "total_tickets": 1030,
-          "repeat_tickets": 258,
-          "repeat_rate_pct": 25.05,
-          "repeat_cost_inr": 66920
-        },
-        "VA-EB-PL1": {
-          "total_tickets": 1518,
-          "repeat_tickets": 416,
-          "repeat_rate_pct": 27.4,
-          "repeat_cost_inr": 113240
-        },
-        "VA-EB-PL2": {
-          "total_tickets": 3401,
-          "repeat_tickets": 966,
-          "repeat_rate_pct": 28.4,
-          "repeat_cost_inr": 258570
-        },
-        "VA-HP-ST2": {
-          "total_tickets": 423,
-          "repeat_tickets": 110,
-          "repeat_rate_pct": 26.0,
-          "repeat_cost_inr": 29780
-        },
-        "VA-HP-ST3": {
-          "total_tickets": 915,
-          "repeat_tickets": 236,
-          "repeat_rate_pct": 25.79,
-          "repeat_cost_inr": 63660
-        },
-        "VA-NB-ARC": {
-          "total_tickets": 394,
-          "repeat_tickets": 92,
-          "repeat_rate_pct": 23.35,
-          "repeat_cost_inr": 24380
-        },
-        "VA-SP-MINI": {
-          "total_tickets": 845,
-          "repeat_tickets": 236,
-          "repeat_rate_pct": 27.93,
-          "repeat_cost_inr": 65100
-        },
-        "VA-SP-ORB": {
-          "total_tickets": 503,
-          "repeat_tickets": 129,
-          "repeat_rate_pct": 25.65,
-          "repeat_cost_inr": 34980
-        },
-        "VA-SW-FIT": {
-          "total_tickets": 660,
-          "repeat_tickets": 160,
-          "repeat_rate_pct": 24.24,
-          "repeat_cost_inr": 41690
-        },
-        "VA-SW-NX1": {
-          "total_tickets": 384,
-          "repeat_tickets": 90,
-          "repeat_rate_pct": 23.44,
-          "repeat_cost_inr": 24080
-        },
-        "VA-SW-NX2": {
-          "total_tickets": 1253,
-          "repeat_tickets": 379,
-          "repeat_rate_pct": 30.25,
-          "repeat_cost_inr": 102460
-        }
+    "explicit_repeat_complaints": {
+      "total_detected_in_messages": 115,
+      "patterns_used": [
+        "following up on (?:my )?earlier",
+        "still not fixed after your (?:last )?['\\\"]?resolution",
+        "already (?:contacted|complained|reported|raised)",
+        "reaching out again",
+        "contacting again",
+        "raised this \\d+ days? ago",
+        "told your colleague",
+        "already told",
+        "second time (?:contacting|reaching|writing)"
+      ],
+      "tickets_with_explicit_premature_resolution_complaint": 115,
+      "detection_by_method": {
+        "method_a_pct": 81.74,
+        "method_b_pct": 85.22,
+        "method_c_pct": 32.17,
+        "method_d_pct": 85.22
       }
     },
     "colleague_hypothesis_evaluation": {
-      "hypothesis_text": "Chat frontline reports customers repeatedly complaining 'I already told your colleague this'.",
-      "literal_phrase_matches_in_corpus": 0,
-      "actual_phrasing_in_customer_messages": "Customers repeatedly state 'raised this X ago and was told it was resolved' (88 tickets match 'raised this' / 'told it was resolved').",
-      "tickets_with_explicit_premature_resolution_complaint": 88,
-      "percentage_of_these_confirmed_as_method_a_repeats": 82.95,
-      "root_cause_finding": "The hypothesis is validated in substance: customers are returning because issues were marked resolved prematurely. Frontline agents perceive this as 'already told your colleague' because the customer is being forced to re-explain an unresolved defect to a new agent."
+      "hypothesis_text": "Customers contacting repeatedly saying 'I already told your colleague this'",
+      "literal_phrase_count": 0,
+      "tickets_with_explicit_premature_resolution_complaint": 115,
+      "percentage_of_these_confirmed_as_method_a_repeats": 81.74,
+      "conclusion": "Hypothesis supported in substance: while the literal phrase 'told your colleague' does not appear, 115 messages contain explicit protests about previous unresolved contacts. Method A detects 81.74% and Method B detects 85.22% of these cases."
     }
   },
-  "ranked_candidate_problems": [
+  "candidate_business_problems": [
     {
-      "rank": 1,
-      "title": "Repeat Contacts / High First-Contact Resolution (FCR) Failure",
-      "size": "3,270 tickets (27.54% of all tickets)",
-      "financial_impact": "Rs 878,120 in avoidable re-contact handling costs",
-      "confidence": "HIGH (measured directly on customer_id + product_sku within 30-day window per policy \u00a710)",
-      "actionability": "HIGH (targeted improvements in Returns Desk RMA flow, battery troubleshooting SOPs, and re-opening unresolved tickets)",
-      "evidence": "27.54% of tickets are repeat contacts within 30 days of resolution. Concentration is highest in Returns & Refunds (35.51% repeat rate, Rs 123K), Charging & Battery (32.57%, Rs 83K), and App & Firmware (30.29%, Rs 65K). Pulse 2 earbuds alone caused 966 repeat contacts (Rs 259K). 88 customer messages explicitly state 'raised this X ago and was told it was resolved'."
+      "candidate_id": "CAND-01",
+      "title": "Repeat Support Contacts & First-Contact Resolution (FCR) Breakdown",
+      "observed_volume": "3,270 tickets (Product Proxy: Method B) / 1,412 tickets (Strict Issue Proxy: Method A)",
+      "observed_rate": "27.54% (Method B) / 11.89% (Method A) of all support tickets",
+      "eighteen_month_cost": "Rs 878,120 (Method B) / Rs 367,030 (Method A)",
+      "quarterly_run_rate": "Rs 146,353.33/quarter (Method B) / Rs 61,171.67/quarter (Method A)",
+      "cost_type": "Observed handling cost calculated using Support Policy \u00a74 channel interaction rates",
+      "trend": "Upwards (+155.8% volume increase between H1 2025 and H1 2026 concurrent with overall ticket growth)",
+      "concentration": "Returns Desk (35.5% repeat rate under Method B), Charging & Battery (32.6%), Pulse 2 earbuds (966 repeats under Method B)",
+      "controllability_by_support": "High. Frontline diagnostic checklists, repeat alerts, and handover notes fall directly under support desk operations.",
+      "evidence_quality": "High. Deterministic timestamp sequence tracking within 30-day window per Support Policy \u00a710; validated by 115 explicit repeat complaint messages.",
+      "limitations": "Lack of explicit issue_id in database requires proxy definitions. Not all repeat contacts are avoidable.",
+      "operational_hypotheses": "Hypothesis: premature closure and inconsistent handover notes may contribute to repeat contacts; the available ticket data does not establish causality.",
+      "actionability": "Deploy automated repeat-contact banner alerts at intake and mandate diagnostic completion checklists before ticket resolution."
     },
     {
-      "rank": 2,
-      "title": "Product Quality & Complaint Concentration in Flagship Devices (Pulse 2 & Nexa 2)",
-      "size": "Pulse 2: 3,401 tickets (86.14 per 100 orders, 28.6% of all support tickets). Nexa 2: 1,253 tickets (94.28 per 100 orders, highest complaint rate in company).",
-      "financial_impact": "Combined Refunds: Rs 3,247,200 (Pulse 2: Rs 2.06M, Nexa 2: Rs 1.19M; represents 54.2% of all company refunds). Combined Replacements: Rs 1,200,400 (Pulse 2: Rs 788K, Nexa 2: Rs 413K; represents 55.1% of all company replacement costs). Total Direct Defect Financial Impact: Rs 4,447,600.",
-      "confidence": "HIGH (exact 1-to-1 order and SKU linkages from orders.csv and tickets.csv)",
-      "actionability": "HIGH (hardware vendor lot remediation, battery component redesign, firmware pairing update)",
-      "evidence": "Pulse 2 True Wireless Earbuds generated 3,401 tickets on 3,948 orders (86.14% complaint rate). Nexa 2 Smartwatch generated 1,253 tickets on 1,329 orders (94.28% complaint rate). Hardware defects (Charging & Battery, Audio Quality, Connectivity) grew +153% to +172% between H1 2025 and H1 2026."
+      "candidate_id": "CAND-02",
+      "title": "Hardware Defect Outflows & Complaint Concentration in Flagship Products (Pulse 2 & Nexa 2)",
+      "observed_volume": "4,654 tickets combined (Pulse 2: 3,401 tickets; Nexa 2: 1,253 tickets)",
+      "observed_rate": "39.19% of all support tickets; 86.14 complaints per 100 orders on Pulse 2, 94.28 per 100 orders on Nexa 2",
+      "eighteen_month_cost": "Rs 3,868,220.00 combined (Refunds: Rs 2,921,050.00 across 878 tickets; Replacements: Rs 947,170.00 across 457 units)",
+      "quarterly_run_rate": "Rs 644,703.33/quarter",
+      "cost_type": "Observed refunds from accounting records; replacement inventory unit cost plus policy logistics benchmark (Rs 340/unit)",
+      "trend": "Upwards (+153% to +172% in hardware defect categories: Charging & Battery, Audio Quality, Connectivity)",
+      "concentration": "Pulse 2 True Wireless Earbuds (Rs 2.17M outflow) and Nexa 2 Smartwatch (Rs 1.70M outflow). Represents 48.74% of all refund dollars.",
+      "controllability_by_support": "Low to indirect. Support operations cannot fix manufacturing or firmware defects directly, but controls symptom telemetry and return qualification.",
+      "evidence_quality": "High. Deterministic join between orders.csv and tickets.csv; verified accounting refund sums and replacement flags.",
+      "limitations": "Detailed supplier manufacturing batch codes and return inspection logs are not in the dataset.",
+      "operational_hypotheses": "Hypothesis: hardware lot defects and Bluetooth companion app instability drive high complaint rates; factory QA logs are needed to verify root cause.",
+      "actionability": "Provide structured defect telemetry to hardware engineering and implement interactive frontline pairing/charging triage to reduce false returns."
     },
     {
-      "rank": 3,
-      "title": "First-Response SLA Breaches & Store Credit Penalties",
-      "size": "1,051 tickets breached (8.85% of all tickets)",
-      "financial_impact": "Rs 367,850 in direct store credit payouts",
-      "confidence": "HIGH (exact timestamp difference between created_at and first_response_at vs policy SLA targets)",
-      "actionability": "HIGH (workforce re-scheduling and queue automation)",
-      "evidence": "Email Frontline had the highest breach rate at 11.56% (440 tickets, Rs 154,000 store credits). Chat Frontline had 424 breaches (8.22%, Rs 148,400). Voice callback had 96 breaches (5.63%, Rs 33,600). Social had 91 breaches (7.56%, Rs 31,850)."
+      "candidate_id": "CAND-03",
+      "title": "First-Response SLA Breaches & Store Credit Liabilities",
+      "observed_volume": "1,051 breached tickets",
+      "observed_rate": "8.85% of eligible tickets",
+      "eighteen_month_cost": "Rs 367,850",
+      "quarterly_run_rate": "Rs 61,308.33/quarter",
+      "cost_type": "Exact policy-mandated liability: Rs 350 store credit per breach under Support Policy \u00a73",
+      "trend": "Stable breach rate across quarters (7.8% to 11.2%), with highest breach rates in May-June 2026",
+      "concentration": "Email Frontline has highest breach rate (11.56%, 440 breaches, Rs 154,000 credit liability)",
+      "controllability_by_support": "High. Workforce shift scheduling, agent staffing, and queue routing are within support desk operational control.",
+      "evidence_quality": "High. Exact timestamp differences between created_at and first_response_at compared to policy targets.",
+      "limitations": "Measures only initial response; does not capture full resolution time or customer response delays.",
+      "operational_hypotheses": "Hypothesis: staffing imbalances across shifts and weekend queues may contribute to first-response breaches; schedule logs are needed to verify causality.",
+      "actionability": "Rebalance agent shifts between Bengaluru and Indore; deploy automated 15-minute queue expiration alerts."
     },
     {
-      "rank": 4,
-      "title": "Internal Team Transfer Inefficiencies & Routing Friction",
-      "size": "1,169 total transfers across 1,040 tickets (8.76% transfer rate)",
-      "financial_impact": "Rs 356,545 (@ Rs 305 re-handling cost per policy \u00a74)",
-      "confidence": "HIGH (tracked directly via helpdesk transfers field)",
-      "actionability": "MEDIUM (improving intake bot tag accuracy to ensure direct routing)",
-      "evidence": "1,040 tickets required internal hand-offs between teams, generating 1,169 transfers. Logistics and Returns Desk received the highest transfer volume from frontline agents."
+      "candidate_id": "CAND-04",
+      "title": "Internal Team Routing Friction & Transfer Re-handling Benchmark Cost",
+      "observed_volume": "1,169 total transfers across 1,040 tickets",
+      "observed_rate": "8.76% of tickets transferred",
+      "eighteen_month_cost": "Rs 356,545",
+      "quarterly_run_rate": "Rs 59,424.17/quarter",
+      "cost_type": "Benchmarked re-handling cost: Rs 305 per transfer based on Support Policy \u00a74",
+      "trend": "Concentrated in helpdesk period (transfers were not recorded in legacy_fd system)",
+      "concentration": "Chat Frontline (377 transfers) and Email Frontline (235 transfers) transferring to Escalations & Warranty and Logistics",
+      "controllability_by_support": "Moderate. Intake classification tags and automated routing rules can reduce misrouting.",
+      "evidence_quality": "Moderate to High. Direct integer count from helpdesk transfers field; cost is benchmarked rather than direct ledger outflow.",
+      "limitations": "Does not prove all transfers were unnecessary; transfers to Tier 2 are structurally required for warranty evaluations.",
+      "operational_hypotheses": "Hypothesis: customer misclassification at intake may increase transfer frequency; routing audit required to determine reducible share.",
+      "actionability": "Deploy intake triage classifier to route warranty claims and shipping issues directly to specialist queues on first touch."
     },
     {
-      "rank": 5,
-      "title": "Policy Leakage: Duplicate Fulfillment & Goodwill Cap Breaches",
-      "size": "103 orders with both refund & replacement; 38 goodwill refunds over Rs 500 cap",
-      "financial_impact": "~Rs 450,000 estimated duplicate payout and excess goodwill credits",
-      "confidence": "HIGH (direct cross-tabulation of refund amounts, reason codes, and replacement flags against orders)",
-      "actionability": "HIGH (hard software controls in helpdesk to disallow dual refund/replacement and enforce Rs 500 cap)",
-      "evidence": "Support Policy \u00a75 strictly prohibits both refund and replacement for the same order, yet 103 orders experienced dual fulfillment. Goodwill refunds averaged Rs 2,972 against a Rs 500 policy maximum."
+      "candidate_id": "CAND-05",
+      "title": "Payment Gateway Debit Failures & Billing Refund Drain (DUP-PAYMENT)",
+      "observed_volume": "531 refund tickets",
+      "observed_rate": "4.47% of all tickets (25.23% of all refund tickets)",
+      "eighteen_month_cost": "Rs 1,461,223.00",
+      "quarterly_run_rate": "Rs 243,537.17/quarter",
+      "cost_type": "Directly observed refund payouts from accounting records",
+      "trend": "Consistent throughout 18 months, mirroring e-commerce transaction volume peaks",
+      "concentration": "Billing Support team handles 100% of these cases; tickets typically have High or Urgent priority",
+      "controllability_by_support": "Low for support desk (requires payment gateway engineering and webhook reconciliation); high for customer communication.",
+      "evidence_quality": "High. Explicit refund reason code DUP-PAYMENT with exact refund amounts.",
+      "limitations": "Payment gateway server logs are not in the support ticket dataset.",
+      "operational_hypotheses": "Hypothesis: webhook dropped events during payment gateway authorization lead to customer accounts being debited without order creation.",
+      "actionability": "Escalate to payment gateway engineering for automated server-to-server transaction reconciliation."
     }
   ],
-  "recommendations": [
+  "ranked_candidate_problems": [
     {
-      "priority": 1,
-      "focus": "Repeat Contact Reduction & First-Contact Resolution (FCR) Improvement",
-      "measured_financial_impact": "Rs 878,120 contact handling cost",
-      "measured_volume": "3,270 repeat tickets (27.54% of all contacts)"
+      "candidate_id": "CAND-01",
+      "title": "Repeat Support Contacts & First-Contact Resolution (FCR) Breakdown",
+      "observed_volume": "3,270 tickets (Product Proxy: Method B) / 1,412 tickets (Strict Issue Proxy: Method A)",
+      "observed_rate": "27.54% (Method B) / 11.89% (Method A) of all support tickets",
+      "eighteen_month_cost": "Rs 878,120 (Method B) / Rs 367,030 (Method A)",
+      "quarterly_run_rate": "Rs 146,353.33/quarter (Method B) / Rs 61,171.67/quarter (Method A)",
+      "cost_type": "Observed handling cost calculated using Support Policy \u00a74 channel interaction rates",
+      "trend": "Upwards (+155.8% volume increase between H1 2025 and H1 2026 concurrent with overall ticket growth)",
+      "concentration": "Returns Desk (35.5% repeat rate under Method B), Charging & Battery (32.6%), Pulse 2 earbuds (966 repeats under Method B)",
+      "controllability_by_support": "High. Frontline diagnostic checklists, repeat alerts, and handover notes fall directly under support desk operations.",
+      "evidence_quality": "High. Deterministic timestamp sequence tracking within 30-day window per Support Policy \u00a710; validated by 115 explicit repeat complaint messages.",
+      "limitations": "Lack of explicit issue_id in database requires proxy definitions. Not all repeat contacts are avoidable.",
+      "operational_hypotheses": "Hypothesis: premature closure and inconsistent handover notes may contribute to repeat contacts; the available ticket data does not establish causality.",
+      "actionability": "Deploy automated repeat-contact banner alerts at intake and mandate diagnostic completion checklists before ticket resolution."
     },
     {
-      "priority": 2,
-      "focus": "Pulse 2 & Nexa 2 Quality Control & Defect Remediation",
-      "measured_financial_impact": "Rs 4,447,600 in refunds & replacements",
-      "measured_volume": "4,654 tickets across Pulse 2 and Nexa 2 (39.2% of all tickets)"
+      "candidate_id": "CAND-02",
+      "title": "Hardware Defect Outflows & Complaint Concentration in Flagship Products (Pulse 2 & Nexa 2)",
+      "observed_volume": "4,654 tickets combined (Pulse 2: 3,401 tickets; Nexa 2: 1,253 tickets)",
+      "observed_rate": "39.19% of all support tickets; 86.14 complaints per 100 orders on Pulse 2, 94.28 per 100 orders on Nexa 2",
+      "eighteen_month_cost": "Rs 3,868,220.00 combined (Refunds: Rs 2,921,050.00 across 878 tickets; Replacements: Rs 947,170.00 across 457 units)",
+      "quarterly_run_rate": "Rs 644,703.33/quarter",
+      "cost_type": "Observed refunds from accounting records; replacement inventory unit cost plus policy logistics benchmark (Rs 340/unit)",
+      "trend": "Upwards (+153% to +172% in hardware defect categories: Charging & Battery, Audio Quality, Connectivity)",
+      "concentration": "Pulse 2 True Wireless Earbuds (Rs 2.17M outflow) and Nexa 2 Smartwatch (Rs 1.70M outflow). Represents 48.74% of all refund dollars.",
+      "controllability_by_support": "Low to indirect. Support operations cannot fix manufacturing or firmware defects directly, but controls symptom telemetry and return qualification.",
+      "evidence_quality": "High. Deterministic join between orders.csv and tickets.csv; verified accounting refund sums and replacement flags.",
+      "limitations": "Detailed supplier manufacturing batch codes and return inspection logs are not in the dataset.",
+      "operational_hypotheses": "Hypothesis: hardware lot defects and Bluetooth companion app instability drive high complaint rates; factory QA logs are needed to verify root cause.",
+      "actionability": "Provide structured defect telemetry to hardware engineering and implement interactive frontline pairing/charging triage to reduce false returns."
+    },
+    {
+      "candidate_id": "CAND-03",
+      "title": "First-Response SLA Breaches & Store Credit Liabilities",
+      "observed_volume": "1,051 breached tickets",
+      "observed_rate": "8.85% of eligible tickets",
+      "eighteen_month_cost": "Rs 367,850",
+      "quarterly_run_rate": "Rs 61,308.33/quarter",
+      "cost_type": "Exact policy-mandated liability: Rs 350 store credit per breach under Support Policy \u00a73",
+      "trend": "Stable breach rate across quarters (7.8% to 11.2%), with highest breach rates in May-June 2026",
+      "concentration": "Email Frontline has highest breach rate (11.56%, 440 breaches, Rs 154,000 credit liability)",
+      "controllability_by_support": "High. Workforce shift scheduling, agent staffing, and queue routing are within support desk operational control.",
+      "evidence_quality": "High. Exact timestamp differences between created_at and first_response_at compared to policy targets.",
+      "limitations": "Measures only initial response; does not capture full resolution time or customer response delays.",
+      "operational_hypotheses": "Hypothesis: staffing imbalances across shifts and weekend queues may contribute to first-response breaches; schedule logs are needed to verify causality.",
+      "actionability": "Rebalance agent shifts between Bengaluru and Indore; deploy automated 15-minute queue expiration alerts."
+    },
+    {
+      "candidate_id": "CAND-04",
+      "title": "Internal Team Routing Friction & Transfer Re-handling Benchmark Cost",
+      "observed_volume": "1,169 total transfers across 1,040 tickets",
+      "observed_rate": "8.76% of tickets transferred",
+      "eighteen_month_cost": "Rs 356,545",
+      "quarterly_run_rate": "Rs 59,424.17/quarter",
+      "cost_type": "Benchmarked re-handling cost: Rs 305 per transfer based on Support Policy \u00a74",
+      "trend": "Concentrated in helpdesk period (transfers were not recorded in legacy_fd system)",
+      "concentration": "Chat Frontline (377 transfers) and Email Frontline (235 transfers) transferring to Escalations & Warranty and Logistics",
+      "controllability_by_support": "Moderate. Intake classification tags and automated routing rules can reduce misrouting.",
+      "evidence_quality": "Moderate to High. Direct integer count from helpdesk transfers field; cost is benchmarked rather than direct ledger outflow.",
+      "limitations": "Does not prove all transfers were unnecessary; transfers to Tier 2 are structurally required for warranty evaluations.",
+      "operational_hypotheses": "Hypothesis: customer misclassification at intake may increase transfer frequency; routing audit required to determine reducible share.",
+      "actionability": "Deploy intake triage classifier to route warranty claims and shipping issues directly to specialist queues on first touch."
+    },
+    {
+      "candidate_id": "CAND-05",
+      "title": "Payment Gateway Debit Failures & Billing Refund Drain (DUP-PAYMENT)",
+      "observed_volume": "531 refund tickets",
+      "observed_rate": "4.47% of all tickets (25.23% of all refund tickets)",
+      "eighteen_month_cost": "Rs 1,461,223.00",
+      "quarterly_run_rate": "Rs 243,537.17/quarter",
+      "cost_type": "Directly observed refund payouts from accounting records",
+      "trend": "Consistent throughout 18 months, mirroring e-commerce transaction volume peaks",
+      "concentration": "Billing Support team handles 100% of these cases; tickets typically have High or Urgent priority",
+      "controllability_by_support": "Low for support desk (requires payment gateway engineering and webhook reconciliation); high for customer communication.",
+      "evidence_quality": "High. Explicit refund reason code DUP-PAYMENT with exact refund amounts.",
+      "limitations": "Payment gateway server logs are not in the support ticket dataset.",
+      "operational_hypotheses": "Hypothesis: webhook dropped events during payment gateway authorization lead to customer accounts being debited without order creation.",
+      "actionability": "Escalate to payment gateway engineering for automated server-to-server transaction reconciliation."
     }
   ]
 }

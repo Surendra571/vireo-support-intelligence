@@ -1,0 +1,6 @@
+channel,sla_target_minutes,total_tickets,sla_breaches,sla_breach_pct,store_credit_cost_inr,avg_response_mins,median_response_mins
+chat,15,5161,424,8.22,148400,6.42,4.0
+voice callback,120,1704,96,5.63,33600,46.96,32.0
+social,240,1203,91,7.56,31850,98.8,68.0
+email,480,3807,440,11.56,154000,246.59,165.0
+voice,120,1704,96,5.63,33600,46.96,32.0

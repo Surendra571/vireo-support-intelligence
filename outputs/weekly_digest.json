@@ -1,0 +1,2037 @@
+{
+  "metadata": {
+    "generated_at": "2026-10-02T22:42:09.675683+05:30",
+    "target_week": "2026-W25",
+    "prior_week": "2026-W24",
+    "date_range": "2026-06-15 to 2026-06-21",
+    "is_complete_week": true,
+    "prompt_version": "digest_v1",
+    "narrative_engine": "vireo-deterministic-analyst-v1"
+  },
+  "target_week_metrics": {
+    "week": "2026-W25",
+    "date_range": "2026-06-15 to 2026-06-21",
+    "start_date": "2026-06-15",
+    "end_date": "2026-06-21",
+    "days_covered": 7,
+    "is_complete_week": true,
+    "total_tickets": 167,
+    "channel_breakdown": {
+      "chat": {
+        "count": 78,
+        "percentage": 46.71,
+        "unit_cost_inr": 210,
+        "total_cost_inr": 16380
+      },
+      "email": {
+        "count": 50,
+        "percentage": 29.94,
+        "unit_cost_inr": 260,
+        "total_cost_inr": 13000
+      },
+      "voice": {
+        "count": 21,
+        "percentage": 12.57,
+        "unit_cost_inr": 520,
+        "total_cost_inr": 10920
+      },
+      "social": {
+        "count": 18,
+        "percentage": 10.78,
+        "unit_cost_inr": 240,
+        "total_cost_inr": 4320
+      }
+    },
+    "top_categories": [
+      {
+        "category": "Delivery & Shipping",
+        "count": 31,
+        "percentage": 18.56
+      },
+      {
+        "category": "Other",
+        "count": 25,
+        "percentage": 14.97
+      },
+      {
+        "category": "Connectivity",
+        "count": 22,
+        "percentage": 13.17
+      },
+      {
+        "category": "Billing & Payments",
+        "count": 21,
+        "percentage": 12.57
+      },
+      {
+        "category": "Charging & Battery",
+        "count": 14,
+        "percentage": 8.38
+      },
+      {
+        "category": "Returns & Refunds",
+        "count": 12,
+        "percentage": 7.19
+      },
+      {
+        "category": "App & Firmware",
+        "count": 11,
+        "percentage": 6.59
+      },
+      {
+        "category": "Account & Login",
+        "count": 9,
+        "percentage": 5.39
+      },
+      {
+        "category": "Product Enquiry",
+        "count": 9,
+        "percentage": 5.39
+      },
+      {
+        "category": "Audio Quality",
+        "count": 8,
+        "percentage": 4.79
+      },
+      {
+        "category": "Warranty & Repair",
+        "count": 5,
+        "percentage": 2.99
+      }
+    ],
+    "top_primary_issues": [
+      {
+        "primary_issue": "delivery_delayed_not_received",
+        "count": 30,
+        "percentage": 17.96
+      },
+      {
+        "primary_issue": "bluetooth_pairing_failed",
+        "count": 23,
+        "percentage": 13.77
+      },
+      {
+        "primary_issue": "app_crash_bug",
+        "count": 18,
+        "percentage": 10.78
+      },
+      {
+        "primary_issue": "payment_failed_debited",
+        "count": 14,
+        "percentage": 8.38
+      },
+      {
+        "primary_issue": "account_login_issue",
+        "count": 13,
+        "percentage": 7.78
+      },
+      {
+        "primary_issue": "battery_drain_fast",
+        "count": 12,
+        "percentage": 7.19
+      },
+      {
+        "primary_issue": "earbud_not_charging",
+        "count": 9,
+        "percentage": 5.39
+      },
+      {
+        "primary_issue": "refund_not_credited",
+        "count": 8,
+        "percentage": 4.79
+      },
+      {
+        "primary_issue": "audio_distortion_buzzing",
+        "count": 8,
+        "percentage": 4.79
+      },
+      {
+        "primary_issue": "cancellation_request",
+        "count": 7,
+        "percentage": 4.19
+      },
+      {
+        "primary_issue": "unknown",
+        "count": 6,
+        "percentage": 3.59
+      },
+      {
+        "primary_issue": "general_product_inquiry",
+        "count": 6,
+        "percentage": 3.59
+      },
+      {
+        "primary_issue": "hardware_physical_defect",
+        "count": 6,
+        "percentage": 3.59
+      },
+      {
+        "primary_issue": "damaged_in_transit",
+        "count": 5,
+        "percentage": 2.99
+      },
+      {
+        "primary_issue": "mic_not_working",
+        "count": 1,
+        "percentage": 0.6
+      },
+      {
+        "primary_issue": "audio_silent_one_side",
+        "count": 1,
+        "percentage": 0.6
+      }
+    ],
+    "top_products": [
+      {
+        "sku": "VA-EB-PL2",
+        "product_name": "Pulse 2 True Wireless Earbuds",
+        "family": "earbuds",
+        "ticket_count": 69,
+        "percentage_of_week": 41.32,
+        "total_orders": 3948,
+        "complaint_rate_per_100_orders": 1.75,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-SW-NX2",
+        "product_name": "Nexa 2 Smartwatch",
+        "family": "watch",
+        "ticket_count": 18,
+        "percentage_of_week": 10.78,
+        "total_orders": 1329,
+        "complaint_rate_per_100_orders": 1.35,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-EB-PL1",
+        "product_name": "Pulse True Wireless Earbuds",
+        "family": "earbuds",
+        "ticket_count": 15,
+        "percentage_of_week": 8.98,
+        "total_orders": 2102,
+        "complaint_rate_per_100_orders": 0.71,
+        "top_primary_issue": "account_login_issue"
+      },
+      {
+        "sku": "VA-EB-AIR",
+        "product_name": "AirLite Earbuds",
+        "family": "earbuds",
+        "ticket_count": 12,
+        "percentage_of_week": 7.19,
+        "total_orders": 1423,
+        "complaint_rate_per_100_orders": 0.84,
+        "top_primary_issue": "bluetooth_pairing_failed"
+      },
+      {
+        "sku": "VA-SP-MINI",
+        "product_name": "Orbit Mini Speaker",
+        "family": "speaker",
+        "ticket_count": 10,
+        "percentage_of_week": 5.99,
+        "total_orders": 951,
+        "complaint_rate_per_100_orders": 1.05,
+        "top_primary_issue": "payment_failed_debited"
+      },
+      {
+        "sku": "VA-HP-ST3",
+        "product_name": "Strata 3 Over-Ear Headphones",
+        "family": "headphones",
+        "ticket_count": 8,
+        "percentage_of_week": 4.79,
+        "total_orders": 1064,
+        "complaint_rate_per_100_orders": 0.75,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-SW-FIT",
+        "product_name": "Nexa Fit Band",
+        "family": "watch",
+        "ticket_count": 6,
+        "percentage_of_week": 3.59,
+        "total_orders": 877,
+        "complaint_rate_per_100_orders": 0.68,
+        "top_primary_issue": "app_crash_bug"
+      },
+      {
+        "sku": "VA-SW-NX1",
+        "product_name": "Nexa Smartwatch",
+        "family": "watch",
+        "ticket_count": 5,
+        "percentage_of_week": 2.99,
+        "total_orders": 602,
+        "complaint_rate_per_100_orders": 0.83,
+        "top_primary_issue": "bluetooth_pairing_failed"
+      },
+      {
+        "sku": "VA-HP-ST2",
+        "product_name": "Strata 2 Over-Ear Headphones",
+        "family": "headphones",
+        "ticket_count": 5,
+        "percentage_of_week": 2.99,
+        "total_orders": 622,
+        "complaint_rate_per_100_orders": 0.8,
+        "top_primary_issue": "audio_distortion_buzzing"
+      },
+      {
+        "sku": "VA-SP-ORB",
+        "product_name": "Orbit Smart Speaker",
+        "family": "speaker",
+        "ticket_count": 5,
+        "percentage_of_week": 2.99,
+        "total_orders": 752,
+        "complaint_rate_per_100_orders": 0.66,
+        "top_primary_issue": "unknown"
+      },
+      {
+        "sku": "VA-AC-CASE",
+        "product_name": "Pulse Charging Case (spare)",
+        "family": "accessory",
+        "ticket_count": 4,
+        "percentage_of_week": 2.4,
+        "total_orders": 305,
+        "complaint_rate_per_100_orders": 1.31,
+        "top_primary_issue": "earbud_not_charging"
+      },
+      {
+        "sku": "VA-AC-CBL",
+        "product_name": "USB-C Braided Cable",
+        "family": "accessory",
+        "ticket_count": 4,
+        "percentage_of_week": 2.4,
+        "total_orders": 143,
+        "complaint_rate_per_100_orders": 2.8,
+        "top_primary_issue": "unknown"
+      },
+      {
+        "sku": "VA-NB-ARC",
+        "product_name": "Arc Neckband",
+        "family": "earbuds",
+        "ticket_count": 3,
+        "percentage_of_week": 1.8,
+        "total_orders": 573,
+        "complaint_rate_per_100_orders": 0.52,
+        "top_primary_issue": "bluetooth_pairing_failed"
+      },
+      {
+        "sku": "VA-AC-CH65",
+        "product_name": "65W GaN Charger",
+        "family": "accessory",
+        "ticket_count": 3,
+        "percentage_of_week": 1.8,
+        "total_orders": 309,
+        "complaint_rate_per_100_orders": 0.97,
+        "top_primary_issue": "earbud_not_charging"
+      }
+    ],
+    "repeat_contacts": {
+      "repeat_tickets_count": 44,
+      "repeat_contact_rate_pct": 26.35,
+      "repeat_channel_breakdown": {
+        "chat": {
+          "count": 19,
+          "cost_inr": 3990
+        },
+        "email": {
+          "count": 18,
+          "cost_inr": 4680
+        },
+        "voice": {
+          "count": 1,
+          "cost_inr": 520
+        },
+        "social": {
+          "count": 6,
+          "cost_inr": 1440
+        }
+      },
+      "additional_contact_cost_inr": 10630
+    },
+    "sla_performance": {
+      "total_breaches": 19,
+      "overall_breach_rate_pct": 11.38,
+      "channel_sla": {
+        "chat": {
+          "target_minutes": 15,
+          "tickets": 78,
+          "breaches": 4,
+          "breach_percentage": 5.13,
+          "store_credit_cost_inr": 1400
+        },
+        "voice": {
+          "target_minutes": 120,
+          "tickets": 21,
+          "breaches": 1,
+          "breach_percentage": 4.76,
+          "store_credit_cost_inr": 350
+        },
+        "social": {
+          "target_minutes": 240,
+          "tickets": 18,
+          "breaches": 5,
+          "breach_percentage": 27.78,
+          "store_credit_cost_inr": 1750
+        },
+        "email": {
+          "target_minutes": 480,
+          "tickets": 50,
+          "breaches": 9,
+          "breach_percentage": 18.0,
+          "store_credit_cost_inr": 3150
+        }
+      },
+      "store_credit_cost_inr": 6650
+    },
+    "outcomes": {
+      "refund_tickets_count": 39,
+      "refund_rate_pct": 23.35,
+      "total_refund_amount_inr": 119834.0,
+      "replacement_tickets_count": 14,
+      "replacement_rate_pct": 8.38,
+      "replacement_shipping_cost_inr": 4760,
+      "tickets_with_transfers": 18,
+      "transfer_rate_pct": 10.78,
+      "total_transfers_count": 21,
+      "transfer_handling_cost_inr": 6405
+    },
+    "operational_costs": {
+      "base_channel_handling_cost_inr": 44620,
+      "sla_breach_store_credit_cost_inr": 6650,
+      "repeat_contact_handling_cost_inr": 10630,
+      "internal_transfer_handling_cost_inr": 6405,
+      "replacement_shipping_cost_inr": 4760,
+      "direct_refund_payouts_inr": 119834.0,
+      "total_measurable_cost_inr": 182269.0
+    }
+  },
+  "prior_week_metrics": {
+    "week": "2026-W24",
+    "date_range": "2026-06-08 to 2026-06-14",
+    "start_date": "2026-06-08",
+    "end_date": "2026-06-14",
+    "days_covered": 7,
+    "is_complete_week": true,
+    "total_tickets": 203,
+    "channel_breakdown": {
+      "chat": {
+        "count": 88,
+        "percentage": 43.35,
+        "unit_cost_inr": 210,
+        "total_cost_inr": 18480
+      },
+      "email": {
+        "count": 67,
+        "percentage": 33.0,
+        "unit_cost_inr": 260,
+        "total_cost_inr": 17420
+      },
+      "voice": {
+        "count": 25,
+        "percentage": 12.32,
+        "unit_cost_inr": 520,
+        "total_cost_inr": 13000
+      },
+      "social": {
+        "count": 23,
+        "percentage": 11.33,
+        "unit_cost_inr": 240,
+        "total_cost_inr": 5520
+      }
+    },
+    "top_categories": [
+      {
+        "category": "Delivery & Shipping",
+        "count": 39,
+        "percentage": 19.21
+      },
+      {
+        "category": "Other",
+        "count": 35,
+        "percentage": 17.24
+      },
+      {
+        "category": "Audio Quality",
+        "count": 20,
+        "percentage": 9.85
+      },
+      {
+        "category": "Returns & Refunds",
+        "count": 18,
+        "percentage": 8.87
+      },
+      {
+        "category": "Warranty & Repair",
+        "count": 18,
+        "percentage": 8.87
+      },
+      {
+        "category": "Connectivity",
+        "count": 18,
+        "percentage": 8.87
+      },
+      {
+        "category": "App & Firmware",
+        "count": 16,
+        "percentage": 7.88
+      },
+      {
+        "category": "Billing & Payments",
+        "count": 16,
+        "percentage": 7.88
+      },
+      {
+        "category": "Charging & Battery",
+        "count": 14,
+        "percentage": 6.9
+      },
+      {
+        "category": "Product Enquiry",
+        "count": 5,
+        "percentage": 2.46
+      },
+      {
+        "category": "Account & Login",
+        "count": 4,
+        "percentage": 1.97
+      }
+    ],
+    "top_primary_issues": [
+      {
+        "primary_issue": "delivery_delayed_not_received",
+        "count": 40,
+        "percentage": 19.7
+      },
+      {
+        "primary_issue": "bluetooth_pairing_failed",
+        "count": 25,
+        "percentage": 12.32
+      },
+      {
+        "primary_issue": "app_crash_bug",
+        "count": 25,
+        "percentage": 12.32
+      },
+      {
+        "primary_issue": "refund_not_credited",
+        "count": 13,
+        "percentage": 6.4
+      },
+      {
+        "primary_issue": "audio_distortion_buzzing",
+        "count": 13,
+        "percentage": 6.4
+      },
+      {
+        "primary_issue": "unknown",
+        "count": 12,
+        "percentage": 5.91
+      },
+      {
+        "primary_issue": "payment_failed_debited",
+        "count": 12,
+        "percentage": 5.91
+      },
+      {
+        "primary_issue": "hardware_physical_defect",
+        "count": 12,
+        "percentage": 5.91
+      },
+      {
+        "primary_issue": "battery_drain_fast",
+        "count": 11,
+        "percentage": 5.42
+      },
+      {
+        "primary_issue": "earbud_not_charging",
+        "count": 10,
+        "percentage": 4.93
+      },
+      {
+        "primary_issue": "audio_silent_one_side",
+        "count": 7,
+        "percentage": 3.45
+      },
+      {
+        "primary_issue": "cancellation_request",
+        "count": 6,
+        "percentage": 2.96
+      },
+      {
+        "primary_issue": "mic_not_working",
+        "count": 5,
+        "percentage": 2.46
+      },
+      {
+        "primary_issue": "account_login_issue",
+        "count": 5,
+        "percentage": 2.46
+      },
+      {
+        "primary_issue": "damaged_in_transit",
+        "count": 4,
+        "percentage": 1.97
+      },
+      {
+        "primary_issue": "general_product_inquiry",
+        "count": 3,
+        "percentage": 1.48
+      }
+    ],
+    "top_products": [
+      {
+        "sku": "VA-EB-PL2",
+        "product_name": "Pulse 2 True Wireless Earbuds",
+        "family": "earbuds",
+        "ticket_count": 75,
+        "percentage_of_week": 36.95,
+        "total_orders": 3948,
+        "complaint_rate_per_100_orders": 1.9,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-EB-PL1",
+        "product_name": "Pulse True Wireless Earbuds",
+        "family": "earbuds",
+        "ticket_count": 25,
+        "percentage_of_week": 12.32,
+        "total_orders": 2102,
+        "complaint_rate_per_100_orders": 1.19,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-HP-ST3",
+        "product_name": "Strata 3 Over-Ear Headphones",
+        "family": "headphones",
+        "ticket_count": 19,
+        "percentage_of_week": 9.36,
+        "total_orders": 1064,
+        "complaint_rate_per_100_orders": 1.79,
+        "top_primary_issue": "bluetooth_pairing_failed"
+      },
+      {
+        "sku": "VA-SW-NX2",
+        "product_name": "Nexa 2 Smartwatch",
+        "family": "watch",
+        "ticket_count": 17,
+        "percentage_of_week": 8.37,
+        "total_orders": 1329,
+        "complaint_rate_per_100_orders": 1.28,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-EB-AIR",
+        "product_name": "AirLite Earbuds",
+        "family": "earbuds",
+        "ticket_count": 15,
+        "percentage_of_week": 7.39,
+        "total_orders": 1423,
+        "complaint_rate_per_100_orders": 1.05,
+        "top_primary_issue": "account_login_issue"
+      },
+      {
+        "sku": "VA-SP-MINI",
+        "product_name": "Orbit Mini Speaker",
+        "family": "speaker",
+        "ticket_count": 12,
+        "percentage_of_week": 5.91,
+        "total_orders": 951,
+        "complaint_rate_per_100_orders": 1.26,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-SW-FIT",
+        "product_name": "Nexa Fit Band",
+        "family": "watch",
+        "ticket_count": 9,
+        "percentage_of_week": 4.43,
+        "total_orders": 877,
+        "complaint_rate_per_100_orders": 1.03,
+        "top_primary_issue": "app_crash_bug"
+      },
+      {
+        "sku": "VA-SW-NX1",
+        "product_name": "Nexa Smartwatch",
+        "family": "watch",
+        "ticket_count": 7,
+        "percentage_of_week": 3.45,
+        "total_orders": 602,
+        "complaint_rate_per_100_orders": 1.16,
+        "top_primary_issue": "hardware_physical_defect"
+      },
+      {
+        "sku": "VA-AC-CH65",
+        "product_name": "65W GaN Charger",
+        "family": "accessory",
+        "ticket_count": 6,
+        "percentage_of_week": 2.96,
+        "total_orders": 309,
+        "complaint_rate_per_100_orders": 1.94,
+        "top_primary_issue": "earbud_not_charging"
+      },
+      {
+        "sku": "VA-SP-ORB",
+        "product_name": "Orbit Smart Speaker",
+        "family": "speaker",
+        "ticket_count": 6,
+        "percentage_of_week": 2.96,
+        "total_orders": 752,
+        "complaint_rate_per_100_orders": 0.8,
+        "top_primary_issue": "bluetooth_pairing_failed"
+      },
+      {
+        "sku": "VA-AC-CASE",
+        "product_name": "Pulse Charging Case (spare)",
+        "family": "accessory",
+        "ticket_count": 5,
+        "percentage_of_week": 2.46,
+        "total_orders": 305,
+        "complaint_rate_per_100_orders": 1.64,
+        "top_primary_issue": "delivery_delayed_not_received"
+      },
+      {
+        "sku": "VA-HP-ST2",
+        "product_name": "Strata 2 Over-Ear Headphones",
+        "family": "headphones",
+        "ticket_count": 4,
+        "percentage_of_week": 1.97,
+        "total_orders": 622,
+        "complaint_rate_per_100_orders": 0.64,
+        "top_primary_issue": "audio_silent_one_side"
+      },
+      {
+        "sku": "VA-NB-ARC",
+        "product_name": "Arc Neckband",
+        "family": "earbuds",
+        "ticket_count": 3,
+        "percentage_of_week": 1.48,
+        "total_orders": 573,
+        "complaint_rate_per_100_orders": 0.52,
+        "top_primary_issue": "bluetooth_pairing_failed"
+      }
+    ],
+    "repeat_contacts": {
+      "repeat_tickets_count": 58,
+      "repeat_contact_rate_pct": 28.57,
+      "repeat_channel_breakdown": {
+        "chat": {
+          "count": 28,
+          "cost_inr": 5880
+        },
+        "email": {
+          "count": 15,
+          "cost_inr": 3900
+        },
+        "voice": {
+          "count": 8,
+          "cost_inr": 4160
+        },
+        "social": {
+          "count": 7,
+          "cost_inr": 1680
+        }
+      },
+      "additional_contact_cost_inr": 15620
+    },
+    "sla_performance": {
+      "total_breaches": 21,
+      "overall_breach_rate_pct": 10.34,
+      "channel_sla": {
+        "chat": {
+          "target_minutes": 15,
+          "tickets": 88,
+          "breaches": 7,
+          "breach_percentage": 7.95,
+          "store_credit_cost_inr": 2450
+        },
+        "voice": {
+          "target_minutes": 120,
+          "tickets": 25,
+          "breaches": 0,
+          "breach_percentage": 0.0,
+          "store_credit_cost_inr": 0
+        },
+        "social": {
+          "target_minutes": 240,
+          "tickets": 23,
+          "breaches": 4,
+          "breach_percentage": 17.39,
+          "store_credit_cost_inr": 1400
+        },
+        "email": {
+          "target_minutes": 480,
+          "tickets": 67,
+          "breaches": 10,
+          "breach_percentage": 14.93,
+          "store_credit_cost_inr": 3500
+        }
+      },
+      "store_credit_cost_inr": 7350
+    },
+    "outcomes": {
+      "refund_tickets_count": 30,
+      "refund_rate_pct": 14.78,
+      "total_refund_amount_inr": 77355.0,
+      "replacement_tickets_count": 21,
+      "replacement_rate_pct": 10.34,
+      "replacement_shipping_cost_inr": 7140,
+      "tickets_with_transfers": 18,
+      "transfer_rate_pct": 8.87,
+      "total_transfers_count": 20,
+      "transfer_handling_cost_inr": 6100
+    },
+    "operational_costs": {
+      "base_channel_handling_cost_inr": 54420,
+      "sla_breach_store_credit_cost_inr": 7350,
+      "repeat_contact_handling_cost_inr": 15620,
+      "internal_transfer_handling_cost_inr": 6100,
+      "replacement_shipping_cost_inr": 7140,
+      "direct_refund_payouts_inr": 77355.0,
+      "total_measurable_cost_inr": 152365.0
+    }
+  },
+  "week_over_week_changes": {
+    "total_tickets": {
+      "current": 167,
+      "previous": 203,
+      "absolute_change": -36,
+      "percentage_change": -17.73
+    },
+    "repeat_rate_pct": {
+      "current": 26.35,
+      "previous": 28.57,
+      "percentage_point_diff": -2.22
+    },
+    "sla_breach_rate_pct": {
+      "current": 11.38,
+      "previous": 10.34,
+      "percentage_point_diff": 1.04
+    },
+    "refund_amount_inr": {
+      "current": 119834.0,
+      "previous": 77355.0,
+      "absolute_change": 42479.0,
+      "percentage_change": 54.91
+    },
+    "replacement_tickets": {
+      "current": 14,
+      "previous": 21,
+      "absolute_change": -7,
+      "percentage_change": -33.33
+    },
+    "total_transfers": {
+      "current": 21,
+      "previous": 20,
+      "absolute_change": 1,
+      "percentage_change": 5.0
+    },
+    "total_measurable_cost_inr": {
+      "current": 182269.0,
+      "previous": 152365.0,
+      "absolute_change": 29904.0,
+      "percentage_change": 19.63
+    },
+    "channel_changes": {
+      "chat": {
+        "current": 78,
+        "previous": 88,
+        "absolute_change": -10,
+        "percentage_change": -11.36
+      },
+      "email": {
+        "current": 50,
+        "previous": 67,
+        "absolute_change": -17,
+        "percentage_change": -25.37
+      },
+      "voice": {
+        "current": 21,
+        "previous": 25,
+        "absolute_change": -4,
+        "percentage_change": -16.0
+      },
+      "social": {
+        "current": 18,
+        "previous": 23,
+        "absolute_change": -5,
+        "percentage_change": -21.74
+      }
+    },
+    "category_changes": [
+      {
+        "category": "Delivery & Shipping",
+        "current": 31,
+        "previous": 39,
+        "absolute_change": -8,
+        "percentage_change": -20.51
+      },
+      {
+        "category": "Other",
+        "current": 25,
+        "previous": 35,
+        "absolute_change": -10,
+        "percentage_change": -28.57
+      },
+      {
+        "category": "Connectivity",
+        "current": 22,
+        "previous": 18,
+        "absolute_change": 4,
+        "percentage_change": 22.22
+      },
+      {
+        "category": "Billing & Payments",
+        "current": 21,
+        "previous": 16,
+        "absolute_change": 5,
+        "percentage_change": 31.25
+      },
+      {
+        "category": "Charging & Battery",
+        "current": 14,
+        "previous": 14,
+        "absolute_change": 0,
+        "percentage_change": 0.0
+      },
+      {
+        "category": "Returns & Refunds",
+        "current": 12,
+        "previous": 18,
+        "absolute_change": -6,
+        "percentage_change": -33.33
+      },
+      {
+        "category": "App & Firmware",
+        "current": 11,
+        "previous": 16,
+        "absolute_change": -5,
+        "percentage_change": -31.25
+      },
+      {
+        "category": "Account & Login",
+        "current": 9,
+        "previous": 4,
+        "absolute_change": 5,
+        "percentage_change": 125.0
+      },
+      {
+        "category": "Product Enquiry",
+        "current": 9,
+        "previous": 5,
+        "absolute_change": 4,
+        "percentage_change": 80.0
+      },
+      {
+        "category": "Audio Quality",
+        "current": 8,
+        "previous": 20,
+        "absolute_change": -12,
+        "percentage_change": -60.0
+      },
+      {
+        "category": "Warranty & Repair",
+        "current": 5,
+        "previous": 18,
+        "absolute_change": -13,
+        "percentage_change": -72.22
+      }
+    ],
+    "primary_issue_changes": [
+      {
+        "primary_issue": "delivery_delayed_not_received",
+        "current": 30,
+        "previous": 40,
+        "absolute_change": -10,
+        "percentage_change": -25.0
+      },
+      {
+        "primary_issue": "bluetooth_pairing_failed",
+        "current": 23,
+        "previous": 25,
+        "absolute_change": -2,
+        "percentage_change": -8.0
+      },
+      {
+        "primary_issue": "app_crash_bug",
+        "current": 18,
+        "previous": 25,
+        "absolute_change": -7,
+        "percentage_change": -28.0
+      },
+      {
+        "primary_issue": "payment_failed_debited",
+        "current": 14,
+        "previous": 12,
+        "absolute_change": 2,
+        "percentage_change": 16.67
+      },
+      {
+        "primary_issue": "account_login_issue",
+        "current": 13,
+        "previous": 5,
+        "absolute_change": 8,
+        "percentage_change": 160.0
+      },
+      {
+        "primary_issue": "battery_drain_fast",
+        "current": 12,
+        "previous": 11,
+        "absolute_change": 1,
+        "percentage_change": 9.09
+      },
+      {
+        "primary_issue": "earbud_not_charging",
+        "current": 9,
+        "previous": 10,
+        "absolute_change": -1,
+        "percentage_change": -10.0
+      },
+      {
+        "primary_issue": "refund_not_credited",
+        "current": 8,
+        "previous": 13,
+        "absolute_change": -5,
+        "percentage_change": -38.46
+      },
+      {
+        "primary_issue": "audio_distortion_buzzing",
+        "current": 8,
+        "previous": 13,
+        "absolute_change": -5,
+        "percentage_change": -38.46
+      },
+      {
+        "primary_issue": "cancellation_request",
+        "current": 7,
+        "previous": 6,
+        "absolute_change": 1,
+        "percentage_change": 16.67
+      },
+      {
+        "primary_issue": "unknown",
+        "current": 6,
+        "previous": 12,
+        "absolute_change": -6,
+        "percentage_change": -50.0
+      },
+      {
+        "primary_issue": "general_product_inquiry",
+        "current": 6,
+        "previous": 3,
+        "absolute_change": 3,
+        "percentage_change": 100.0
+      },
+      {
+        "primary_issue": "hardware_physical_defect",
+        "current": 6,
+        "previous": 12,
+        "absolute_change": -6,
+        "percentage_change": -50.0
+      },
+      {
+        "primary_issue": "damaged_in_transit",
+        "current": 5,
+        "previous": 4,
+        "absolute_change": 1,
+        "percentage_change": 25.0
+      },
+      {
+        "primary_issue": "mic_not_working",
+        "current": 1,
+        "previous": 5,
+        "absolute_change": -4,
+        "percentage_change": -80.0
+      },
+      {
+        "primary_issue": "audio_silent_one_side",
+        "current": 1,
+        "previous": 7,
+        "absolute_change": -6,
+        "percentage_change": -85.71
+      }
+    ],
+    "product_changes": [
+      {
+        "sku": "VA-EB-PL2",
+        "product_name": "Pulse 2 True Wireless Earbuds",
+        "current": 69,
+        "previous": 75,
+        "absolute_change": -6,
+        "percentage_change": -8.0
+      },
+      {
+        "sku": "VA-SW-NX2",
+        "product_name": "Nexa 2 Smartwatch",
+        "current": 18,
+        "previous": 17,
+        "absolute_change": 1,
+        "percentage_change": 5.88
+      },
+      {
+        "sku": "VA-EB-PL1",
+        "product_name": "Pulse True Wireless Earbuds",
+        "current": 15,
+        "previous": 25,
+        "absolute_change": -10,
+        "percentage_change": -40.0
+      },
+      {
+        "sku": "VA-EB-AIR",
+        "product_name": "AirLite Earbuds",
+        "current": 12,
+        "previous": 15,
+        "absolute_change": -3,
+        "percentage_change": -20.0
+      },
+      {
+        "sku": "VA-SP-MINI",
+        "product_name": "Orbit Mini Speaker",
+        "current": 10,
+        "previous": 12,
+        "absolute_change": -2,
+        "percentage_change": -16.67
+      },
+      {
+        "sku": "VA-HP-ST3",
+        "product_name": "Strata 3 Over-Ear Headphones",
+        "current": 8,
+        "previous": 19,
+        "absolute_change": -11,
+        "percentage_change": -57.89
+      },
+      {
+        "sku": "VA-SW-FIT",
+        "product_name": "Nexa Fit Band",
+        "current": 6,
+        "previous": 9,
+        "absolute_change": -3,
+        "percentage_change": -33.33
+      },
+      {
+        "sku": "VA-SW-NX1",
+        "product_name": "Nexa Smartwatch",
+        "current": 5,
+        "previous": 7,
+        "absolute_change": -2,
+        "percentage_change": -28.57
+      },
+      {
+        "sku": "VA-HP-ST2",
+        "product_name": "Strata 2 Over-Ear Headphones",
+        "current": 5,
+        "previous": 4,
+        "absolute_change": 1,
+        "percentage_change": 25.0
+      },
+      {
+        "sku": "VA-SP-ORB",
+        "product_name": "Orbit Smart Speaker",
+        "current": 5,
+        "previous": 6,
+        "absolute_change": -1,
+        "percentage_change": -16.67
+      },
+      {
+        "sku": "VA-AC-CASE",
+        "product_name": "Pulse Charging Case (spare)",
+        "current": 4,
+        "previous": 5,
+        "absolute_change": -1,
+        "percentage_change": -20.0
+      },
+      {
+        "sku": "VA-AC-CBL",
+        "product_name": "USB-C Braided Cable",
+        "current": 4,
+        "previous": 0,
+        "absolute_change": 4,
+        "percentage_change": 100.0
+      },
+      {
+        "sku": "VA-NB-ARC",
+        "product_name": "Arc Neckband",
+        "current": 3,
+        "previous": 3,
+        "absolute_change": 0,
+        "percentage_change": 0.0
+      },
+      {
+        "sku": "VA-AC-CH65",
+        "product_name": "65W GaN Charger",
+        "current": 3,
+        "previous": 6,
+        "absolute_change": -3,
+        "percentage_change": -50.0
+      }
+    ]
+  },
+  "all_weeks_telemetry": {
+    "2025-W01": {
+      "total_tickets": 47,
+      "days_covered": 5,
+      "repeat_tickets": 1,
+      "repeat_rate_pct": 2.13,
+      "sla_breaches": 8,
+      "sla_breach_rate_pct": 17.02,
+      "refund_amount_inr": 26642.0,
+      "replacements": 2,
+      "transfers": 6
+    },
+    "2025-W02": {
+      "total_tickets": 54,
+      "days_covered": 7,
+      "repeat_tickets": 3,
+      "repeat_rate_pct": 5.56,
+      "sla_breaches": 4,
+      "sla_breach_rate_pct": 7.41,
+      "refund_amount_inr": 19247.0,
+      "replacements": 12,
+      "transfers": 11
+    },
+    "2025-W03": {
+      "total_tickets": 59,
+      "days_covered": 7,
+      "repeat_tickets": 9,
+      "repeat_rate_pct": 15.25,
+      "sla_breaches": 6,
+      "sla_breach_rate_pct": 10.17,
+      "refund_amount_inr": 22599.0,
+      "replacements": 3,
+      "transfers": 2
+    },
+    "2025-W04": {
+      "total_tickets": 82,
+      "days_covered": 7,
+      "repeat_tickets": 20,
+      "repeat_rate_pct": 24.39,
+      "sla_breaches": 4,
+      "sla_breach_rate_pct": 4.88,
+      "refund_amount_inr": 49636.0,
+      "replacements": 8,
+      "transfers": 7
+    },
+    "2025-W05": {
+      "total_tickets": 67,
+      "days_covered": 7,
+      "repeat_tickets": 17,
+      "repeat_rate_pct": 25.37,
+      "sla_breaches": 8,
+      "sla_breach_rate_pct": 11.94,
+      "refund_amount_inr": 34124.0,
+      "replacements": 8,
+      "transfers": 9
+    },
+    "2025-W06": {
+      "total_tickets": 78,
+      "days_covered": 7,
+      "repeat_tickets": 19,
+      "repeat_rate_pct": 24.36,
+      "sla_breaches": 7,
+      "sla_breach_rate_pct": 8.97,
+      "refund_amount_inr": 45564.0,
+      "replacements": 7,
+      "transfers": 6
+    },
+    "2025-W07": {
+      "total_tickets": 68,
+      "days_covered": 7,
+      "repeat_tickets": 15,
+      "repeat_rate_pct": 22.06,
+      "sla_breaches": 8,
+      "sla_breach_rate_pct": 11.76,
+      "refund_amount_inr": 56734.0,
+      "replacements": 6,
+      "transfers": 6
+    },
+    "2025-W08": {
+      "total_tickets": 83,
+      "days_covered": 7,
+      "repeat_tickets": 19,
+      "repeat_rate_pct": 22.89,
+      "sla_breaches": 6,
+      "sla_breach_rate_pct": 7.23,
+      "refund_amount_inr": 56598.0,
+      "replacements": 7,
+      "transfers": 8
+    },
+    "2025-W09": {
+      "total_tickets": 80,
+      "days_covered": 7,
+      "repeat_tickets": 23,
+      "repeat_rate_pct": 28.75,
+      "sla_breaches": 6,
+      "sla_breach_rate_pct": 7.5,
+      "refund_amount_inr": 51043.0,
+      "replacements": 7,
+      "transfers": 3
+    },
+    "2025-W10": {
+      "total_tickets": 96,
+      "days_covered": 7,
+      "repeat_tickets": 21,
+      "repeat_rate_pct": 21.88,
+      "sla_breaches": 11,
+      "sla_breach_rate_pct": 11.46,
+      "refund_amount_inr": 42468.0,
+      "replacements": 10,
+      "transfers": 7
+    },
+    "2025-W11": {
+      "total_tickets": 88,
+      "days_covered": 7,
+      "repeat_tickets": 26,
+      "repeat_rate_pct": 29.55,
+      "sla_breaches": 7,
+      "sla_breach_rate_pct": 7.95,
+      "refund_amount_inr": 39802.0,
+      "replacements": 7,
+      "transfers": 10
+    },
+    "2025-W12": {
+      "total_tickets": 99,
+      "days_covered": 7,
+      "repeat_tickets": 30,
+      "repeat_rate_pct": 30.3,
+      "sla_breaches": 9,
+      "sla_breach_rate_pct": 9.09,
+      "refund_amount_inr": 68122.0,
+      "replacements": 8,
+      "transfers": 15
+    },
+    "2025-W13": {
+      "total_tickets": 98,
+      "days_covered": 7,
+      "repeat_tickets": 22,
+      "repeat_rate_pct": 22.45,
+      "sla_breaches": 9,
+      "sla_breach_rate_pct": 9.18,
+      "refund_amount_inr": 72199.0,
+      "replacements": 11,
+      "transfers": 10
+    },
+    "2025-W14": {
+      "total_tickets": 86,
+      "days_covered": 7,
+      "repeat_tickets": 21,
+      "repeat_rate_pct": 24.42,
+      "sla_breaches": 11,
+      "sla_breach_rate_pct": 12.79,
+      "refund_amount_inr": 45190.0,
+      "replacements": 4,
+      "transfers": 5
+    },
+    "2025-W15": {
+      "total_tickets": 80,
+      "days_covered": 7,
+      "repeat_tickets": 17,
+      "repeat_rate_pct": 21.25,
+      "sla_breaches": 6,
+      "sla_breach_rate_pct": 7.5,
+      "refund_amount_inr": 46285.0,
+      "replacements": 8,
+      "transfers": 10
+    },
+    "2025-W16": {
+      "total_tickets": 91,
+      "days_covered": 7,
+      "repeat_tickets": 25,
+      "repeat_rate_pct": 27.47,
+      "sla_breaches": 7,
+      "sla_breach_rate_pct": 7.69,
+      "refund_amount_inr": 97480.0,
+      "replacements": 9,
+      "transfers": 7
+    },
+    "2025-W17": {
+      "total_tickets": 108,
+      "days_covered": 7,
+      "repeat_tickets": 28,
+      "repeat_rate_pct": 25.93,
+      "sla_breaches": 12,
+      "sla_breach_rate_pct": 11.11,
+      "refund_amount_inr": 65112.0,
+      "replacements": 11,
+      "transfers": 14
+    },
+    "2025-W18": {
+      "total_tickets": 98,
+      "days_covered": 7,
+      "repeat_tickets": 28,
+      "repeat_rate_pct": 28.57,
+      "sla_breaches": 7,
+      "sla_breach_rate_pct": 7.14,
+      "refund_amount_inr": 48165.0,
+      "replacements": 6,
+      "transfers": 15
+    },
+    "2025-W19": {
+      "total_tickets": 108,
+      "days_covered": 7,
+      "repeat_tickets": 23,
+      "repeat_rate_pct": 21.3,
+      "sla_breaches": 12,
+      "sla_breach_rate_pct": 11.11,
+      "refund_amount_inr": 95465.0,
+      "replacements": 18,
+      "transfers": 10
+    },
+    "2025-W20": {
+      "total_tickets": 89,
+      "days_covered": 7,
+      "repeat_tickets": 30,
+      "repeat_rate_pct": 33.71,
+      "sla_breaches": 6,
+      "sla_breach_rate_pct": 6.74,
+      "refund_amount_inr": 12741.0,
+      "replacements": 9,
+      "transfers": 7
+    },
+    "2025-W21": {
+      "total_tickets": 110,
+      "days_covered": 7,
+      "repeat_tickets": 29,
+      "repeat_rate_pct": 26.36,
+      "sla_breaches": 10,
+      "sla_breach_rate_pct": 9.09,
+      "refund_amount_inr": 40708.0,
+      "replacements": 16,
+      "transfers": 9
+    },
+    "2025-W22": {
+      "total_tickets": 107,
+      "days_covered": 7,
+      "repeat_tickets": 29,
+      "repeat_rate_pct": 27.1,
+      "sla_breaches": 10,
+      "sla_breach_rate_pct": 9.35,
+      "refund_amount_inr": 74767.0,
+      "replacements": 11,
+      "transfers": 9
+    },
+    "2025-W23": {
+      "total_tickets": 93,
+      "days_covered": 7,
+      "repeat_tickets": 25,
+      "repeat_rate_pct": 26.88,
+      "sla_breaches": 5,
+      "sla_breach_rate_pct": 5.38,
+      "refund_amount_inr": 57210.0,
+      "replacements": 12,
+      "transfers": 10
+    },
+    "2025-W24": {
+      "total_tickets": 100,
+      "days_covered": 7,
+      "repeat_tickets": 26,
+      "repeat_rate_pct": 26.0,
+      "sla_breaches": 12,
+      "sla_breach_rate_pct": 12.0,
+      "refund_amount_inr": 44097.0,
+      "replacements": 17,
+      "transfers": 15
+    },
+    "2025-W25": {
+      "total_tickets": 108,
+      "days_covered": 7,
+      "repeat_tickets": 35,
+      "repeat_rate_pct": 32.41,
+      "sla_breaches": 9,
+      "sla_breach_rate_pct": 8.33,
+      "refund_amount_inr": 74140.0,
+      "replacements": 13,
+      "transfers": 17
+    },
+    "2025-W26": {
+      "total_tickets": 87,
+      "days_covered": 7,
+      "repeat_tickets": 28,
+      "repeat_rate_pct": 32.18,
+      "sla_breaches": 12,
+      "sla_breach_rate_pct": 13.79,
+      "refund_amount_inr": 42392.0,
+      "replacements": 13,
+      "transfers": 7
+    },
+    "2025-W27": {
+      "total_tickets": 102,
+      "days_covered": 7,
+      "repeat_tickets": 27,
+      "repeat_rate_pct": 26.47,
+      "sla_breaches": 9,
+      "sla_breach_rate_pct": 8.82,
+      "refund_amount_inr": 24726.0,
+      "replacements": 17,
+      "transfers": 13
+    },
+    "2025-W28": {
+      "total_tickets": 94,
+      "days_covered": 7,
+      "repeat_tickets": 20,
+      "repeat_rate_pct": 21.28,
+      "sla_breaches": 7,
+      "sla_breach_rate_pct": 7.45,
+      "refund_amount_inr": 54848.0,
+      "replacements": 8,
+      "transfers": 10
+    },
+    "2025-W29": {
+      "total_tickets": 101,
+      "days_covered": 7,
+      "repeat_tickets": 34,
+      "repeat_rate_pct": 33.66,
+      "sla_breaches": 13,
+      "sla_breach_rate_pct": 12.87,
+      "refund_amount_inr": 43842.0,
+      "replacements": 11,
+      "transfers": 13
+    },
+    "2025-W30": {
+      "total_tickets": 114,
+      "days_covered": 7,
+      "repeat_tickets": 22,
+      "repeat_rate_pct": 19.3,
+      "sla_breaches": 11,
+      "sla_breach_rate_pct": 9.65,
+      "refund_amount_inr": 51439.0,
+      "replacements": 18,
+      "transfers": 15
+    },
+    "2025-W31": {
+      "total_tickets": 130,
+      "days_covered": 7,
+      "repeat_tickets": 35,
+      "repeat_rate_pct": 26.92,
+      "sla_breaches": 6,
+      "sla_breach_rate_pct": 4.62,
+      "refund_amount_inr": 76388.0,
+      "replacements": 10,
+      "transfers": 14
+    },
+    "2025-W32": {
+      "total_tickets": 124,
+      "days_covered": 7,
+      "repeat_tickets": 31,
+      "repeat_rate_pct": 25.0,
+      "sla_breaches": 11,
+      "sla_breach_rate_pct": 8.87,
+      "refund_amount_inr": 72529.0,
+      "replacements": 11,
+      "transfers": 10
+    },
+    "2025-W33": {
+      "total_tickets": 172,
+      "days_covered": 7,
+      "repeat_tickets": 41,
+      "repeat_rate_pct": 23.84,
+      "sla_breaches": 22,
+      "sla_breach_rate_pct": 12.79,
+      "refund_amount_inr": 93618.0,
+      "replacements": 15,
+      "transfers": 11
+    },
+    "2025-W34": {
+      "total_tickets": 153,
+      "days_covered": 7,
+      "repeat_tickets": 44,
+      "repeat_rate_pct": 28.76,
+      "sla_breaches": 9,
+      "sla_breach_rate_pct": 5.88,
+      "refund_amount_inr": 98154.0,
+      "replacements": 9,
+      "transfers": 13
+    },
+    "2025-W35": {
+      "total_tickets": 171,
+      "days_covered": 7,
+      "repeat_tickets": 48,
+      "repeat_rate_pct": 28.07,
+      "sla_breaches": 16,
+      "sla_breach_rate_pct": 9.36,
+      "refund_amount_inr": 76552.0,
+      "replacements": 13,
+      "transfers": 18
+    },
+    "2025-W36": {
+      "total_tickets": 182,
+      "days_covered": 7,
+      "repeat_tickets": 57,
+      "repeat_rate_pct": 31.32,
+      "sla_breaches": 13,
+      "sla_breach_rate_pct": 7.14,
+      "refund_amount_inr": 100847.0,
+      "replacements": 18,
+      "transfers": 12
+    },
+    "2025-W37": {
+      "total_tickets": 184,
+      "days_covered": 7,
+      "repeat_tickets": 48,
+      "repeat_rate_pct": 26.09,
+      "sla_breaches": 19,
+      "sla_breach_rate_pct": 10.33,
+      "refund_amount_inr": 99928.0,
+      "replacements": 15,
+      "transfers": 11
+    },
+    "2025-W38": {
+      "total_tickets": 153,
+      "days_covered": 7,
+      "repeat_tickets": 43,
+      "repeat_rate_pct": 28.1,
+      "sla_breaches": 22,
+      "sla_breach_rate_pct": 14.38,
+      "refund_amount_inr": 53766.0,
+      "replacements": 15,
+      "transfers": 16
+    },
+    "2025-W39": {
+      "total_tickets": 167,
+      "days_covered": 7,
+      "repeat_tickets": 56,
+      "repeat_rate_pct": 33.53,
+      "sla_breaches": 7,
+      "sla_breach_rate_pct": 4.19,
+      "refund_amount_inr": 78580.0,
+      "replacements": 15,
+      "transfers": 14
+    },
+    "2025-W40": {
+      "total_tickets": 169,
+      "days_covered": 7,
+      "repeat_tickets": 49,
+      "repeat_rate_pct": 28.99,
+      "sla_breaches": 19,
+      "sla_breach_rate_pct": 11.24,
+      "refund_amount_inr": 100456.0,
+      "replacements": 18,
+      "transfers": 24
+    },
+    "2025-W41": {
+      "total_tickets": 203,
+      "days_covered": 7,
+      "repeat_tickets": 46,
+      "repeat_rate_pct": 22.66,
+      "sla_breaches": 17,
+      "sla_breach_rate_pct": 8.37,
+      "refund_amount_inr": 117566.0,
+      "replacements": 16,
+      "transfers": 16
+    },
+    "2025-W42": {
+      "total_tickets": 216,
+      "days_covered": 7,
+      "repeat_tickets": 56,
+      "repeat_rate_pct": 25.93,
+      "sla_breaches": 22,
+      "sla_breach_rate_pct": 10.19,
+      "refund_amount_inr": 95744.0,
+      "replacements": 32,
+      "transfers": 13
+    },
+    "2025-W43": {
+      "total_tickets": 215,
+      "days_covered": 7,
+      "repeat_tickets": 66,
+      "repeat_rate_pct": 30.7,
+      "sla_breaches": 17,
+      "sla_breach_rate_pct": 7.91,
+      "refund_amount_inr": 126648.0,
+      "replacements": 10,
+      "transfers": 19
+    },
+    "2025-W44": {
+      "total_tickets": 224,
+      "days_covered": 7,
+      "repeat_tickets": 59,
+      "repeat_rate_pct": 26.34,
+      "sla_breaches": 16,
+      "sla_breach_rate_pct": 7.14,
+      "refund_amount_inr": 94295.0,
+      "replacements": 19,
+      "transfers": 18
+    },
+    "2025-W45": {
+      "total_tickets": 228,
+      "days_covered": 7,
+      "repeat_tickets": 67,
+      "repeat_rate_pct": 29.39,
+      "sla_breaches": 22,
+      "sla_breach_rate_pct": 9.65,
+      "refund_amount_inr": 83070.0,
+      "replacements": 25,
+      "transfers": 13
+    },
+    "2025-W46": {
+      "total_tickets": 213,
+      "days_covered": 7,
+      "repeat_tickets": 57,
+      "repeat_rate_pct": 26.76,
+      "sla_breaches": 13,
+      "sla_breach_rate_pct": 6.1,
+      "refund_amount_inr": 122926.0,
+      "replacements": 17,
+      "transfers": 22
+    },
+    "2025-W47": {
+      "total_tickets": 240,
+      "days_covered": 7,
+      "repeat_tickets": 66,
+      "repeat_rate_pct": 27.5,
+      "sla_breaches": 22,
+      "sla_breach_rate_pct": 9.17,
+      "refund_amount_inr": 101040.0,
+      "replacements": 29,
+      "transfers": 23
+    },
+    "2025-W48": {
+      "total_tickets": 232,
+      "days_covered": 7,
+      "repeat_tickets": 63,
+      "repeat_rate_pct": 27.16,
+      "sla_breaches": 21,
+      "sla_breach_rate_pct": 9.05,
+      "refund_amount_inr": 126631.0,
+      "replacements": 20,
+      "transfers": 14
+    },
+    "2025-W49": {
+      "total_tickets": 230,
+      "days_covered": 7,
+      "repeat_tickets": 71,
+      "repeat_rate_pct": 30.87,
+      "sla_breaches": 16,
+      "sla_breach_rate_pct": 6.96,
+      "refund_amount_inr": 115730.0,
+      "replacements": 26,
+      "transfers": 30
+    },
+    "2025-W50": {
+      "total_tickets": 197,
+      "days_covered": 7,
+      "repeat_tickets": 59,
+      "repeat_rate_pct": 29.95,
+      "sla_breaches": 15,
+      "sla_breach_rate_pct": 7.61,
+      "refund_amount_inr": 66370.0,
+      "replacements": 28,
+      "transfers": 23
+    },
+    "2025-W51": {
+      "total_tickets": 206,
+      "days_covered": 7,
+      "repeat_tickets": 65,
+      "repeat_rate_pct": 31.55,
+      "sla_breaches": 22,
+      "sla_breach_rate_pct": 10.68,
+      "refund_amount_inr": 116233.0,
+      "replacements": 12,
+      "transfers": 19
+    },
+    "2025-W52": {
+      "total_tickets": 196,
+      "days_covered": 7,
+      "repeat_tickets": 54,
+      "repeat_rate_pct": 27.55,
+      "sla_breaches": 16,
+      "sla_breach_rate_pct": 8.16,
+      "refund_amount_inr": 63701.0,
+      "replacements": 15,
+      "transfers": 21
+    },
+    "2026-W01": {
+      "total_tickets": 177,
+      "days_covered": 7,
+      "repeat_tickets": 53,
+      "repeat_rate_pct": 29.94,
+      "sla_breaches": 14,
+      "sla_breach_rate_pct": 7.91,
+      "refund_amount_inr": 75056.0,
+      "replacements": 15,
+      "transfers": 18
+    },
+    "2026-W02": {
+      "total_tickets": 200,
+      "days_covered": 7,
+      "repeat_tickets": 45,
+      "repeat_rate_pct": 22.5,
+      "sla_breaches": 14,
+      "sla_breach_rate_pct": 7.0,
+      "refund_amount_inr": 140724.0,
+      "replacements": 22,
+      "transfers": 30
+    },
+    "2026-W03": {
+      "total_tickets": 198,
+      "days_covered": 7,
+      "repeat_tickets": 51,
+      "repeat_rate_pct": 25.76,
+      "sla_breaches": 14,
+      "sla_breach_rate_pct": 7.07,
+      "refund_amount_inr": 98401.0,
+      "replacements": 17,
+      "transfers": 16
+    },
+    "2026-W04": {
+      "total_tickets": 196,
+      "days_covered": 7,
+      "repeat_tickets": 61,
+      "repeat_rate_pct": 31.12,
+      "sla_breaches": 24,
+      "sla_breach_rate_pct": 12.24,
+      "refund_amount_inr": 82978.0,
+      "replacements": 19,
+      "transfers": 19
+    },
+    "2026-W05": {
+      "total_tickets": 188,
+      "days_covered": 7,
+      "repeat_tickets": 57,
+      "repeat_rate_pct": 30.32,
+      "sla_breaches": 15,
+      "sla_breach_rate_pct": 7.98,
+      "refund_amount_inr": 89471.0,
+      "replacements": 24,
+      "transfers": 18
+    },
+    "2026-W06": {
+      "total_tickets": 180,
+      "days_covered": 7,
+      "repeat_tickets": 47,
+      "repeat_rate_pct": 26.11,
+      "sla_breaches": 13,
+      "sla_breach_rate_pct": 7.22,
+      "refund_amount_inr": 90106.0,
+      "replacements": 13,
+      "transfers": 17
+    },
+    "2026-W07": {
+      "total_tickets": 178,
+      "days_covered": 7,
+      "repeat_tickets": 52,
+      "repeat_rate_pct": 29.21,
+      "sla_breaches": 12,
+      "sla_breach_rate_pct": 6.74,
+      "refund_amount_inr": 115208.0,
+      "replacements": 16,
+      "transfers": 13
+    },
+    "2026-W08": {
+      "total_tickets": 190,
+      "days_covered": 7,
+      "repeat_tickets": 40,
+      "repeat_rate_pct": 21.05,
+      "sla_breaches": 16,
+      "sla_breach_rate_pct": 8.42,
+      "refund_amount_inr": 119220.0,
+      "replacements": 21,
+      "transfers": 21
+    },
+    "2026-W09": {
+      "total_tickets": 204,
+      "days_covered": 7,
+      "repeat_tickets": 62,
+      "repeat_rate_pct": 30.39,
+      "sla_breaches": 17,
+      "sla_breach_rate_pct": 8.33,
+      "refund_amount_inr": 96485.0,
+      "replacements": 31,
+      "transfers": 19
+    },
+    "2026-W10": {
+      "total_tickets": 184,
+      "days_covered": 7,
+      "repeat_tickets": 50,
+      "repeat_rate_pct": 27.17,
+      "sla_breaches": 18,
+      "sla_breach_rate_pct": 9.78,
+      "refund_amount_inr": 83782.0,
+      "replacements": 16,
+      "transfers": 19
+    },
+    "2026-W11": {
+      "total_tickets": 201,
+      "days_covered": 7,
+      "repeat_tickets": 65,
+      "repeat_rate_pct": 32.34,
+      "sla_breaches": 16,
+      "sla_breach_rate_pct": 7.96,
+      "refund_amount_inr": 65334.0,
+      "replacements": 26,
+      "transfers": 31
+    },
+    "2026-W12": {
+      "total_tickets": 184,
+      "days_covered": 7,
+      "repeat_tickets": 61,
+      "repeat_rate_pct": 33.15,
+      "sla_breaches": 20,
+      "sla_breach_rate_pct": 10.87,
+      "refund_amount_inr": 82131.0,
+      "replacements": 18,
+      "transfers": 19
+    },
+    "2026-W13": {
+      "total_tickets": 194,
+      "days_covered": 7,
+      "repeat_tickets": 53,
+      "repeat_rate_pct": 27.32,
+      "sla_breaches": 17,
+      "sla_breach_rate_pct": 8.76,
+      "refund_amount_inr": 90556.0,
+      "replacements": 19,
+      "transfers": 25
+    },
+    "2026-W14": {
+      "total_tickets": 190,
+      "days_covered": 7,
+      "repeat_tickets": 53,
+      "repeat_rate_pct": 27.89,
+      "sla_breaches": 15,
+      "sla_breach_rate_pct": 7.89,
+      "refund_amount_inr": 78673.0,
+      "replacements": 19,
+      "transfers": 18
+    },
+    "2026-W15": {
+      "total_tickets": 203,
+      "days_covered": 7,
+      "repeat_tickets": 50,
+      "repeat_rate_pct": 24.63,
+      "sla_breaches": 17,
+      "sla_breach_rate_pct": 8.37,
+      "refund_amount_inr": 109224.0,
+      "replacements": 25,
+      "transfers": 18
+    },
+    "2026-W16": {
+      "total_tickets": 201,
+      "days_covered": 7,
+      "repeat_tickets": 55,
+      "repeat_rate_pct": 27.36,
+      "sla_breaches": 12,
+      "sla_breach_rate_pct": 5.97,
+      "refund_amount_inr": 98142.0,
+      "replacements": 24,
+      "transfers": 19
+    },
+    "2026-W17": {
+      "total_tickets": 189,
+      "days_covered": 7,
+      "repeat_tickets": 55,
+      "repeat_rate_pct": 29.1,
+      "sla_breaches": 15,
+      "sla_breach_rate_pct": 7.94,
+      "refund_amount_inr": 48428.0,
+      "replacements": 24,
+      "transfers": 8
+    },
+    "2026-W18": {
+      "total_tickets": 174,
+      "days_covered": 7,
+      "repeat_tickets": 56,
+      "repeat_rate_pct": 32.18,
+      "sla_breaches": 19,
+      "sla_breach_rate_pct": 10.92,
+      "refund_amount_inr": 71084.0,
+      "replacements": 11,
+      "transfers": 22
+    },
+    "2026-W19": {
+      "total_tickets": 157,
+      "days_covered": 7,
+      "repeat_tickets": 55,
+      "repeat_rate_pct": 35.03,
+      "sla_breaches": 13,
+      "sla_breach_rate_pct": 8.28,
+      "refund_amount_inr": 84562.0,
+      "replacements": 14,
+      "transfers": 13
+    },
+    "2026-W20": {
+      "total_tickets": 231,
+      "days_covered": 7,
+      "repeat_tickets": 56,
+      "repeat_rate_pct": 24.24,
+      "sla_breaches": 19,
+      "sla_breach_rate_pct": 8.23,
+      "refund_amount_inr": 97481.0,
+      "replacements": 32,
+      "transfers": 23
+    },
+    "2026-W21": {
+      "total_tickets": 204,
+      "days_covered": 7,
+      "repeat_tickets": 49,
+      "repeat_rate_pct": 24.02,
+      "sla_breaches": 20,
+      "sla_breach_rate_pct": 9.8,
+      "refund_amount_inr": 87979.0,
+      "replacements": 19,
+      "transfers": 15
+    },
+    "2026-W22": {
+      "total_tickets": 186,
+      "days_covered": 7,
+      "repeat_tickets": 51,
+      "repeat_rate_pct": 27.42,
+      "sla_breaches": 24,
+      "sla_breach_rate_pct": 12.9,
+      "refund_amount_inr": 73937.0,
+      "replacements": 17,
+      "transfers": 26
+    },
+    "2026-W23": {
+      "total_tickets": 171,
+      "days_covered": 7,
+      "repeat_tickets": 58,
+      "repeat_rate_pct": 33.92,
+      "sla_breaches": 15,
+      "sla_breach_rate_pct": 8.77,
+      "refund_amount_inr": 73729.0,
+      "replacements": 16,
+      "transfers": 12
+    },
+    "2026-W24": {
+      "total_tickets": 203,
+      "days_covered": 7,
+      "repeat_tickets": 58,
+      "repeat_rate_pct": 28.57,
+      "sla_breaches": 21,
+      "sla_breach_rate_pct": 10.34,
+      "refund_amount_inr": 77355.0,
+      "replacements": 21,
+      "transfers": 20
+    },
+    "2026-W25": {
+      "total_tickets": 167,
+      "days_covered": 7,
+      "repeat_tickets": 44,
+      "repeat_rate_pct": 26.35,
+      "sla_breaches": 19,
+      "sla_breach_rate_pct": 11.38,
+      "refund_amount_inr": 119834.0,
+      "replacements": 14,
+      "transfers": 21
+    },
+    "2026-W26": {
+      "total_tickets": 199,
+      "days_covered": 7,
+      "repeat_tickets": 67,
+      "repeat_rate_pct": 33.67,
+      "sla_breaches": 15,
+      "sla_breach_rate_pct": 7.54,
+      "refund_amount_inr": 125797.0,
+      "replacements": 24,
+      "transfers": 21
+    },
+    "2026-W27": {
+      "total_tickets": 46,
+      "days_covered": 2,
+      "repeat_tickets": 13,
+      "repeat_rate_pct": 28.26,
+      "sla_breaches": 2,
+      "sla_breach_rate_pct": 4.35,
+      "refund_amount_inr": 33085.0,
+      "replacements": 0,
+      "transfers": 8
+    }
+  }
+}

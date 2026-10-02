@@ -1,0 +1,425 @@
+{
+  "timestamp": "2026-10-02 22:43:07 IST",
+  "ai_classification_evaluation": {
+    "sample_size": 120,
+    "overall_exact_match_all_fields": {
+      "count": 44,
+      "total": 120,
+      "accuracy_pct": 36.67
+    },
+    "field_metrics": {
+      "primary_issue": {
+        "correct": 96,
+        "errors": 24,
+        "accuracy": 0.8,
+        "accuracy_pct": 80.0,
+        "top_confusion_pairs": [
+          {
+            "gold_expected": "refund_not_credited",
+            "model_predicted": "delivery_delayed_not_received",
+            "error_frequency": 4
+          },
+          {
+            "gold_expected": "mic_not_working",
+            "model_predicted": "payment_failed_debited",
+            "error_frequency": 3
+          },
+          {
+            "gold_expected": "refund_not_credited",
+            "model_predicted": "app_crash_bug",
+            "error_frequency": 2
+          },
+          {
+            "gold_expected": "refund_not_credited",
+            "model_predicted": "audio_distortion_buzzing",
+            "error_frequency": 2
+          },
+          {
+            "gold_expected": "mic_not_working",
+            "model_predicted": "refund_not_credited",
+            "error_frequency": 2
+          }
+        ]
+      },
+      "customer_intent": {
+        "correct": 87,
+        "errors": 33,
+        "accuracy": 0.725,
+        "accuracy_pct": 72.5,
+        "top_confusion_pairs": [
+          {
+            "gold_expected": "request_replacement",
+            "model_predicted": "request_refund",
+            "error_frequency": 9
+          },
+          {
+            "gold_expected": "request_technical_support",
+            "model_predicted": "general_inquiry",
+            "error_frequency": 4
+          },
+          {
+            "gold_expected": "general_inquiry",
+            "model_predicted": "request_technical_support",
+            "error_frequency": 4
+          },
+          {
+            "gold_expected": "request_technical_support",
+            "model_predicted": "request_invoice_billing",
+            "error_frequency": 4
+          },
+          {
+            "gold_expected": "general_inquiry",
+            "model_predicted": "request_invoice_billing",
+            "error_frequency": 3
+          }
+        ]
+      },
+      "resolution_type": {
+        "correct": 74,
+        "errors": 46,
+        "accuracy": 0.6167,
+        "accuracy_pct": 61.67,
+        "top_confusion_pairs": [
+          {
+            "gold_expected": "inquiry_answered_info_shared",
+            "model_predicted": "unknown",
+            "error_frequency": 25
+          },
+          {
+            "gold_expected": "no_action_closed",
+            "model_predicted": "inquiry_answered_info_shared",
+            "error_frequency": 4
+          },
+          {
+            "gold_expected": "replacement_approved",
+            "model_predicted": "troubleshooting_guided",
+            "error_frequency": 3
+          },
+          {
+            "gold_expected": "inquiry_answered_info_shared",
+            "model_predicted": "escalated_to_tier2",
+            "error_frequency": 3
+          },
+          {
+            "gold_expected": "transferred_internal",
+            "model_predicted": "troubleshooting_guided",
+            "error_frequency": 2
+          }
+        ]
+      },
+      "repeat_contact_signal": {
+        "correct": 116,
+        "errors": 4,
+        "accuracy": 0.9667,
+        "accuracy_pct": 96.67,
+        "top_confusion_pairs": [
+          {
+            "gold_expected": "unclear",
+            "model_predicted": "yes",
+            "error_frequency": 4
+          }
+        ]
+      },
+      "root_cause_signal": {
+        "correct": 101,
+        "errors": 19,
+        "accuracy": 0.8417,
+        "accuracy_pct": 84.17,
+        "top_confusion_pairs": [
+          {
+            "gold_expected": "unknown",
+            "model_predicted": "carrier_logistics_failure",
+            "error_frequency": 5
+          },
+          {
+            "gold_expected": "unknown",
+            "model_predicted": "hardware_component_fault",
+            "error_frequency": 4
+          },
+          {
+            "gold_expected": "unknown",
+            "model_predicted": "firmware_software_bug",
+            "error_frequency": 3
+          },
+          {
+            "gold_expected": "unknown",
+            "model_predicted": "payment_gateway_sync_failure",
+            "error_frequency": 3
+          },
+          {
+            "gold_expected": "payment_gateway_sync_failure",
+            "model_predicted": "hardware_component_fault",
+            "error_frequency": 1
+          }
+        ]
+      }
+    },
+    "per_category_accuracy": {
+      "Account & Login": {
+        "total_tickets": 8,
+        "correct_tickets": 8,
+        "accuracy_pct": 100.0
+      },
+      "App & Firmware": {
+        "total_tickets": 11,
+        "correct_tickets": 8,
+        "accuracy_pct": 72.73
+      },
+      "Audio Quality": {
+        "total_tickets": 4,
+        "correct_tickets": 3,
+        "accuracy_pct": 75.0
+      },
+      "Billing & Payments": {
+        "total_tickets": 12,
+        "correct_tickets": 8,
+        "accuracy_pct": 66.67
+      },
+      "Charging & Battery": {
+        "total_tickets": 16,
+        "correct_tickets": 16,
+        "accuracy_pct": 100.0
+      },
+      "Connectivity": {
+        "total_tickets": 17,
+        "correct_tickets": 15,
+        "accuracy_pct": 88.24
+      },
+      "Delivery & Shipping": {
+        "total_tickets": 17,
+        "correct_tickets": 13,
+        "accuracy_pct": 76.47
+      },
+      "Other": {
+        "total_tickets": 15,
+        "correct_tickets": 13,
+        "accuracy_pct": 86.67
+      },
+      "Product Enquiry": {
+        "total_tickets": 6,
+        "correct_tickets": 5,
+        "accuracy_pct": 83.33
+      },
+      "Returns & Refunds": {
+        "total_tickets": 10,
+        "correct_tickets": 5,
+        "accuracy_pct": 50.0
+      },
+      "Warranty & Repair": {
+        "total_tickets": 4,
+        "correct_tickets": 2,
+        "accuracy_pct": 50.0
+      }
+    },
+    "per_channel_accuracy": {
+      "chat": {
+        "total_tickets": 50,
+        "correct_tickets": 42,
+        "accuracy_pct": 84.0
+      },
+      "email": {
+        "total_tickets": 39,
+        "correct_tickets": 29,
+        "accuracy_pct": 74.36
+      },
+      "social": {
+        "total_tickets": 10,
+        "correct_tickets": 8,
+        "accuracy_pct": 80.0
+      },
+      "voice": {
+        "total_tickets": 21,
+        "correct_tickets": 17,
+        "accuracy_pct": 80.95
+      }
+    },
+    "per_stratum_accuracy": {
+      "ambiguous": {
+        "total_tickets": 20,
+        "correct_tickets": 19,
+        "accuracy_pct": 95.0
+      },
+      "long_message": {
+        "total_tickets": 20,
+        "correct_tickets": 15,
+        "accuracy_pct": 75.0
+      },
+      "multi_issue": {
+        "total_tickets": 20,
+        "correct_tickets": 13,
+        "accuracy_pct": 65.0
+      },
+      "short_message": {
+        "total_tickets": 20,
+        "correct_tickets": 17,
+        "accuracy_pct": 85.0
+      },
+      "standard": {
+        "total_tickets": 40,
+        "correct_tickets": 32,
+        "accuracy_pct": 80.0
+      }
+    },
+    "error_case_studies": [
+      {
+        "ticket_id": "TK-250527",
+        "channel": "chat",
+        "category": "Returns & Refunds",
+        "stratum": "ambiguous",
+        "customer_message": "very poor quality. this is regarding my pulse 2. opened the parcel & it is a completeely different thing. i already chec",
+        "agent_notes": "see prev",
+        "gold_primary_issue": "refund_not_credited",
+        "model_predicted_primary_issue": "audio_distortion_buzzing",
+        "rationale": "Customer complaining that refund has not been credited."
+      },
+      {
+        "ticket_id": "TK-242623",
+        "channel": "voice",
+        "category": "App & Firmware",
+        "stratum": "multi_issue",
+        "customer_message": "[IVR transcript] Honestly regretting this purchase. This is regarding Nexa 2. not pairnig with my phone. I already forgo",
+        "agent_notes": "issue: pairing failure | asked cx to reset the device -> adv fw update via app, rslvd",
+        "gold_primary_issue": "refund_not_credited",
+        "model_predicted_primary_issue": "bluetooth_pairing_failed",
+        "rationale": "Customer complaining that refund has not been credited."
+      },
+      {
+        "ticket_id": "TK-247390",
+        "channel": "email",
+        "category": "Delivery & Shipping",
+        "stratum": "multi_issue",
+        "customer_message": "Very poor quality. Yet again. Ordered replacement case 10 days ago. the parcel looked like it was kicked here from the w",
+        "agent_notes": "cx states prior ticket for same issue. cx states transit damage. checked w/ crr for damage claim. rp",
+        "gold_primary_issue": "refund_not_credited",
+        "model_predicted_primary_issue": "audio_distortion_buzzing",
+        "rationale": "Customer complaining that refund has not been credited."
+      },
+      {
+        "ticket_id": "TK-253752",
+        "channel": "email",
+        "category": "Connectivity",
+        "stratum": "multi_issue",
+        "customer_message": "not what i expected from vireo.  raised this in may and was told it was resolved. i bought the pulse 2 earbuds on 24/03.",
+        "agent_notes": "ticket raised for intermittent disconnects. checked interference sources. advised, cx will monitor.",
+        "gold_primary_issue": "refund_not_credited",
+        "model_predicted_primary_issue": "audio_silent_one_side",
+        "rationale": "Customer complaining that refund has not been credited."
+      },
+      {
+        "ticket_id": "TK-251680",
+        "channel": "social",
+        "category": "Billing & Payments",
+        "stratum": "multi_issue",
+        "customer_message": "product: the gan charger\norder: vr902092\npurchased: 23-03-2026\nissue: money debited but order not showing\ntried: tried l",
+        "agent_notes": "cx: payment debited, no order | checked pg dashboard for txn -> refund approved, rs 1499, 5-7 workin",
+        "gold_primary_issue": "payment_failed_debited",
+        "model_predicted_primary_issue": "earbud_not_charging",
+        "rationale": "Derived from category 'Billing & Payments' due to minimal message text."
+      },
+      {
+        "ticket_id": "TK-245855",
+        "channel": "email",
+        "category": "Delivery & Shipping",
+        "stratum": "multi_issue",
+        "customer_message": "dear sir/madam,\n\ni am writing with reference to my order of pulse 2 (vr883713) placed on october 18. it has been 11 days",
+        "agent_notes": "cx says shipment not rcvd. raised ticket w/ courier partner. courier conf delivery for 24 oct, cx in",
+        "gold_primary_issue": "refund_not_credited",
+        "model_predicted_primary_issue": "delivery_delayed_not_received",
+        "rationale": "Customer complaining that refund has not been credited."
+      },
+      {
+        "ticket_id": "TK-240346",
+        "channel": "chat",
+        "category": "Returns & Refunds",
+        "stratum": "multi_issue",
+        "customer_message": "Dear team, I already raised this onec and the ticket was closed. This is regarding my Strata 3 headphones. Return pickup",
+        "agent_notes": "repeat contact - previous fix did not hold. 1. Reverse pickup pending\n2. Checked pickup AWB\n3. Picku",
+        "gold_primary_issue": "mic_not_working",
+        "model_predicted_primary_issue": "app_crash_bug",
+        "rationale": "Microphone failure during calls."
+      },
+      {
+        "ticket_id": "TK-253664",
+        "channel": "voice",
+        "category": "Connectivity",
+        "stratum": "multi_issue",
+        "customer_message": "i have been a loyal customer and this is how you treat me. bouught pulse 2 around 28 mar from amazon. app not opening af",
+        "agent_notes": "cust contacted re app crashing. asked for phone model + os. adv beta build, resolved. ~Vihaan",
+        "gold_primary_issue": "refund_not_credited",
+        "model_predicted_primary_issue": "app_crash_bug",
+        "rationale": "Customer complaining that refund has not been credited."
+      }
+    ]
+  },
+  "deterministic_analytics_validation": {
+    "status": "ALL_ASSERTIONS_PASSED",
+    "total_assertions": 8,
+    "passed_assertions": 8,
+    "failed_assertions": 0,
+    "verification_details": [
+      {
+        "dimension": "Total Analyzed Tickets",
+        "independent_value": 11875,
+        "system_output_value": 11875,
+        "assertion_status": "PASSED",
+        "notes": "Exact match: 11,875 tickets after priority deduplication."
+      },
+      {
+        "dimension": "Weekly Operational Counts",
+        "independent_value": "79 creation weeks / 81 closure weeks",
+        "system_output_value": "79 creation weeks / 81 closure weeks",
+        "assertion_status": "PASSED",
+        "notes": "Exact match: 79 creation weeks in macro trends; 81 closure weeks in agent attendance roster."
+      },
+      {
+        "dimension": "First-Response SLA Breaches & Store Credits",
+        "independent_value": "1051 breaches (Rs 367,850)",
+        "system_output_value": "1051 breaches (Rs 367,850)",
+        "assertion_status": "PASSED",
+        "notes": "Exact match across chat (424), email (440), voice (96), and social (91) at Rs 350 credit per breach."
+      },
+      {
+        "dimension": "Refund Volume & Financial Disbursements",
+        "independent_value": "2105 tickets (Rs 5,992,919.00)",
+        "system_output_value": "2105 tickets (Rs 5,992,919.00)",
+        "assertion_status": "PASSED",
+        "notes": "Exact match: 2,105 refunded tickets totaling Rs 5,992,919.00."
+      },
+      {
+        "dimension": "Replacement Logistics & Volume",
+        "independent_value": "1202 tickets (Rs 408,680 logistics)",
+        "system_output_value": "1202 tickets",
+        "assertion_status": "PASSED",
+        "notes": "Exact match: 1,202 replacements at Rs 340 reverse+forward logistics = Rs 408,680."
+      },
+      {
+        "dimension": "Internal Transfers & Friction Cost",
+        "independent_value": "1040 tickets, 1169 transfers (Rs 356,545)",
+        "system_output_value": "1040 tickets, 1169 transfers (Rs 356,545)",
+        "assertion_status": "PASSED",
+        "notes": "Exact match: 1,040 tickets transferred (1,169 transfers total) at Rs 305/transfer."
+      },
+      {
+        "dimension": "Agent Closures & Weekly Roster Rollup",
+        "independent_value": "11266 closed tickets (3074 agent-week records)",
+        "system_output_value": "11266 closed tickets (3074 agent-week records)",
+        "assertion_status": "PASSED",
+        "notes": "Exact match: strictly completed attendance counted (excluding 609 open/pending tickets)."
+      },
+      {
+        "dimension": "Repeat Contacts (Support Policy Method A)",
+        "independent_value": "3270 repeats (Rs 878,120)",
+        "system_output_value": "3,270 repeats (Rs 878,120)",
+        "assertion_status": "PASSED",
+        "notes": "Exact match: same customer + same SKU within 30 days of prior resolution."
+      }
+    ]
+  },
+  "evaluation_governance": {
+    "distinctions": [
+      "MEASURED_ERROR: Empirically observed discrepancies on the human-reviewed gold sample or test assertions.",
+      "KNOWN_LIMITATION: Inherent system constraints (e.g., absence of explicit issue_id or minute-level shift logins).",
+      "UNRESOLVED_UNCERTAINTY: Hypotheses and upstream processes that require operational instrumentation to prove conclusively."
+    ]
+  }
+}
